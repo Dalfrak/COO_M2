@@ -28,6 +28,8 @@ public class ODE_1er_ordre {
 		step3.setConnectedBlock(adder);
 		step4.setConnectedBlock(adder);
 
+		// Avec ça ça a l'air de commencer direct à 1
+
 //		TreeMap<String, Data> test = new TreeMap<String, Data>();
 //		test.put("step1", new Data(1d));
 //		test.put("step2", new Data(0d));
