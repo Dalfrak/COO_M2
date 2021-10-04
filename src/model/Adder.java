@@ -9,34 +9,29 @@ public class Adder extends Block {
 	public Adder(String id, TreeMap<String, Data> X, TreeMap<String, Data> Y, double ta) {
 		super(id, X, Y, ta);
 		this.total = 0;
+		this.tr    = 0;
 	}
 
 	@Override
 	public void external() {
-		System.out.println("Adder.external()");
-		System.out.println("\t" + this.inputEvents);
 		if (this.currentState == 1) {
 			while (!this.inputEvents.isEmpty()) {
 				if (this.inputEvents.containsKey("step1")) {
-					System.out.println("\tstep1, got: " + this.inputEvents.get("step1").doubleValue());
 					this.total        += this.inputEvents.get("step1").doubleValue();
 					this.currentState  = 2;
 					this.inputEvents.remove("step1");
 				}
 				if (this.inputEvents.containsKey("step2")) {
-					System.out.println("\tstep2, got: " + this.inputEvents.get("step2").doubleValue());
 					this.total        += this.inputEvents.get("step2").doubleValue();
 					this.currentState  = 2;
 					this.inputEvents.remove("step2");
 				}
 				if (this.inputEvents.containsKey("step3")) {
-					System.out.println("\tstep3, got: " + this.inputEvents.get("step3").doubleValue());
 					this.total        += this.inputEvents.get("step3").doubleValue();
 					this.currentState  = 2;
 					this.inputEvents.remove("step3");
 				}
 				if (this.inputEvents.containsKey("step4")) {
-					System.out.println("\tstep4, got: " + this.inputEvents.get("step4").doubleValue());
 					this.total += this.inputEvents.get("step4").doubleValue();
 					this.inputEvents.remove("step4");
 				}

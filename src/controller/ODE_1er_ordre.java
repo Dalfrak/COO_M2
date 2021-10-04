@@ -49,6 +49,17 @@ public class ODE_1er_ordre {
 		for (Block c : components) {
 			c.setCurrentState(1);
 			c.setTr(c.timeAdvancement());
+
+			// The goal of this code is to permit the Adder to get all xi
+			if (c.getConnectedBlock() != null) {
+				ins.put(c.getConnectedBlock(), c.getOutputEvents());
+				c.getConnectedBlock().addInputEvents(c.getOutputEvents());
+				c.setOutputEvents(new TreeMap<String, Data>());
+			} else {
+				c.external();
+				c.internal();
+			}
+
 		}
 
 		ChartFrame cf = new ChartFrame("osef", "yolo");
@@ -65,8 +76,6 @@ public class ODE_1er_ordre {
 			// Update Graph
 			cq.addDataToSeries(t, ((Adder) components.get(4)).getTotal());
 
-			System.out.println("\n" + trList + "\n");
-
 			minTr = Collections.min(trList);
 
 			// Construct the list of immediate components
@@ -74,7 +83,6 @@ public class ODE_1er_ordre {
 				if (c.getTr() == minTr)
 					imms.add(c);
 
-			System.out.println(t + " => " + ((Adder) components.get(4)).getTotal());
 			t += minTr;
 
 			// Update e and tr for each block
@@ -83,26 +91,19 @@ public class ODE_1er_ordre {
 				c.setTr(c.timeAdvancement() - c.getE());
 			}
 
-			System.out.println("\n" + "min:" + minTr + "\t" + "t= " + t + " | imms: " + imms);
-
 			// Produce all outputs of all imminent components
 			for (Block c : imms)
 				c.output();
 
 			// Build the input list ins affected by outputs, then transmit the output to the
 			// input of the connected component
-			for (Block c : components) {
-				if (imms.contains(c) && c.getConnectedBlock() != null) {
+			for (Block c : imms) {
+				if (c.getConnectedBlock() != null) {
 					ins.put(c.getConnectedBlock(), c.getOutputEvents());
 					c.getConnectedBlock().addInputEvents(c.getOutputEvents());
-
-					System.out.println(c.getId() + " a passé " + c.getOutputEvents() + " à " + c.getConnectedBlock().getId());
-
 					c.setOutputEvents(new TreeMap<String, Data>());
 				}
 			}
-
-			System.out.println("Adder input events: " + this.components.get(4).getInputEvents());
 
 			// Execute all components
 			for (Block c : components) {
@@ -132,8 +133,6 @@ public class ODE_1er_ordre {
 			ins.clear();
 			imms.clear();
 			trList.clear();
-
-			System.out.println("\n==========\n");
 		}
 	}
 }
