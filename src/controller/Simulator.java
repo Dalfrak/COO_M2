@@ -4,13 +4,13 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.TreeMap;
 
-import chart.Chart;
-import chart.ChartFrame;
 import model.Block;
 import model.Buffer;
 import model.Data;
 import model.Generator;
 import model.Processor;
+import view.chart.Chart;
+import view.chart.ChartFrame;
 
 public class Simulator {
 

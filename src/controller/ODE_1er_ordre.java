@@ -4,12 +4,12 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.TreeMap;
 
-import chart.Chart;
-import chart.ChartFrame;
 import model.Adder;
 import model.Block;
 import model.Data;
 import model.Step;
+import view.chart.Chart;
+import view.chart.ChartFrame;
 
 public class ODE_1er_ordre {
 	private ArrayList<Block> components; // List of components
@@ -21,22 +21,12 @@ public class ODE_1er_ordre {
 		Block step2 = new Step("step2", null, null, 0.35, 0, 1);
 		Block step3 = new Step("step3", null, null, 1, 0, 1);
 		Block step4 = new Step("step4", null, null, 1.5, 0, 4);
-		Block adder = new Adder("Adder", null, null, 0);
+		Block adder = new Adder("adder", null, null, 0);
 
 		step1.setConnectedBlock(adder);
 		step2.setConnectedBlock(adder);
 		step3.setConnectedBlock(adder);
 		step4.setConnectedBlock(adder);
-
-		// Avec ça ça a l'air de commencer direct à 1
-
-//		TreeMap<String, Data> test = new TreeMap<String, Data>();
-//		test.put("step1", new Data(1d));
-//		test.put("step2", new Data(0d));
-//		test.put("step3", new Data(0d));
-//		test.put("step4", new Data(0d));
-//
-//		adder.addInputEvents(test);
 
 		this.components.add(step1);
 		this.components.add(step2);
@@ -49,20 +39,20 @@ public class ODE_1er_ordre {
 
 		double minTr;
 
-		double t = 0;
+		double t    = 0;
 		double tEnd = 1.5;
 
-		TreeMap<Block, TreeMap<String, Data>> ins = new TreeMap<Block, TreeMap<String, Data>>();
-		ArrayList<Block> imms = new ArrayList<Block>();
-		ArrayList<Double> trList = new ArrayList<Double>();
+		TreeMap<Block, TreeMap<String, Data>> ins    = new TreeMap<Block, TreeMap<String, Data>>();
+		ArrayList<Block>                      imms   = new ArrayList<Block>();
+		ArrayList<Double>                     trList = new ArrayList<Double>();
 
 		for (Block c : components) {
 			c.setCurrentState(1);
-			c.setTr(c.timeAdvancement());
+//			c.setTr(c.timeAdvancement());
 		}
 
 		ChartFrame cf = new ChartFrame("osef", "yolo");
-		Chart cq = new Chart("Total");
+		Chart      cq = new Chart("Total");
 
 		cf.addToLineChartPane(cq);
 		cq.setIsVisible(true);
@@ -101,6 +91,10 @@ public class ODE_1er_ordre {
 				if (imms.contains(c) && c.getConnectedBlock() != null) {
 					ins.put(c.getConnectedBlock(), c.getOutputEvents());
 					c.getConnectedBlock().addInputEvents(c.getOutputEvents());
+
+					System.out.println(c.getId() + " a passé " + c.getOutputEvents() + " à " + c.getConnectedBlock().getId());
+
+					c.setOutputEvents(new TreeMap<String, Data>());
 				}
 			}
 

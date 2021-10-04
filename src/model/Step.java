@@ -12,6 +12,7 @@ public class Step extends Block {
 		super(id, X, Y, ta);
 		this.initialValue = initialValue;
 		this.finalValue = finalValue;
+		this.tr = 0;
 		this.outputEvents.put(this.id, new Data(this.initialValue));
 	}
 
@@ -20,8 +21,8 @@ public class Step extends Block {
 
 	@Override
 	public void internal() {
-		this.currentState = 2;
-		this.tr = Double.POSITIVE_INFINITY;
+		if (e != 0)
+			this.currentState = 2;
 	}
 
 	@Override
@@ -31,7 +32,11 @@ public class Step extends Block {
 	}
 
 	@Override
-	public double timeAdvancement() { return this.ta; }
+	public double timeAdvancement() {
+		if (this.currentState == 1)
+			return this.ta;
+		return Double.POSITIVE_INFINITY;
+	}
 
 	@Override
 	public void conflict() {}

@@ -18,4 +18,9 @@ public class Data {
 
 	public boolean boolValue() { return this.b; }
 
+	@Override
+	public String toString() {
+		return "{" + ((i != null) ? this.i : "") + ((d != null) ? this.d : "") + ((b != null) ? this.b : "") + "}";
+	}
+
 }
