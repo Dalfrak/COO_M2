@@ -6,9 +6,9 @@ public abstract class Block implements Comparable<Block> {
 
 	protected String id;
 	protected double e, tl, tn, tr, ta;
-	protected int currentState;
+	protected int    currentState;
 
-	protected TreeMap<String, Data> inputEvents; // Inputs
+	protected TreeMap<String, Data> inputEvents;  // Inputs
 	protected TreeMap<String, Data> outputEvents; // Outputs
 
 	protected Block connectedBlock;

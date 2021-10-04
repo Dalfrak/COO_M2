@@ -20,14 +20,15 @@ public class Step extends Block {
 
 	@Override
 	public void internal() {
-		if (e != 0)
+//		if (this.e != 0)
+		if (this.currentState == 1)
 			this.currentState = 2;
 	}
 
 	@Override
 	public void output() {
 		System.out.println(this.id + ".output()");
-		if (this.currentState == 2) {
+		if (this.currentState == 1) {
 			this.outputEvents.put(this.id, new Data(this.finalValue));
 			System.out.println("\tPut " + this.finalValue + " into output events list");
 		}
@@ -45,5 +46,8 @@ public class Step extends Block {
 
 	@Override
 	public void init() {}
+
+	@Override
+	public String toString() { return this.id; }
 
 }
