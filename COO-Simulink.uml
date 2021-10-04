@@ -1,0 +1,2103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_OwWTcCUIEeyql_FaMzmsBA" name="COO_Simulink">
+    <eAnnotations xmi:id="_Q1SmsCUIEeyql_FaMzmsBA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_Q1SmsSUIEeyql_FaMzmsBA" source="codegen">
+        <details xmi:id="_Q1SmsiUIEeyql_FaMzmsBA" key="codegenDirectory" value="/COO-Simulink/src"/>
+        <details xmi:id="_SHkG4CUIEeyql_FaMzmsBA" key="AssociatedSourceCode" value="/COO-Simulink/src/model/Processor.java;1831981498/1;/COO-Simulink/src/chart/ChartFrame.java;4214925028/1;/COO-Simulink/src/model/Generator.java;1525456323/1;/COO-Simulink/src/chart/TimeAndValue.java;357792690/1;/COO-Simulink/src/controller/Main.java;3560614795/1;/COO-Simulink/src/controller/Simulator.java;175207687/1;/COO-Simulink/src/model/Block.java;1623704955/1;/COO-Simulink/src/model/Buffer.java;843091250/1;/COO-Simulink/src/model/Data.java;3481089466/1;/COO-Simulink/src/chart/LineChartPane.java;380370012/1;/COO-Simulink/src/chart/Chart.java;494508928/1;/COO-Simulink/src/table/ChoiceChartTableModel.java;3897778818/1;/COO-Simulink/src/table/TableModelChart.java;3759502813/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_ROKZsCUIEeyql_FaMzmsBA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_ROLAwCUIEeyql_FaMzmsBA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_ROLAwSUIEeyql_FaMzmsBA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_ROLAwiUIEeyql_FaMzmsBA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_ROLn0CUIEeyql_FaMzmsBA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_ROLn0SUIEeyql_FaMzmsBA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_ROLn0iUIEeyql_FaMzmsBA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_ROLn0yUIEeyql_FaMzmsBA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_ROMO4CUIEeyql_FaMzmsBA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_RORucCUIEeyql_FaMzmsBA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_RORucSUIEeyql_FaMzmsBA" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_RoYQgCUIEeyql_FaMzmsBA" name="TreeMap"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_RowrACUIEeyql_FaMzmsBA" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Rox5ICUIEeyql_FaMzmsBA" name="Collections"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Ro_7kSUIEeyql_FaMzmsBA" name="Observable"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_RpBJsSUIEeyql_FaMzmsBA" name="Observer"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_RpUrsCUIEeyql_FaMzmsBA" name="Vector"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_ROqwACUIEeyql_FaMzmsBA" name="awt">
+        <packagedElement xmi:type="uml:Package" xmi:id="_ROrXECUIEeyql_FaMzmsBA" name="event">
+          <packagedElement xmi:type="uml:Class" xmi:id="_Roch8CUIEeyql_FaMzmsBA" name="MouseAdapter"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_RoeXICUIEeyql_FaMzmsBA" name="MouseEvent"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_Ro-GYSUIEeyql_FaMzmsBA" name="ActionEvent"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_Ro_UgSUIEeyql_FaMzmsBA" name="ActionListener"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Ro84QCUIEeyql_FaMzmsBA" name="Color"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_RO6noCUIEeyql_FaMzmsBA" name="io">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_RouOwCUIEeyql_FaMzmsBA" name="Serializable"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_RqRG4CUIEeyql_FaMzmsBA" name="lang">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_RqRG4SUIEeyql_FaMzmsBA" name="Comparable"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_RqizsCUIEeyql_FaMzmsBA" name="Double"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_RqoTQSUIEeyql_FaMzmsBA" name="Object"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_RqvA8CUIEeyql_FaMzmsBA" name="Class"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ROmekCUIEeyql_FaMzmsBA" name="model">
+      <packagedElement xmi:type="uml:Class" xmi:id="_RQQEYCUIEeyql_FaMzmsBA" name="Processor">
+        <generalization xmi:id="_RobT0CUIEeyql_FaMzmsBA" general="_RRD8sCUIEeyql_FaMzmsBA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RriSMCUIEeyql_FaMzmsBA" name="Processor" specification="_RphgACUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rri5QCUIEeyql_FaMzmsBA" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rri5QSUIEeyql_FaMzmsBA" name="X" type="_RoYQgCUIEeyql_FaMzmsBA"/>
+          <ownedParameter xmi:id="_Rri5QiUIEeyql_FaMzmsBA" name="Y" type="_RoYQgCUIEeyql_FaMzmsBA"/>
+          <ownedParameter xmi:id="_Rri5QyUIEeyql_FaMzmsBA" name="ta">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rri5RCUIEeyql_FaMzmsBA" type="_RQQEYCUIEeyql_FaMzmsBA" direction="return"/>
+          <language>java</language>
+          <body>super(id, X, Y, ta); </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rrl8kCUIEeyql_FaMzmsBA" name="external" specification="_RQWyECUIEeyql_FaMzmsBA">
+          <language>java</language>
+          <body>if (this.currentState == 1 &amp;&amp; this.inputEvents.containsKey(&quot;req&quot;)) {
+			this.inputEvents.remove(&quot;req&quot;);
+			this.currentState = 2;
+		}
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RrmjoCUIEeyql_FaMzmsBA" name="internal" specification="_RQZ1YCUIEeyql_FaMzmsBA">
+          <language>java</language>
+          <body>if (this.currentState == 2)
+			this.currentState = 1;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RrmjoSUIEeyql_FaMzmsBA" name="output" specification="_RQaccyUIEeyql_FaMzmsBA">
+          <language>java</language>
+          <body>if (this.currentState == 2)
+			this.outputEvents.put(&quot;done&quot;, new Data(true));
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RrnKsCUIEeyql_FaMzmsBA" name="timeAdvancement" specification="_RQcRoSUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RrnKsSUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (this.currentState == 2)
+			return this.ta;
+		return Double.POSITIVE_INFINITY;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RrnKsiUIEeyql_FaMzmsBA" name="conflict" specification="_RQet4iUIEeyql_FaMzmsBA">
+          <language>java</language>
+          <body>return; </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_RQWyECUIEeyql_FaMzmsBA" name="external" method="_Rrl8kCUIEeyql_FaMzmsBA"/>
+        <ownedOperation xmi:id="_RQZ1YCUIEeyql_FaMzmsBA" name="internal" method="_RrmjoCUIEeyql_FaMzmsBA"/>
+        <ownedOperation xmi:id="_RQaccyUIEeyql_FaMzmsBA" name="output" method="_RrmjoSUIEeyql_FaMzmsBA"/>
+        <ownedOperation xmi:id="_RQcRoSUIEeyql_FaMzmsBA" name="timeAdvancement" method="_RrnKsCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RQdfwCUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RQet4iUIEeyql_FaMzmsBA" name="conflict" method="_RrnKsiUIEeyql_FaMzmsBA"/>
+        <ownedOperation xmi:id="_RQf8AiUIEeyql_FaMzmsBA" name="init"/>
+        <ownedOperation xmi:id="_RphgACUIEeyql_FaMzmsBA" name="Processor" method="_RriSMCUIEeyql_FaMzmsBA">
+          <eAnnotations xmi:id="_RpiHEyUIEeyql_FaMzmsBA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_RpiHFCUIEeyql_FaMzmsBA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_RphgASUIEeyql_FaMzmsBA" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RpiHECUIEeyql_FaMzmsBA" name="X" type="_RoYQgCUIEeyql_FaMzmsBA"/>
+          <ownedParameter xmi:id="_RpiHESUIEeyql_FaMzmsBA" name="Y" type="_RoYQgCUIEeyql_FaMzmsBA"/>
+          <ownedParameter xmi:id="_RpiHEiUIEeyql_FaMzmsBA" name="ta">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RpiHFSUIEeyql_FaMzmsBA" type="_RQQEYCUIEeyql_FaMzmsBA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_RQt-cCUIEeyql_FaMzmsBA" name="Generator">
+        <generalization xmi:id="_RotAoCUIEeyql_FaMzmsBA" general="_RRD8sCUIEeyql_FaMzmsBA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rro_4CUIEeyql_FaMzmsBA" name="Generator" specification="_RpmYgCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rro_4SUIEeyql_FaMzmsBA" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rro_4iUIEeyql_FaMzmsBA" name="X" type="_RoYQgCUIEeyql_FaMzmsBA"/>
+          <ownedParameter xmi:id="_Rro_4yUIEeyql_FaMzmsBA" name="Y" type="_RoYQgCUIEeyql_FaMzmsBA"/>
+          <ownedParameter xmi:id="_Rro_5CUIEeyql_FaMzmsBA" name="ta">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rro_5SUIEeyql_FaMzmsBA" type="_RQt-cCUIEeyql_FaMzmsBA" direction="return"/>
+          <language>java</language>
+          <body>super(id, X, Y, ta); </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rro_5iUIEeyql_FaMzmsBA" name="internal" specification="_RQvzoCUIEeyql_FaMzmsBA">
+          <language>java</language>
+          <body>return;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rro_5yUIEeyql_FaMzmsBA" name="output" specification="_RQxo0iUIEeyql_FaMzmsBA">
+          <language>java</language>
+          <body>if (this.currentState == 1)
+			this.outputEvents.put(&quot;job&quot;, new Data(true));
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rrpm8CUIEeyql_FaMzmsBA" name="timeAdvancement" specification="_RQzeACUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rrpm8SUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.ta; </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rrpm8iUIEeyql_FaMzmsBA" name="conflict" specification="_RQ2hUiUIEeyql_FaMzmsBA">
+          <language>java</language>
+          <body>return; </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_RQvzoCUIEeyql_FaMzmsBA" name="internal" method="_Rro_5iUIEeyql_FaMzmsBA"/>
+        <ownedOperation xmi:id="_RQxo0iUIEeyql_FaMzmsBA" name="output" method="_Rro_5yUIEeyql_FaMzmsBA"/>
+        <ownedOperation xmi:id="_RQzeACUIEeyql_FaMzmsBA" name="timeAdvancement" method="_Rrpm8CUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RQ0FECUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RQ1TMSUIEeyql_FaMzmsBA" name="external"/>
+        <ownedOperation xmi:id="_RQ2hUiUIEeyql_FaMzmsBA" name="conflict" method="_Rrpm8iUIEeyql_FaMzmsBA"/>
+        <ownedOperation xmi:id="_RQ3vciUIEeyql_FaMzmsBA" name="init"/>
+        <ownedOperation xmi:id="_RpmYgCUIEeyql_FaMzmsBA" name="Generator" method="_Rro_4CUIEeyql_FaMzmsBA">
+          <eAnnotations xmi:id="_RpmYhSUIEeyql_FaMzmsBA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_RpmYhiUIEeyql_FaMzmsBA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_RpmYgSUIEeyql_FaMzmsBA" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RpmYgiUIEeyql_FaMzmsBA" name="X" type="_RoYQgCUIEeyql_FaMzmsBA"/>
+          <ownedParameter xmi:id="_RpmYgyUIEeyql_FaMzmsBA" name="Y" type="_RoYQgCUIEeyql_FaMzmsBA"/>
+          <ownedParameter xmi:id="_RpmYhCUIEeyql_FaMzmsBA" name="ta">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rpm_kCUIEeyql_FaMzmsBA" type="_RQt-cCUIEeyql_FaMzmsBA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_RRD8sCUIEeyql_FaMzmsBA" name="Block" isAbstract="true">
+        <ownedAttribute xmi:id="_Rq-RgSUIEeyql_FaMzmsBA" name="id" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Rq-4kSUIEeyql_FaMzmsBA" name="e" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_RrAtwCUIEeyql_FaMzmsBA" name="currentState" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_RrBU0CUIEeyql_FaMzmsBA" name="inputEvents" visibility="protected" type="_RoYQgCUIEeyql_FaMzmsBA" association="_RsR5ESUIEeyql_FaMzmsBA"/>
+        <ownedAttribute xmi:id="_RrCi8SUIEeyql_FaMzmsBA" name="outputEvents" visibility="protected" type="_RoYQgCUIEeyql_FaMzmsBA" association="_RsSgISUIEeyql_FaMzmsBA"/>
+        <ownedAttribute xmi:id="_RrDxESUIEeyql_FaMzmsBA" name="connectedBlock" visibility="protected" type="_RRD8sCUIEeyql_FaMzmsBA" association="_RsTHMSUIEeyql_FaMzmsBA"/>
+        <ownedAttribute xmi:id="_Rr--JCUIEeyql_FaMzmsBA" name="tl" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_RsAMQCUIEeyql_FaMzmsBA" name="tn" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_RsAzUCUIEeyql_FaMzmsBA" name="tr" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_RsBaYCUIEeyql_FaMzmsBA" name="ta" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_RqSVASUIEeyql_FaMzmsBA" client="_RRD8sCUIEeyql_FaMzmsBA" supplier="_RqRG4SUIEeyql_FaMzmsBA" contract="_RqRG4SUIEeyql_FaMzmsBA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RrsDMCUIEeyql_FaMzmsBA" name="Block" specification="_RqUKMCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RrsDMSUIEeyql_FaMzmsBA" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RrsDMiUIEeyql_FaMzmsBA" name="X" type="_RoYQgCUIEeyql_FaMzmsBA"/>
+          <ownedParameter xmi:id="_RrsDMyUIEeyql_FaMzmsBA" name="Y" type="_RoYQgCUIEeyql_FaMzmsBA"/>
+          <ownedParameter xmi:id="_RrsDNCUIEeyql_FaMzmsBA" name="ta">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RrsDNSUIEeyql_FaMzmsBA" type="_RRD8sCUIEeyql_FaMzmsBA" direction="return"/>
+          <language>java</language>
+          <body>if (X == null)
+			this.inputEvents = new TreeMap&lt;String, Data>();
+		else
+			this.inputEvents = X;
+
+		if (Y == null)
+			this.outputEvents = new TreeMap&lt;String, Data>();
+		else
+			this.outputEvents = Y;
+
+		this.ta = ta;
+		this.id = id;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RrsDNiUIEeyql_FaMzmsBA" name="getE" specification="_RRHnECUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RrsDNyUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return e; </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RrsqQCUIEeyql_FaMzmsBA" name="getId" specification="_RRIOISUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RrsqQSUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return id; </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RrsqQiUIEeyql_FaMzmsBA" name="getTl" specification="_RRI1MCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RrsqQyUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return tl; </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RrtRUCUIEeyql_FaMzmsBA" name="getTn" specification="_RRI1MiUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RrtRUSUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return tn; </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RrtRUiUIEeyql_FaMzmsBA" name="getTr" specification="_RRJcQSUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RrtRUyUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.tr; </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RrtRVCUIEeyql_FaMzmsBA" name="getCurrentState" specification="_RRKDUSUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RrtRVSUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return currentState; </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RrtRViUIEeyql_FaMzmsBA" name="getConnectedBlock" specification="_RRKqYCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RrtRVyUIEeyql_FaMzmsBA" type="_RRD8sCUIEeyql_FaMzmsBA" direction="return"/>
+          <language>java</language>
+          <body>return this.connectedBlock; </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rrt4YCUIEeyql_FaMzmsBA" name="getInputEvents" specification="_RRLRcCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rrt4YSUIEeyql_FaMzmsBA" type="_RoYQgCUIEeyql_FaMzmsBA" direction="return"/>
+          <language>java</language>
+          <body>return this.inputEvents; </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rrt4YiUIEeyql_FaMzmsBA" name="getOutputEvents" specification="_RRMfkCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rrt4YyUIEeyql_FaMzmsBA" type="_RoYQgCUIEeyql_FaMzmsBA" direction="return"/>
+          <language>java</language>
+          <body>return this.outputEvents; </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rrt4ZCUIEeyql_FaMzmsBA" name="setE" specification="_RROUwCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rrt4ZSUIEeyql_FaMzmsBA" name="e">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.e = e; </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RrufcCUIEeyql_FaMzmsBA" name="setTl" specification="_RRPi4CUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RrufcSUIEeyql_FaMzmsBA" name="tl">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.tl = tl; </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RrufciUIEeyql_FaMzmsBA" name="setTn" specification="_RRQJ8CUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RrufcyUIEeyql_FaMzmsBA" name="tn">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.tn = tn; </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RrufdCUIEeyql_FaMzmsBA" name="setTr" specification="_RRQxASUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RrufdSUIEeyql_FaMzmsBA" name="t">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.tr = t; </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RrufdiUIEeyql_FaMzmsBA" name="setConnectedBlock" specification="_Ro08cCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RrufdyUIEeyql_FaMzmsBA" name="connectedBlock" type="_RRD8sCUIEeyql_FaMzmsBA"/>
+          <language>java</language>
+          <body>this.connectedBlock = connectedBlock; </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RrvGgCUIEeyql_FaMzmsBA" name="setCurrentState" specification="_RRR_ICUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RrvGgSUIEeyql_FaMzmsBA" name="currentState">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.currentState = currentState; </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RrvtkCUIEeyql_FaMzmsBA" name="setInputEvents" specification="_RqYboiUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RrvtkSUIEeyql_FaMzmsBA" name="inputEvents" type="_RoYQgCUIEeyql_FaMzmsBA"/>
+          <language>java</language>
+          <body>this.inputEvents = inputEvents; </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RrvtkiUIEeyql_FaMzmsBA" name="setOutputEvents" specification="_RqaQ0CUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RrvtkyUIEeyql_FaMzmsBA" name="outputEvents" type="_RoYQgCUIEeyql_FaMzmsBA"/>
+          <language>java</language>
+          <body>this.outputEvents = outputEvents; </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RrvtlCUIEeyql_FaMzmsBA" name="addInputEvents" specification="_Rqbe8CUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RrvtlSUIEeyql_FaMzmsBA" name="inputEvents" type="_RoYQgCUIEeyql_FaMzmsBA"/>
+          <language>java</language>
+          <body>this.inputEvents.putAll(inputEvents); </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RrwUoCUIEeyql_FaMzmsBA" name="compareTo" specification="_Ro1jgCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RrwUoSUIEeyql_FaMzmsBA" name="b" type="_RRD8sCUIEeyql_FaMzmsBA"/>
+          <ownedParameter xmi:id="_RrwUoiUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (this.id == b.id)
+			return 0;
+		return 1;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_RRHnECUIEeyql_FaMzmsBA" name="getE" method="_RrsDNiUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RRIOICUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RRIOISUIEeyql_FaMzmsBA" name="getId" method="_RrsqQCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RRIOIiUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RRI1MCUIEeyql_FaMzmsBA" name="getTl" method="_RrsqQiUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RRI1MSUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RRI1MiUIEeyql_FaMzmsBA" name="getTn" method="_RrtRUCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RRJcQCUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RRJcQSUIEeyql_FaMzmsBA" name="getTr" method="_RrtRUiUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RRKDUCUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RRKDUSUIEeyql_FaMzmsBA" name="getCurrentState" method="_RrtRVCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RRKDUiUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RRKqYCUIEeyql_FaMzmsBA" name="getConnectedBlock" method="_RrtRViUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Ro0VYCUIEeyql_FaMzmsBA" type="_RRD8sCUIEeyql_FaMzmsBA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RRLRcCUIEeyql_FaMzmsBA" name="getInputEvents" method="_Rrt4YCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RqYboCUIEeyql_FaMzmsBA" type="_RoYQgCUIEeyql_FaMzmsBA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RRMfkCUIEeyql_FaMzmsBA" name="getOutputEvents" method="_Rrt4YiUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RqYboSUIEeyql_FaMzmsBA" type="_RoYQgCUIEeyql_FaMzmsBA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RROUwCUIEeyql_FaMzmsBA" name="setE" method="_Rrt4ZCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RROUwSUIEeyql_FaMzmsBA" name="e">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RRPi4CUIEeyql_FaMzmsBA" name="setTl" method="_RrufcCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RRPi4SUIEeyql_FaMzmsBA" name="tl">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RRQJ8CUIEeyql_FaMzmsBA" name="setTn" method="_RrufciUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RRQxACUIEeyql_FaMzmsBA" name="tn">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RRQxASUIEeyql_FaMzmsBA" name="setTr" method="_RrufdCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RRRYECUIEeyql_FaMzmsBA" name="t">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RRR_ICUIEeyql_FaMzmsBA" name="setCurrentState" method="_RrvGgCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RRR_ISUIEeyql_FaMzmsBA" name="currentState">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RRSmMCUIEeyql_FaMzmsBA" name="external" isAbstract="true"/>
+        <ownedOperation xmi:id="_RRTNQCUIEeyql_FaMzmsBA" name="internal" isAbstract="true"/>
+        <ownedOperation xmi:id="_RRTNQSUIEeyql_FaMzmsBA" name="output" isAbstract="true"/>
+        <ownedOperation xmi:id="_RRT0UCUIEeyql_FaMzmsBA" name="timeAdvancement" isAbstract="true">
+          <ownedParameter xmi:id="_RRT0USUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RRUbYCUIEeyql_FaMzmsBA" name="conflict" isAbstract="true"/>
+        <ownedOperation xmi:id="_RRUbYSUIEeyql_FaMzmsBA" name="init" isAbstract="true"/>
+        <ownedOperation xmi:id="_Ro08cCUIEeyql_FaMzmsBA" name="setConnectedBlock" method="_RrufdiUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Ro08cSUIEeyql_FaMzmsBA" name="connectedBlock" type="_RRD8sCUIEeyql_FaMzmsBA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Ro1jgCUIEeyql_FaMzmsBA" name="compareTo" method="_RrwUoCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Ro1jgSUIEeyql_FaMzmsBA" name="b" type="_RRD8sCUIEeyql_FaMzmsBA"/>
+          <ownedParameter xmi:id="_Ro2KkCUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RqUKMCUIEeyql_FaMzmsBA" name="Block" method="_RrsDMCUIEeyql_FaMzmsBA">
+          <eAnnotations xmi:id="_RqV_YiUIEeyql_FaMzmsBA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_RqV_YyUIEeyql_FaMzmsBA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_RqVYUCUIEeyql_FaMzmsBA" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RqVYUSUIEeyql_FaMzmsBA" name="X" type="_RoYQgCUIEeyql_FaMzmsBA"/>
+          <ownedParameter xmi:id="_RqV_YCUIEeyql_FaMzmsBA" name="Y" type="_RoYQgCUIEeyql_FaMzmsBA"/>
+          <ownedParameter xmi:id="_RqV_YSUIEeyql_FaMzmsBA" name="ta">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RqV_ZCUIEeyql_FaMzmsBA" type="_RRD8sCUIEeyql_FaMzmsBA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RqYboiUIEeyql_FaMzmsBA" name="setInputEvents" method="_RrvtkCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RqZCsCUIEeyql_FaMzmsBA" name="inputEvents" type="_RoYQgCUIEeyql_FaMzmsBA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RqaQ0CUIEeyql_FaMzmsBA" name="setOutputEvents" method="_RrvtkiUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RqaQ0SUIEeyql_FaMzmsBA" name="outputEvents" type="_RoYQgCUIEeyql_FaMzmsBA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Rqbe8CUIEeyql_FaMzmsBA" name="addInputEvents" method="_RrvtlCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rqbe8SUIEeyql_FaMzmsBA" name="inputEvents" type="_RoYQgCUIEeyql_FaMzmsBA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_RRc-QCUIEeyql_FaMzmsBA" name="Buffer">
+        <generalization xmi:id="_Ro7qICUIEeyql_FaMzmsBA" general="_RRD8sCUIEeyql_FaMzmsBA"/>
+        <ownedAttribute xmi:id="_RrGNUCUIEeyql_FaMzmsBA" name="q" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RrxiwCUIEeyql_FaMzmsBA" name="Buffer" specification="_RqfJUCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RrxiwSUIEeyql_FaMzmsBA" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RrxiwiUIEeyql_FaMzmsBA" name="X" type="_RoYQgCUIEeyql_FaMzmsBA"/>
+          <ownedParameter xmi:id="_RrxiwyUIEeyql_FaMzmsBA" name="Y" type="_RoYQgCUIEeyql_FaMzmsBA"/>
+          <ownedParameter xmi:id="_RrxixCUIEeyql_FaMzmsBA" name="ta">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RrxixSUIEeyql_FaMzmsBA" type="_RRc-QCUIEeyql_FaMzmsBA" direction="return"/>
+          <language>java</language>
+          <body>super(id, X, Y, ta); </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RrxixiUIEeyql_FaMzmsBA" name="external" specification="_RRezcCUIEeyql_FaMzmsBA">
+          <language>java</language>
+          <body>if (this.currentState == 1 &amp;&amp; this.inputEvents.containsKey(&quot;job&quot;)) {
+			this.inputEvents.remove(&quot;job&quot;);
+			this.q++;
+			this.currentState = 2;
+		} else if (this.currentState == 3 &amp;&amp; this.q > 0 &amp;&amp; this.inputEvents.containsKey(&quot;done&quot;)) {
+			this.inputEvents.remove(&quot;done&quot;);
+			this.currentState = 2;
+		} else if (this.currentState == 3 &amp;&amp; this.q == 0 &amp;&amp; this.inputEvents.containsKey(&quot;done&quot;)) {
+			this.inputEvents.remove(&quot;done&quot;);
+			this.currentState = 1;
+		} else if (this.currentState == 3 &amp;&amp; this.inputEvents.containsKey(&quot;job&quot;)) {
+			this.inputEvents.remove(&quot;job&quot;);
+			this.q++;
+//			this.currentState = 3;
+		}
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RryJ0CUIEeyql_FaMzmsBA" name="internal" specification="_RRgBkSUIEeyql_FaMzmsBA">
+          <language>java</language>
+          <body>if (this.currentState == 2) {
+			this.q--;
+			this.currentState = 3;
+		}
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RryJ0SUIEeyql_FaMzmsBA" name="output" specification="_RRgooiUIEeyql_FaMzmsBA">
+          <language>java</language>
+          <body>if (this.currentState == 2)
+			this.outputEvents.put(&quot;req&quot;, new Data(true));
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RryJ0iUIEeyql_FaMzmsBA" name="timeAdvancement" specification="_RRh2wSUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RryJ0yUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (this.currentState == 2)
+			return this.ta;
+		return Double.POSITIVE_INFINITY;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RryJ1CUIEeyql_FaMzmsBA" name="conflict" specification="_RRjr8CUIEeyql_FaMzmsBA">
+          <language>java</language>
+          <body>this.internal(); </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_RRezcCUIEeyql_FaMzmsBA" name="external" method="_RrxixiUIEeyql_FaMzmsBA"/>
+        <ownedOperation xmi:id="_RRgBkSUIEeyql_FaMzmsBA" name="internal" method="_RryJ0CUIEeyql_FaMzmsBA"/>
+        <ownedOperation xmi:id="_RRgooiUIEeyql_FaMzmsBA" name="output" method="_RryJ0SUIEeyql_FaMzmsBA"/>
+        <ownedOperation xmi:id="_RRh2wSUIEeyql_FaMzmsBA" name="timeAdvancement" method="_RryJ0iUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RRh2wiUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RRjr8CUIEeyql_FaMzmsBA" name="conflict" method="_RryJ1CUIEeyql_FaMzmsBA"/>
+        <ownedOperation xmi:id="_RRk6EiUIEeyql_FaMzmsBA" name="init"/>
+        <ownedOperation xmi:id="_RqfJUCUIEeyql_FaMzmsBA" name="Buffer" method="_RrxiwCUIEeyql_FaMzmsBA">
+          <eAnnotations xmi:id="_RqfwZCUIEeyql_FaMzmsBA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_RqfwZSUIEeyql_FaMzmsBA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_RqfwYCUIEeyql_FaMzmsBA" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RqfwYSUIEeyql_FaMzmsBA" name="X" type="_RoYQgCUIEeyql_FaMzmsBA"/>
+          <ownedParameter xmi:id="_RqfwYiUIEeyql_FaMzmsBA" name="Y" type="_RoYQgCUIEeyql_FaMzmsBA"/>
+          <ownedParameter xmi:id="_RqfwYyUIEeyql_FaMzmsBA" name="ta">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RqfwZiUIEeyql_FaMzmsBA" type="_RRc-QCUIEeyql_FaMzmsBA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_RRn9YCUIEeyql_FaMzmsBA" name="Data">
+        <ownedAttribute xmi:id="_RrG0YCUIEeyql_FaMzmsBA" name="i" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_RrHbcSUIEeyql_FaMzmsBA" name="d" visibility="private" type="_RqizsCUIEeyql_FaMzmsBA"/>
+        <ownedAttribute xmi:id="_RrICgSUIEeyql_FaMzmsBA" name="b" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rryw4CUIEeyql_FaMzmsBA" name="Data" specification="_RRpLgCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rryw4SUIEeyql_FaMzmsBA" name="i">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rryw4iUIEeyql_FaMzmsBA" type="_RRn9YCUIEeyql_FaMzmsBA" direction="return"/>
+          <language>java</language>
+          <body>this.i = i; </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rryw4yUIEeyql_FaMzmsBA" name="Data" specification="_RRqZoCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rryw5CUIEeyql_FaMzmsBA" name="d">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rryw5SUIEeyql_FaMzmsBA" type="_RRn9YCUIEeyql_FaMzmsBA" direction="return"/>
+          <language>java</language>
+          <body>this.d = d; </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RrzX8CUIEeyql_FaMzmsBA" name="Data" specification="_RRrAsCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RrzX8SUIEeyql_FaMzmsBA" name="b">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RrzX8iUIEeyql_FaMzmsBA" type="_RRn9YCUIEeyql_FaMzmsBA" direction="return"/>
+          <language>java</language>
+          <body>this.b = b; </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RrzX8yUIEeyql_FaMzmsBA" name="intValue" specification="_RRrnxCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RrzX9CUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.i; </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RrzX9SUIEeyql_FaMzmsBA" name="doubleValue" specification="_RRsO0SUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RrzX9iUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.d; </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RrzX9yUIEeyql_FaMzmsBA" name="boolValue" specification="_RRs14SUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RrzX-CUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.b; </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_RRpLgCUIEeyql_FaMzmsBA" name="Data" method="_Rryw4CUIEeyql_FaMzmsBA">
+          <eAnnotations xmi:id="_RRpLgiUIEeyql_FaMzmsBA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_RRpykCUIEeyql_FaMzmsBA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_RRpLgSUIEeyql_FaMzmsBA" name="i">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RRpykSUIEeyql_FaMzmsBA" type="_RRn9YCUIEeyql_FaMzmsBA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RRqZoCUIEeyql_FaMzmsBA" name="Data" method="_Rryw4yUIEeyql_FaMzmsBA">
+          <eAnnotations xmi:id="_RRqZoiUIEeyql_FaMzmsBA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_RRqZoyUIEeyql_FaMzmsBA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_RRqZoSUIEeyql_FaMzmsBA" name="d">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RRqZpCUIEeyql_FaMzmsBA" type="_RRn9YCUIEeyql_FaMzmsBA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RRrAsCUIEeyql_FaMzmsBA" name="Data" method="_RrzX8CUIEeyql_FaMzmsBA">
+          <eAnnotations xmi:id="_RRrnwSUIEeyql_FaMzmsBA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_RRrnwiUIEeyql_FaMzmsBA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_RRrnwCUIEeyql_FaMzmsBA" name="b">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RRrnwyUIEeyql_FaMzmsBA" type="_RRn9YCUIEeyql_FaMzmsBA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RRrnxCUIEeyql_FaMzmsBA" name="intValue" method="_RrzX8yUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RRsO0CUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RRsO0SUIEeyql_FaMzmsBA" name="doubleValue" method="_RrzX9SUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RRs14CUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RRs14SUIEeyql_FaMzmsBA" name="boolValue" method="_RrzX9yUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RRtc8CUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_RsR5ESUIEeyql_FaMzmsBA" name="" memberEnd="_RsR5EiUIEeyql_FaMzmsBA _RrBU0CUIEeyql_FaMzmsBA">
+        <ownedEnd xmi:id="_RsR5EiUIEeyql_FaMzmsBA" name="" type="_RRD8sCUIEeyql_FaMzmsBA" association="_RsR5ESUIEeyql_FaMzmsBA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_RsSgISUIEeyql_FaMzmsBA" name="" memberEnd="_RsSgIiUIEeyql_FaMzmsBA _RrCi8SUIEeyql_FaMzmsBA">
+        <ownedEnd xmi:id="_RsSgIiUIEeyql_FaMzmsBA" name="" type="_RRD8sCUIEeyql_FaMzmsBA" association="_RsSgISUIEeyql_FaMzmsBA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_RsTHMSUIEeyql_FaMzmsBA" name="" memberEnd="_RsTHMiUIEeyql_FaMzmsBA _RrDxESUIEeyql_FaMzmsBA">
+        <ownedEnd xmi:id="_RsTHMiUIEeyql_FaMzmsBA" name="" type="_RRD8sCUIEeyql_FaMzmsBA" association="_RsTHMSUIEeyql_FaMzmsBA"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ROr-ICUIEeyql_FaMzmsBA" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_ROr-ISUIEeyql_FaMzmsBA" name="swing">
+        <packagedElement xmi:type="uml:Package" xmi:id="_ROtMQCUIEeyql_FaMzmsBA" name="table">
+          <packagedElement xmi:type="uml:Class" xmi:id="_RoovMSUIEeyql_FaMzmsBA" name="TableColumn"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_RpVSwSUIEeyql_FaMzmsBA" name="AbstractTableModel"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_RoflQSUIEeyql_FaMzmsBA" name="DefaultCellEditor"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_RogzYSUIEeyql_FaMzmsBA" name="JCheckBox"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_RoiBgSUIEeyql_FaMzmsBA" name="JFrame"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_RojPoSUIEeyql_FaMzmsBA" name="JScrollPane"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_RolE0CUIEeyql_FaMzmsBA" name="JSplitPane"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_RomS8SUIEeyql_FaMzmsBA" name="JTable"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_RonhESUIEeyql_FaMzmsBA" name="SwingUtilities"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_RpBwwSUIEeyql_FaMzmsBA" name="JMenu"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_RpC-4CUIEeyql_FaMzmsBA" name="JMenuItem"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_RpDl8SUIEeyql_FaMzmsBA" name="JPopupMenu"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ROtMQSUIEeyql_FaMzmsBA" name="table">
+      <packagedElement xmi:type="uml:Class" xmi:id="_RSAX4CUIEeyql_FaMzmsBA" name="ChoiceChartTableModel">
+        <ownedComment xmi:id="_RsDPlyUIEeyql_FaMzmsBA">
+          <body>Modèle de table pour le choix de courbes à afficher</body>
+        </ownedComment>
+        <generalization xmi:id="_RqxdMCUIEeyql_FaMzmsBA" general="_RpVSwSUIEeyql_FaMzmsBA"/>
+        <ownedAttribute xmi:id="_RrPXQCUIEeyql_FaMzmsBA" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_RrPXQSUIEeyql_FaMzmsBA" value="1L"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_RrP-UCUIEeyql_FaMzmsBA" name="Name" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_RrP-USUIEeyql_FaMzmsBA" value="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_RrP-UiUIEeyql_FaMzmsBA" name="Visible" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_RrP-UyUIEeyql_FaMzmsBA" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_RrQlYCUIEeyql_FaMzmsBA" name="columnNames" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RrQlYSUIEeyql_FaMzmsBA" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_RrRMcSUIEeyql_FaMzmsBA" name="dataVector" visibility="protected" type="_RpUrsCUIEeyql_FaMzmsBA" association="_RsZN0SUIEeyql_FaMzmsBA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr3pYCUIEeyql_FaMzmsBA" name="ChoiceChartTableModel" specification="_RSDbMCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rr3pYSUIEeyql_FaMzmsBA" type="_RSAX4CUIEeyql_FaMzmsBA" direction="return"/>
+          <language>java</language>
+          <body>this.columnNames = new String[]{&quot;Charts&quot;,&quot;Visible&quot;};&#xD;
+		dataVector = new Vector&lt;Chart>();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr3pYiUIEeyql_FaMzmsBA" name="getColumnName" specification="_RSECQSUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rr3pYyUIEeyql_FaMzmsBA" name="column">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rr3pZCUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return columnNames[column];&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr4QcCUIEeyql_FaMzmsBA" name="isCellEditable" specification="_RSFQYCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rr4QcSUIEeyql_FaMzmsBA" name="row">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rr4QciUIEeyql_FaMzmsBA" name="column">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rr4QcyUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if(column==1)&#xD;
+			return true;&#xD;
+		return false;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr43gCUIEeyql_FaMzmsBA" name="getColumnClass" specification="_RSF3cSUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rr43gSUIEeyql_FaMzmsBA" name="column">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rr43giUIEeyql_FaMzmsBA" type="_RqvA8CUIEeyql_FaMzmsBA" direction="return"/>
+          <language>java</language>
+          <body>switch (column) {&#xD;
+			case Name:&#xD;
+				 return String.class;&#xD;
+			case Visible:&#xD;
+				 return Boolean.class;&#xD;
+			default:&#xD;
+				 return Object.class;&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr43gyUIEeyql_FaMzmsBA" name="getValueAt" specification="_RSHsoCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rr43hCUIEeyql_FaMzmsBA" name="row">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rr43hSUIEeyql_FaMzmsBA" name="column">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rr43hiUIEeyql_FaMzmsBA" type="_RqoTQSUIEeyql_FaMzmsBA" direction="return"/>
+          <language>java</language>
+          <body>Chart c = dataVector.get(row);&#xD;
+		switch (column) {&#xD;
+			case Name:&#xD;
+			   return c.getName();&#xD;
+			case Visible:&#xD;
+				return c.getIsVisible();&#xD;
+			default:&#xD;
+			   return new Object();&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr43hyUIEeyql_FaMzmsBA" name="setValueAt" specification="_Rqw2ICUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rr43iCUIEeyql_FaMzmsBA" name="value" type="_RqoTQSUIEeyql_FaMzmsBA"/>
+          <ownedParameter xmi:id="_Rr43iSUIEeyql_FaMzmsBA" name="row">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rr43iiUIEeyql_FaMzmsBA" name="column">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Chart c = dataVector.get(row);&#xD;
+		switch (column) {&#xD;
+			case Name:&#xD;
+				c.setName((String)value);&#xD;
+				break;&#xD;
+			case Visible:&#xD;
+				c.setIsVisible((Boolean)value);&#xD;
+				break;&#xD;
+			default:&#xD;
+		   //    Console.println(&quot;Invalid index&quot;);&#xD;
+		}&#xD;
+		fireTableCellUpdated(row, column);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr5ekCUIEeyql_FaMzmsBA" name="getRowCount" specification="_RSITsCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rr5ekSUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return dataVector.size();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr5ekiUIEeyql_FaMzmsBA" name="getColumnCount" specification="_RSI6wCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rr5ekyUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return columnNames.length;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr6FoCUIEeyql_FaMzmsBA" name="getChart" specification="_RSI6wiUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rr6FoSUIEeyql_FaMzmsBA" name="row">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rr6FoiUIEeyql_FaMzmsBA" type="_RR7fYCUIEeyql_FaMzmsBA" direction="return"/>
+          <language>java</language>
+          <body>if(row>=0)&#xD;
+			return this.dataVector.get(row);&#xD;
+		else return null;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr6FoyUIEeyql_FaMzmsBA" name="addChart" specification="_RpXH8CUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rr6FpCUIEeyql_FaMzmsBA" name="c" type="_RR7fYCUIEeyql_FaMzmsBA"/>
+          <language>java</language>
+          <body>this.dataVector.add(c);&#xD;
+		this.fireTableDataChanged();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr6ssCUIEeyql_FaMzmsBA" name="clearAll" specification="_RSJh0CUIEeyql_FaMzmsBA">
+          <language>java</language>
+          <body>this.dataVector.clear();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_RSDbMCUIEeyql_FaMzmsBA" name="ChoiceChartTableModel" method="_Rr3pYCUIEeyql_FaMzmsBA">
+          <eAnnotations xmi:id="_RSDbMSUIEeyql_FaMzmsBA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_RSDbMiUIEeyql_FaMzmsBA" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_RsDPmCUIEeyql_FaMzmsBA">
+            <body>Constructeur du modèle de table&#xD;
+	 *</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_RSECQCUIEeyql_FaMzmsBA" type="_RSAX4CUIEeyql_FaMzmsBA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RSECQSUIEeyql_FaMzmsBA" name="getColumnName" method="_Rr3pYiUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RSEpUCUIEeyql_FaMzmsBA" name="column">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RSEpUSUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RSFQYCUIEeyql_FaMzmsBA" name="isCellEditable" method="_Rr4QcCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RSFQYSUIEeyql_FaMzmsBA" name="row">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RSFQYiUIEeyql_FaMzmsBA" name="column">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RSF3cCUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RSF3cSUIEeyql_FaMzmsBA" name="getColumnClass" method="_Rr43gCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RSF3ciUIEeyql_FaMzmsBA" name="column">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RqwPESUIEeyql_FaMzmsBA" type="_RqvA8CUIEeyql_FaMzmsBA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RSHsoCUIEeyql_FaMzmsBA" name="getValueAt" method="_Rr43gyUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RSHsoSUIEeyql_FaMzmsBA" name="row">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RSHsoiUIEeyql_FaMzmsBA" name="column">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RqwPEiUIEeyql_FaMzmsBA" type="_RqoTQSUIEeyql_FaMzmsBA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RSITsCUIEeyql_FaMzmsBA" name="getRowCount" method="_Rr5ekCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RSITsSUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RSI6wCUIEeyql_FaMzmsBA" name="getColumnCount" method="_Rr5ekiUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RSI6wSUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RSI6wiUIEeyql_FaMzmsBA" name="getChart" method="_Rr6FoCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RSI6wyUIEeyql_FaMzmsBA" name="row">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RpWg4CUIEeyql_FaMzmsBA" type="_RR7fYCUIEeyql_FaMzmsBA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RSJh0CUIEeyql_FaMzmsBA" name="clearAll" method="_Rr6ssCUIEeyql_FaMzmsBA"/>
+        <ownedOperation xmi:id="_RpXH8CUIEeyql_FaMzmsBA" name="addChart" method="_Rr6FoyUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RpXH8SUIEeyql_FaMzmsBA" name="c" type="_RR7fYCUIEeyql_FaMzmsBA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Rqw2ICUIEeyql_FaMzmsBA" name="setValueAt" method="_Rr43hyUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rqw2ISUIEeyql_FaMzmsBA" name="value" type="_RqoTQSUIEeyql_FaMzmsBA"/>
+          <ownedParameter xmi:id="_Rqw2IiUIEeyql_FaMzmsBA" name="row">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rqw2IyUIEeyql_FaMzmsBA" name="column">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_RSNzQCUIEeyql_FaMzmsBA" name="TableModelChart">
+        <ownedComment xmi:id="_RsD2oCUIEeyql_FaMzmsBA">
+          <body>*&#xD;
+ *Modèle de table de valeur par rapport au temps t</body>
+        </ownedComment>
+        <generalization xmi:id="_RqzSYyUIEeyql_FaMzmsBA" general="_RpVSwSUIEeyql_FaMzmsBA"/>
+        <ownedAttribute xmi:id="_RrTBoCUIEeyql_FaMzmsBA" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_RrTBoSUIEeyql_FaMzmsBA" value="1L"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_RrTosCUIEeyql_FaMzmsBA" name="Time" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_RrTosSUIEeyql_FaMzmsBA" value="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_RrTosiUIEeyql_FaMzmsBA" name="Value" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_RrTosyUIEeyql_FaMzmsBA" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_RrUPwCUIEeyql_FaMzmsBA" name="columnNames" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RrUPwSUIEeyql_FaMzmsBA" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_RrU20SUIEeyql_FaMzmsBA" name="dataVector" visibility="protected" type="_RpUrsCUIEeyql_FaMzmsBA" association="_RsZ04SUIEeyql_FaMzmsBA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr6ssSUIEeyql_FaMzmsBA" name="TableModelChart" specification="_RSPBYCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rr6ssiUIEeyql_FaMzmsBA" type="_RSNzQCUIEeyql_FaMzmsBA" direction="return"/>
+          <language>java</language>
+          <body>this.columnNames = new String[]{&quot;Time&quot;,&quot;Value&quot;};&#xD;
+		dataVector = new Vector&lt;TimeAndValue>();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr7TwCUIEeyql_FaMzmsBA" name="getColumnName" specification="_RSPocyUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rr7TwSUIEeyql_FaMzmsBA" name="column">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rr7TwiUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return columnNames[column];&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr7TwyUIEeyql_FaMzmsBA" name="isCellEditable" specification="_RSQPgiUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rr7TxCUIEeyql_FaMzmsBA" name="row">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rr7TxSUIEeyql_FaMzmsBA" name="column">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rr7TxiUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return false;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr7TxyUIEeyql_FaMzmsBA" name="getColumnClass" specification="_RSQ2kiUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rr7TyCUIEeyql_FaMzmsBA" name="column">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rr7TySUIEeyql_FaMzmsBA" type="_RqvA8CUIEeyql_FaMzmsBA" direction="return"/>
+          <language>java</language>
+          <body>switch (column) {&#xD;
+			case Time:&#xD;
+				 return String.class;&#xD;
+			case Value:&#xD;
+				 return String.class;&#xD;
+			default:&#xD;
+				 return Object.class;&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr760CUIEeyql_FaMzmsBA" name="getValueAt" specification="_RSSrwCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rr760SUIEeyql_FaMzmsBA" name="row">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rr760iUIEeyql_FaMzmsBA" name="column">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rr760yUIEeyql_FaMzmsBA" type="_RqoTQSUIEeyql_FaMzmsBA" direction="return"/>
+          <language>java</language>
+          <body>TimeAndValue tv = dataVector.get(row);&#xD;
+		switch (column) {&#xD;
+			case Time:&#xD;
+			   return tv.getT();&#xD;
+			case Value:&#xD;
+				return tv.getValue();&#xD;
+			default:&#xD;
+			   return new Object();&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr761CUIEeyql_FaMzmsBA" name="getRowCount" specification="_RSTS0CUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rr761SUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return dataVector.size();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr761iUIEeyql_FaMzmsBA" name="getColumnCount" specification="_RSTS0iUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rr761yUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return columnNames.length;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr8h4CUIEeyql_FaMzmsBA" name="addTimeAndValue" specification="_RpaLQCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rr8h4SUIEeyql_FaMzmsBA" name="tv" type="_RQ8A4CUIEeyql_FaMzmsBA"/>
+          <language>java</language>
+          <body>this.dataVector.add(tv);&#xD;
+		super.fireTableDataChanged();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr8h4iUIEeyql_FaMzmsBA" name="getDataVector" specification="_RST54CUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rr8h4yUIEeyql_FaMzmsBA" type="_RpUrsCUIEeyql_FaMzmsBA" direction="return"/>
+          <language>java</language>
+          <body>return this.dataVector;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_RSPBYCUIEeyql_FaMzmsBA" name="TableModelChart" method="_Rr6ssSUIEeyql_FaMzmsBA">
+          <eAnnotations xmi:id="_RSPocCUIEeyql_FaMzmsBA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_RSPocSUIEeyql_FaMzmsBA" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_RsD2oSUIEeyql_FaMzmsBA">
+            <body>Constructeur du modèle de table</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_RSPociUIEeyql_FaMzmsBA" type="_RSNzQCUIEeyql_FaMzmsBA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RSPocyUIEeyql_FaMzmsBA" name="getColumnName" method="_Rr7TwCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RSQPgCUIEeyql_FaMzmsBA" name="column">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RSQPgSUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RSQPgiUIEeyql_FaMzmsBA" name="isCellEditable" method="_Rr7TwyUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RSQPgyUIEeyql_FaMzmsBA" name="row">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RSQ2kCUIEeyql_FaMzmsBA" name="column">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RSQ2kSUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RSQ2kiUIEeyql_FaMzmsBA" name="getColumnClass" method="_Rr7TxyUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RSQ2kyUIEeyql_FaMzmsBA" name="column">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RqzSYCUIEeyql_FaMzmsBA" type="_RqvA8CUIEeyql_FaMzmsBA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RSSrwCUIEeyql_FaMzmsBA" name="getValueAt" method="_Rr760CUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RSSrwSUIEeyql_FaMzmsBA" name="row">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RSSrwiUIEeyql_FaMzmsBA" name="column">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RqzSYSUIEeyql_FaMzmsBA" type="_RqoTQSUIEeyql_FaMzmsBA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RSTS0CUIEeyql_FaMzmsBA" name="getRowCount" method="_Rr761CUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RSTS0SUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RSTS0iUIEeyql_FaMzmsBA" name="getColumnCount" method="_Rr761iUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RSTS0yUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RST54CUIEeyql_FaMzmsBA" name="getDataVector" method="_Rr8h4iUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RqzSYiUIEeyql_FaMzmsBA" type="_RpUrsCUIEeyql_FaMzmsBA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RpaLQCUIEeyql_FaMzmsBA" name="addTimeAndValue" method="_Rr8h4CUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RpaLQSUIEeyql_FaMzmsBA" name="tv" type="_RQ8A4CUIEeyql_FaMzmsBA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_RsZN0SUIEeyql_FaMzmsBA" name="" memberEnd="_RsZN0iUIEeyql_FaMzmsBA _RrRMcSUIEeyql_FaMzmsBA">
+        <ownedEnd xmi:id="_RsZN0iUIEeyql_FaMzmsBA" name="" type="_RSAX4CUIEeyql_FaMzmsBA" association="_RsZN0SUIEeyql_FaMzmsBA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_RsZ04SUIEeyql_FaMzmsBA" name="" memberEnd="_RsZ04iUIEeyql_FaMzmsBA _RrU20SUIEeyql_FaMzmsBA">
+        <ownedEnd xmi:id="_RsZ04iUIEeyql_FaMzmsBA" name="" type="_RSNzQCUIEeyql_FaMzmsBA" association="_RsZ04SUIEeyql_FaMzmsBA"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ROyr0CUIEeyql_FaMzmsBA" name="chart">
+      <packagedElement xmi:type="uml:Class" xmi:id="_RQjmYCUIEeyql_FaMzmsBA" name="ChartFrame">
+        <ownedComment xmi:id="_Rr-XECUIEeyql_FaMzmsBA">
+          <body>*&#xD;
+Classe ChartMain</body>
+        </ownedComment>
+        <generalization xmi:id="_RplKYCUIEeyql_FaMzmsBA" general="_RoiBgSUIEeyql_FaMzmsBA"/>
+        <ownedAttribute xmi:id="_Rq4K4CUIEeyql_FaMzmsBA" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_Rq4K4SUIEeyql_FaMzmsBA" value="1L"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Rq4x8CUIEeyql_FaMzmsBA" name="chartPane" visibility="package" type="_RRvSICUIEeyql_FaMzmsBA" association="_RsMZgCUIEeyql_FaMzmsBA"/>
+        <ownedAttribute xmi:id="_Rq5ZACUIEeyql_FaMzmsBA" name="jsplitpane" visibility="package" type="_RolE0CUIEeyql_FaMzmsBA" association="_RsNnoSUIEeyql_FaMzmsBA"/>
+        <ownedAttribute xmi:id="_Rq6AECUIEeyql_FaMzmsBA" name="choiceTable" visibility="private" type="_RomS8SUIEeyql_FaMzmsBA" association="_RsOOsSUIEeyql_FaMzmsBA"/>
+        <ownedAttribute xmi:id="_Rq6nICUIEeyql_FaMzmsBA" name="choiceTableModel" type="_RSAX4CUIEeyql_FaMzmsBA" isReadOnly="true" association="_RsPc0CUIEeyql_FaMzmsBA"/>
+        <ownedAttribute xmi:id="_Rq6nISUIEeyql_FaMzmsBA" name="tableScrollPane" visibility="private" type="_RojPoSUIEeyql_FaMzmsBA" association="_RsQD4SUIEeyql_FaMzmsBA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RrnxwCUIEeyql_FaMzmsBA" name="ChartFrame" specification="_RQlbkCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RrnxwSUIEeyql_FaMzmsBA" name="projectName">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RrnxwiUIEeyql_FaMzmsBA" name="title">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RrnxwyUIEeyql_FaMzmsBA" type="_RQjmYCUIEeyql_FaMzmsBA" direction="return"/>
+          <language>java</language>
+          <body>this.setTitle(title);&#xD;
+	//	 this.setLocationRelativeTo(null);&#xD;
+		 this.setSize(1000, 600);&#xD;
+		 this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);&#xD;
+&#xD;
+		 chartPane= new LineChartPane(projectName,title);&#xD;
+&#xD;
+&#xD;
+		choiceTableModel= new ChoiceChartTableModel();&#xD;
+		choiceTable= new JTable();&#xD;
+		choiceTable.setModel(choiceTableModel);&#xD;
+		choiceTable.getTableHeader().setReorderingAllowed(false);&#xD;
+&#xD;
+		choiceTable.addMouseListener(new MouseAdapter(){&#xD;
+			public void mouseClicked(MouseEvent e) {&#xD;
+				if(SwingUtilities.isLeftMouseButton(e)){&#xD;
+							int rowNumber = choiceTable.rowAtPoint( e.getPoint() );&#xD;
+							chartPane.setTableModel(choiceTableModel.getChart(rowNumber).getTableModel());&#xD;
+				}&#xD;
+&#xD;
+				}&#xD;
+		});&#xD;
+&#xD;
+&#xD;
+		tableScrollPane= new JScrollPane(choiceTable);&#xD;
+		tableScrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);&#xD;
+		tableScrollPane.setBorder(null);&#xD;
+		TableColumn TypeColumnWFlag = choiceTable.getColumnModel().getColumn(1);&#xD;
+		JCheckBox checkWFlag= new JCheckBox();&#xD;
+&#xD;
+		TypeColumnWFlag.setCellEditor(new DefaultCellEditor(checkWFlag));&#xD;
+&#xD;
+		jsplitpane= new JSplitPane();&#xD;
+		jsplitpane.setOrientation(JSplitPane.HORIZONTAL_SPLIT);&#xD;
+		jsplitpane.setLeftComponent(chartPane);&#xD;
+		jsplitpane.setRightComponent(tableScrollPane);&#xD;
+		jsplitpane.setOneTouchExpandable(true);&#xD;
+		jsplitpane.setResizeWeight(0.0);&#xD;
+		jsplitpane.setBorder(null);&#xD;
+&#xD;
+		add(jsplitpane);&#xD;
+		this.setVisible(true);&#xD;
+		jsplitpane.setDividerLocation(0.8);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RrnxxCUIEeyql_FaMzmsBA" name="getLineChartPane" specification="_RQn30CUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RrnxxSUIEeyql_FaMzmsBA" type="_RRvSICUIEeyql_FaMzmsBA" direction="return"/>
+          <language>java</language>
+          <body>return chartPane;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RroY0CUIEeyql_FaMzmsBA" name="addToLineChartPane" specification="_RorLcCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RroY0SUIEeyql_FaMzmsBA" name="c" type="_RR7fYCUIEeyql_FaMzmsBA"/>
+          <language>java</language>
+          <body>c.addObserver(chartPane);&#xD;
+		choiceTableModel.addChart(c);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RroY0iUIEeyql_FaMzmsBA" name="reset" specification="_RQpF8CUIEeyql_FaMzmsBA">
+          <language>java</language>
+          <body>chartPane.clearDataset();&#xD;
+		chartPane.resetTableModel();&#xD;
+		choiceTableModel.clearAll();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_RQlbkCUIEeyql_FaMzmsBA" name="ChartFrame" method="_RrnxwCUIEeyql_FaMzmsBA">
+          <eAnnotations xmi:id="_RQmpsCUIEeyql_FaMzmsBA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_RQmpsSUIEeyql_FaMzmsBA" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_Rr-XESUIEeyql_FaMzmsBA">
+            <body>Constructeur de ChartMain&#xD;
+	 * @param projectName le nom du projet&#xD;
+	 * @param title le titre de la fenêtre d'affichage de courbes</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_RQmCoCUIEeyql_FaMzmsBA" name="projectName">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RQmCoSUIEeyql_FaMzmsBA" name="title">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RQmpsiUIEeyql_FaMzmsBA" type="_RQjmYCUIEeyql_FaMzmsBA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RQn30CUIEeyql_FaMzmsBA" name="getLineChartPane" method="_RrnxxCUIEeyql_FaMzmsBA">
+          <ownedComment xmi:id="_Rr--ICUIEeyql_FaMzmsBA">
+            <body>Cette méthode permet de récupérer le panneau d'affichage des courbes de type LineChartPane&#xD;
+	 * @return le panneau d'affichage des courbes</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_RoqkYCUIEeyql_FaMzmsBA" type="_RRvSICUIEeyql_FaMzmsBA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RQpF8CUIEeyql_FaMzmsBA" name="reset" method="_RroY0iUIEeyql_FaMzmsBA">
+          <ownedComment xmi:id="_Rr--IiUIEeyql_FaMzmsBA">
+            <body>Cette méthode permet de supprimer l'ensemble de donnés de la fenêtre d'affichage de courbes</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RorLcCUIEeyql_FaMzmsBA" name="addToLineChartPane" method="_RroY0CUIEeyql_FaMzmsBA">
+          <ownedComment xmi:id="_Rr--ISUIEeyql_FaMzmsBA">
+            <body>Cette méthode permet d'ajouter une courbe au panneau d'affichage des courbes et au modèle de table de choix des courbes à afficher&#xD;
+	 * @param c la courbe de type Chart</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_RorLcSUIEeyql_FaMzmsBA" name="c" type="_RR7fYCUIEeyql_FaMzmsBA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_RQ8A4CUIEeyql_FaMzmsBA" name="TimeAndValue">
+        <ownedComment xmi:id="_Rr--IyUIEeyql_FaMzmsBA">
+          <body>Classe TimeAndValue définit une valeur associée à un temps t et son type de valeur</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_Rq71QCUIEeyql_FaMzmsBA" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_Rq71QSUIEeyql_FaMzmsBA" value="1L"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Rq71QiUIEeyql_FaMzmsBA" name="t">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Rq8cUCUIEeyql_FaMzmsBA" name="value">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Rq8cUSUIEeyql_FaMzmsBA" name="type">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_RqOqoCUIEeyql_FaMzmsBA" client="_RQ8A4CUIEeyql_FaMzmsBA" supplier="_RouOwCUIEeyql_FaMzmsBA" contract="_RouOwCUIEeyql_FaMzmsBA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RrqOACUIEeyql_FaMzmsBA" name="TimeAndValue" specification="_RQ92ECUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RrqOASUIEeyql_FaMzmsBA" name="type">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RrqOAiUIEeyql_FaMzmsBA" type="_RQ8A4CUIEeyql_FaMzmsBA" direction="return"/>
+          <language>java</language>
+          <body>this.type= type;&#xD;
+		t= &quot;&quot;;&#xD;
+		value= &quot;&quot;;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_RQ92ECUIEeyql_FaMzmsBA" name="TimeAndValue" method="_RrqOACUIEeyql_FaMzmsBA">
+          <eAnnotations xmi:id="_RQ92EiUIEeyql_FaMzmsBA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_RQ92EyUIEeyql_FaMzmsBA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_RQ92ESUIEeyql_FaMzmsBA" name="type">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RQ-dICUIEeyql_FaMzmsBA" type="_RQ8A4CUIEeyql_FaMzmsBA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_RRvSICUIEeyql_FaMzmsBA" name="LineChartPane">
+        <ownedComment xmi:id="_RsCogCUIEeyql_FaMzmsBA">
+          <body>Classe LineChartPane&#xD;
+ *</body>
+        </ownedComment>
+        <generalization xmi:id="_RqrWkSUIEeyql_FaMzmsBA" general="_RolE0CUIEeyql_FaMzmsBA"/>
+        <ownedAttribute xmi:id="_RrIpkSUIEeyql_FaMzmsBA" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_RrJQoCUIEeyql_FaMzmsBA" value="1L"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_RrJQoSUIEeyql_FaMzmsBA" name="tableModel" visibility="private" type="_RSNzQCUIEeyql_FaMzmsBA" association="_RsUVUCUIEeyql_FaMzmsBA"/>
+        <ownedAttribute xmi:id="_RrJ3sSUIEeyql_FaMzmsBA" name="table" visibility="private" type="_RomS8SUIEeyql_FaMzmsBA" association="_RsU8YSUIEeyql_FaMzmsBA"/>
+        <ownedAttribute xmi:id="_RrKewSUIEeyql_FaMzmsBA" name="chart" visibility="private" type="_RpGpQCUIEeyql_FaMzmsBA" association="_RsVjcSUIEeyql_FaMzmsBA"/>
+        <ownedAttribute xmi:id="_RrLF0CUIEeyql_FaMzmsBA" name="Line_Renderer_KEY">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_RrLF0SUIEeyql_FaMzmsBA" value="&quot;Ligne&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_RrLs4CUIEeyql_FaMzmsBA" name="Step_Rendeerer_KEY">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_RrLs4SUIEeyql_FaMzmsBA" value="&quot;Echelon&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_RrMT8SUIEeyql_FaMzmsBA" name="Spline_Renderer_KEY">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_RrMT8iUIEeyql_FaMzmsBA" value="&quot;Spline&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_RrM7ASUIEeyql_FaMzmsBA" name="dataset" type="_RpMv4CUIEeyql_FaMzmsBA" isReadOnly="true" association="_RsWxkSUIEeyql_FaMzmsBA"/>
+        <interfaceRealization xmi:id="_Rqko4CUIEeyql_FaMzmsBA" client="_RRvSICUIEeyql_FaMzmsBA" supplier="_Ro_UgSUIEeyql_FaMzmsBA" contract="_Ro_UgSUIEeyql_FaMzmsBA"/>
+        <interfaceRealization xmi:id="_Rqko4SUIEeyql_FaMzmsBA" client="_RRvSICUIEeyql_FaMzmsBA" supplier="_RpBJsSUIEeyql_FaMzmsBA" contract="_RpBJsSUIEeyql_FaMzmsBA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rrz_ACUIEeyql_FaMzmsBA" name="LineChartPane" specification="_RRxHUCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rrz_ASUIEeyql_FaMzmsBA" name="titre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rrz_AiUIEeyql_FaMzmsBA" name="legende">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rrz_AyUIEeyql_FaMzmsBA" type="_RRvSICUIEeyql_FaMzmsBA" direction="return"/>
+          <language>java</language>
+          <body>// ---------------------&#xD;
+		//  tableau&#xD;
+		// ---------------------&#xD;
+		tableModel = new TableModelChart();&#xD;
+		table = new JTable(tableModel);&#xD;
+		table.getTableHeader().setReorderingAllowed(false);&#xD;
+		JScrollPane scrollPane = new JScrollPane(table);&#xD;
+		scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);&#xD;
+		scrollPane.setBorder(null);&#xD;
+&#xD;
+		// ---------------------&#xD;
+		//  graphique&#xD;
+		// ---------------------&#xD;
+&#xD;
+		// Add the series to your data set&#xD;
+		dataset = new XYSeriesCollection();&#xD;
+&#xD;
+		// Generate the graph&#xD;
+		chart = ChartFactory.createXYLineChart(&#xD;
+				titre, // Title&#xD;
+				&quot;Temps&quot; + &quot;: t&quot;, // x-axis Label&#xD;
+				&quot;Value&quot;+ &quot;(t)&quot;, // y-axis Label&#xD;
+				dataset, // Dataset&#xD;
+				PlotOrientation.VERTICAL, // Plot Orientation&#xD;
+				true, // Show Legend&#xD;
+				true, // Use tooltips&#xD;
+				false // Configure chart to generate URLs?&#xD;
+				);&#xD;
+&#xD;
+		XYPlot plot= (XYPlot) chart.getPlot();&#xD;
+		plot.setBackgroundPaint(Color.WHITE);&#xD;
+		plot.setDomainGridlinePaint(Color.BLUE);&#xD;
+		plot.setRangeGridlinePaint(Color.BLUE);&#xD;
+		XYStepRenderer stepRenderer = new XYStepRenderer();&#xD;
+		stepRenderer.setSeriesPaint(0, Color.BLUE);&#xD;
+		plot.setRenderer(stepRenderer);&#xD;
+&#xD;
+		ChartPanel chartPanel = new ChartPanel(chart);&#xD;
+&#xD;
+		JPopupMenu menuChart= chartPanel.getPopupMenu();&#xD;
+		JMenu menuRenderer = new JMenu(&quot;Graph type&quot;);&#xD;
+&#xD;
+		JMenuItem menuLine = new JMenuItem(&quot;Line&quot;);&#xD;
+		menuLine.setActionCommand(&quot;Line&quot;);&#xD;
+		menuLine.addActionListener(this);&#xD;
+		JMenuItem menuStep = new JMenuItem(&quot;Step&quot;);&#xD;
+		menuStep.setActionCommand(&quot;Step&quot;);&#xD;
+		menuStep.addActionListener(this);&#xD;
+		JMenuItem menuSpline = new JMenuItem(&quot;Spline&quot;);&#xD;
+		menuSpline.setActionCommand(&quot;Spline&quot;);&#xD;
+		menuSpline.addActionListener(this);&#xD;
+		menuRenderer.add(menuLine);&#xD;
+		menuRenderer.add(menuStep);&#xD;
+		menuRenderer.add(menuSpline);&#xD;
+		menuChart.add(menuRenderer);&#xD;
+&#xD;
+		this.setOrientation(JSplitPane.HORIZONTAL_SPLIT);&#xD;
+		this.setLeftComponent(scrollPane);&#xD;
+		this.setRightComponent(chartPanel);&#xD;
+		this.setOneTouchExpandable(true);&#xD;
+		this.setResizeWeight(0.0);&#xD;
+	//	this.setSize(pane.getWidth(), pane.getHeight());&#xD;
+&#xD;
+		this.setDividerLocation(0.2);&#xD;
+		this.setBorder(null);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rrz_BCUIEeyql_FaMzmsBA" name="fireDataChanged" specification="_RRxuZSUIEeyql_FaMzmsBA">
+          <language>java</language>
+          <body>chart.fireChartChanged();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr0mECUIEeyql_FaMzmsBA" name="updateTitre" specification="_RRyVcCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rr0mESUIEeyql_FaMzmsBA" name="titre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>chart.setTitle(titre);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr0mEiUIEeyql_FaMzmsBA" name="isDouble" specification="_RRy8gCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rr0mEyUIEeyql_FaMzmsBA" name="string">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rr0mFCUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>try&#xD;
+	   {&#xD;
+		  Double.parseDouble(string);&#xD;
+		  return true;&#xD;
+	   }&#xD;
+	   catch(NumberFormatException  e)&#xD;
+	   {&#xD;
+		 return false;&#xD;
+	  }&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr0mFSUIEeyql_FaMzmsBA" name="changeRenderer" specification="_RRzjkCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rr0mFiUIEeyql_FaMzmsBA" name="render">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>XYPlot plot= (XYPlot) chart.getPlot();&#xD;
+&#xD;
+		if(render.equals(this.Line_Renderer_KEY)){&#xD;
+			XYLineAndShapeRenderer renderer = new XYLineAndShapeRenderer();&#xD;
+			renderer.setBaseShapesVisible(false);&#xD;
+			renderer.setSeriesPaint(0, Color.BLUE);&#xD;
+			plot.setRenderer(renderer);&#xD;
+&#xD;
+		}else if(render.equals(this.Step_Rendeerer_KEY)){&#xD;
+			XYStepRenderer stepRenderer = new XYStepRenderer();&#xD;
+			stepRenderer.setBaseShapesVisible(false);&#xD;
+			stepRenderer.setSeriesPaint(0, Color.BLUE);&#xD;
+			plot.setRenderer(stepRenderer);&#xD;
+		}else if(render.equals(this.Spline_Renderer_KEY)){&#xD;
+			XYSplineRenderer splineRenderer = new XYSplineRenderer();&#xD;
+			splineRenderer.setBaseShapesVisible(false);&#xD;
+			splineRenderer.setSeriesPaint(0, Color.BLUE);&#xD;
+			plot.setRenderer(splineRenderer);&#xD;
+		}&#xD;
+		chart.fireChartChanged();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr1NICUIEeyql_FaMzmsBA" name="actionPerformed" specification="_Rql3ASUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rr1NISUIEeyql_FaMzmsBA" name="event" type="_Ro-GYSUIEeyql_FaMzmsBA"/>
+          <language>java</language>
+          <body>if(event.getActionCommand().equals(&quot;Line&quot;)){&#xD;
+			changeRenderer(this.Line_Renderer_KEY);&#xD;
+		}else if(event.getActionCommand().equals(&quot;Step&quot;)){&#xD;
+			changeRenderer(this.Step_Rendeerer_KEY);&#xD;
+		}else if(event.getActionCommand().equals(&quot;Spline&quot;)){&#xD;
+			changeRenderer(this.Spline_Renderer_KEY);&#xD;
+		}&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr1NIiUIEeyql_FaMzmsBA" name="addDataset" specification="_RqnFIyUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rr1NIyUIEeyql_FaMzmsBA" name="s" type="_RpLhwSUIEeyql_FaMzmsBA"/>
+          <language>java</language>
+          <body>dataset.addSeries(s);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr1NJCUIEeyql_FaMzmsBA" name="removeDataset" specification="_RqnsMSUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rr1NJSUIEeyql_FaMzmsBA" name="s" type="_RpLhwSUIEeyql_FaMzmsBA"/>
+          <language>java</language>
+          <body>dataset.removeSeries(s);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr1NJiUIEeyql_FaMzmsBA" name="clearDataset" specification="_RR0KoCUIEeyql_FaMzmsBA">
+          <language>java</language>
+          <body>dataset.removeAllSeries();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr10MCUIEeyql_FaMzmsBA" name="setTableModel" specification="_RpOlECUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rr10MSUIEeyql_FaMzmsBA" name="tModel" type="_RSNzQCUIEeyql_FaMzmsBA"/>
+          <language>java</language>
+          <body>table.setModel(tModel);&#xD;
+		fireDataChanged();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr10MiUIEeyql_FaMzmsBA" name="resetTableModel" specification="_RR0KoSUIEeyql_FaMzmsBA">
+          <language>java</language>
+          <body>table.setModel(tableModel);&#xD;
+		fireDataChanged();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr10MyUIEeyql_FaMzmsBA" name="update" specification="_RqphYSUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rr10NCUIEeyql_FaMzmsBA" name="obs" type="_Ro_7kSUIEeyql_FaMzmsBA"/>
+          <ownedParameter xmi:id="_Rr10NSUIEeyql_FaMzmsBA" name="obj" type="_RqoTQSUIEeyql_FaMzmsBA"/>
+          <language>java</language>
+          <body>if(obs instanceof Chart){&#xD;
+			if(!((Chart)obs).getIsVisible())&#xD;
+				removeDataset( ((Chart)obs).getSeries() );&#xD;
+			else if(dataset.indexOf(((Chart)obs).getSeries())&lt;0)&#xD;
+				addDataset( ((Chart)obs).getSeries() );&#xD;
+		}&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_RRxHUCUIEeyql_FaMzmsBA" name="LineChartPane" method="_Rrz_ACUIEeyql_FaMzmsBA">
+          <eAnnotations xmi:id="_RRxuYiUIEeyql_FaMzmsBA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_RRxuYyUIEeyql_FaMzmsBA" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_RsCogSUIEeyql_FaMzmsBA">
+            <body>Constructeur de LineChartPane&#xD;
+	 * @param titre le titre des courbes&#xD;
+	 * @param legende la légende des courbes</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_RRxuYCUIEeyql_FaMzmsBA" name="titre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RRxuYSUIEeyql_FaMzmsBA" name="legende">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RRxuZCUIEeyql_FaMzmsBA" type="_RRvSICUIEeyql_FaMzmsBA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RRxuZSUIEeyql_FaMzmsBA" name="fireDataChanged" method="_Rrz_BCUIEeyql_FaMzmsBA">
+          <ownedComment xmi:id="_RsCogiUIEeyql_FaMzmsBA">
+            <body>Cette méthode permet d'informer un changement de la donnée afin de procéder à une mise à jours</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RRyVcCUIEeyql_FaMzmsBA" name="updateTitre" method="_Rr0mECUIEeyql_FaMzmsBA">
+          <ownedComment xmi:id="_RsCogyUIEeyql_FaMzmsBA">
+            <body>Mise à jour du titre de la courbe&#xD;
+	 * @param titre titre</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_RRyVcSUIEeyql_FaMzmsBA" name="titre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RRy8gCUIEeyql_FaMzmsBA" name="isDouble" method="_Rr0mEiUIEeyql_FaMzmsBA">
+          <ownedComment xmi:id="_RsCohCUIEeyql_FaMzmsBA">
+            <body>Cette méthode permet de tester si un string est de type Double.&#xD;
+	 * @param string string à tester&#xD;
+	 * @return true si c'est un Double sinon false.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_RRy8gSUIEeyql_FaMzmsBA" name="string">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RRy8giUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RRzjkCUIEeyql_FaMzmsBA" name="changeRenderer" method="_Rr0mFSUIEeyql_FaMzmsBA">
+          <ownedComment xmi:id="_RsDPkCUIEeyql_FaMzmsBA">
+            <body>Cette méthode permet de changer la forme de la courbe soit mode lisse, escalier ou Spline&#xD;
+	 * @param render &quot;Ligne&quot; , &quot;Echelon&quot; ou &quot;Spline&quot;</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_RRzjkSUIEeyql_FaMzmsBA" name="render">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RR0KoCUIEeyql_FaMzmsBA" name="clearDataset" method="_Rr1NJiUIEeyql_FaMzmsBA"/>
+        <ownedOperation xmi:id="_RR0KoSUIEeyql_FaMzmsBA" name="resetTableModel" method="_Rr10MiUIEeyql_FaMzmsBA"/>
+        <ownedOperation xmi:id="_RpOlECUIEeyql_FaMzmsBA" name="setTableModel" method="_Rr10MCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RpOlESUIEeyql_FaMzmsBA" name="tModel" type="_RSNzQCUIEeyql_FaMzmsBA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Rql3ASUIEeyql_FaMzmsBA" name="actionPerformed" method="_Rr1NICUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rql3AiUIEeyql_FaMzmsBA" name="event" type="_Ro-GYSUIEeyql_FaMzmsBA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RqnFIyUIEeyql_FaMzmsBA" name="addDataset" method="_Rr1NIiUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RqnsMCUIEeyql_FaMzmsBA" name="s" type="_RpLhwSUIEeyql_FaMzmsBA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RqnsMSUIEeyql_FaMzmsBA" name="removeDataset" method="_Rr1NJCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RqoTQCUIEeyql_FaMzmsBA" name="s" type="_RpLhwSUIEeyql_FaMzmsBA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RqphYSUIEeyql_FaMzmsBA" name="update" method="_Rr10MyUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RqphYiUIEeyql_FaMzmsBA" name="obs" type="_Ro_7kSUIEeyql_FaMzmsBA"/>
+          <ownedParameter xmi:id="_RqphYyUIEeyql_FaMzmsBA" name="obj" type="_RqoTQSUIEeyql_FaMzmsBA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_RR7fYCUIEeyql_FaMzmsBA" name="Chart">
+        <ownedComment xmi:id="_RsDPkSUIEeyql_FaMzmsBA">
+          <body>Classe Chart&#xD;
+ *</body>
+        </ownedComment>
+        <generalization xmi:id="_Rqty0CUIEeyql_FaMzmsBA" general="_Ro_7kSUIEeyql_FaMzmsBA"/>
+        <ownedAttribute xmi:id="_RrOJICUIEeyql_FaMzmsBA" name="name">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_RrOJISUIEeyql_FaMzmsBA" name="isVisible" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_RrOwMSUIEeyql_FaMzmsBA" name="series" type="_RpLhwSUIEeyql_FaMzmsBA" isReadOnly="true" association="_RsXYoSUIEeyql_FaMzmsBA"/>
+        <ownedAttribute xmi:id="_RrOwMiUIEeyql_FaMzmsBA" name="tableModel" type="_RSNzQCUIEeyql_FaMzmsBA" isReadOnly="true" association="_RsX_sSUIEeyql_FaMzmsBA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr2bQCUIEeyql_FaMzmsBA" name="Chart" specification="_RR8tgCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rr2bQSUIEeyql_FaMzmsBA" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rr2bQiUIEeyql_FaMzmsBA" type="_RR7fYCUIEeyql_FaMzmsBA" direction="return"/>
+          <language>java</language>
+          <body>this.name= name;&#xD;
+		series= new XYSeries(name);&#xD;
+		tableModel= new TableModelChart();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr2bQyUIEeyql_FaMzmsBA" name="getIsVisible" specification="_RR9UkCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rr2bRCUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return isVisible;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr3CUCUIEeyql_FaMzmsBA" name="setIsVisible" specification="_RR9UkiUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rr3CUSUIEeyql_FaMzmsBA" name="isVisible">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.isVisible= isVisible;&#xD;
+		setChanged();&#xD;
+		notifyObservers();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr3CUiUIEeyql_FaMzmsBA" name="addDataToSeries" specification="_RR97oSUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rr3CUyUIEeyql_FaMzmsBA" name="x">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Rr3CVCUIEeyql_FaMzmsBA" name="y">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>series.add(x, y);&#xD;
+		TimeAndValue tv= new TimeAndValue(&quot;&quot;); //à optimiser&#xD;
+		tv.setT(String.valueOf(x));&#xD;
+		tv.setValue(String.valueOf(y));&#xD;
+		tableModel.addTimeAndValue(tv);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rr3CVSUIEeyql_FaMzmsBA" name="clearSeries" specification="_RR-isCUIEeyql_FaMzmsBA">
+          <language>java</language>
+          <body>System.out.println(&quot;clear&quot;);&#xD;
+		series.clear();&#xD;
+		tableModel.getDataVector().clear();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_RR8tgCUIEeyql_FaMzmsBA" name="Chart" method="_Rr2bQCUIEeyql_FaMzmsBA">
+          <eAnnotations xmi:id="_RR8tgiUIEeyql_FaMzmsBA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_RR8tgyUIEeyql_FaMzmsBA" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_RsDPkiUIEeyql_FaMzmsBA">
+            <body>Constructeur Chart&#xD;
+	 * @param name nom de la courbe</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_RR8tgSUIEeyql_FaMzmsBA" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RR8thCUIEeyql_FaMzmsBA" type="_RR7fYCUIEeyql_FaMzmsBA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RR9UkCUIEeyql_FaMzmsBA" name="getIsVisible" method="_Rr2bQyUIEeyql_FaMzmsBA">
+          <ownedComment xmi:id="_RsDPkyUIEeyql_FaMzmsBA">
+            <body>Récupérer le flag de visibilité de la courbe&#xD;
+	 * @return true si visible activé false sinon</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_RR9UkSUIEeyql_FaMzmsBA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RR9UkiUIEeyql_FaMzmsBA" name="setIsVisible" method="_Rr3CUCUIEeyql_FaMzmsBA">
+          <ownedComment xmi:id="_RsDPlCUIEeyql_FaMzmsBA">
+            <body>Modifier le flag de visibilité&#xD;
+	 * @param isVisible true si visible sinon false</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_RR97oCUIEeyql_FaMzmsBA" name="isVisible">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RR97oSUIEeyql_FaMzmsBA" name="addDataToSeries" method="_Rr3CUiUIEeyql_FaMzmsBA">
+          <ownedComment xmi:id="_RsDPlSUIEeyql_FaMzmsBA">
+            <body>Ajouter nouveau point à la courbe&#xD;
+	 * @param x&#xD;
+	 * @param y</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_RR97oiUIEeyql_FaMzmsBA" name="x">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_RR97oyUIEeyql_FaMzmsBA" name="y">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RR-isCUIEeyql_FaMzmsBA" name="clearSeries" method="_Rr3CVSUIEeyql_FaMzmsBA">
+          <ownedComment xmi:id="_RsDPliUIEeyql_FaMzmsBA">
+            <body>Supprimer l'ensemble des points de la courbe</body>
+          </ownedComment>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_RsMZgCUIEeyql_FaMzmsBA" name="" memberEnd="_RsMZgSUIEeyql_FaMzmsBA _Rq4x8CUIEeyql_FaMzmsBA">
+        <ownedEnd xmi:id="_RsMZgSUIEeyql_FaMzmsBA" name="" type="_RQjmYCUIEeyql_FaMzmsBA" association="_RsMZgCUIEeyql_FaMzmsBA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_RsNnoSUIEeyql_FaMzmsBA" name="" memberEnd="_RsNnoiUIEeyql_FaMzmsBA _Rq5ZACUIEeyql_FaMzmsBA">
+        <ownedEnd xmi:id="_RsNnoiUIEeyql_FaMzmsBA" name="" type="_RQjmYCUIEeyql_FaMzmsBA" association="_RsNnoSUIEeyql_FaMzmsBA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_RsOOsSUIEeyql_FaMzmsBA" name="" memberEnd="_RsOOsiUIEeyql_FaMzmsBA _Rq6AECUIEeyql_FaMzmsBA">
+        <ownedEnd xmi:id="_RsOOsiUIEeyql_FaMzmsBA" name="" type="_RQjmYCUIEeyql_FaMzmsBA" association="_RsOOsSUIEeyql_FaMzmsBA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_RsPc0CUIEeyql_FaMzmsBA" name="" memberEnd="_RsPc0SUIEeyql_FaMzmsBA _Rq6nICUIEeyql_FaMzmsBA">
+        <ownedEnd xmi:id="_RsPc0SUIEeyql_FaMzmsBA" name="" type="_RQjmYCUIEeyql_FaMzmsBA" association="_RsPc0CUIEeyql_FaMzmsBA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_RsQD4SUIEeyql_FaMzmsBA" name="" memberEnd="_RsQD4iUIEeyql_FaMzmsBA _Rq6nISUIEeyql_FaMzmsBA">
+        <ownedEnd xmi:id="_RsQD4iUIEeyql_FaMzmsBA" name="" type="_RQjmYCUIEeyql_FaMzmsBA" association="_RsQD4SUIEeyql_FaMzmsBA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_RsUVUCUIEeyql_FaMzmsBA" name="" memberEnd="_RsUVUSUIEeyql_FaMzmsBA _RrJQoSUIEeyql_FaMzmsBA">
+        <ownedEnd xmi:id="_RsUVUSUIEeyql_FaMzmsBA" name="" type="_RRvSICUIEeyql_FaMzmsBA" association="_RsUVUCUIEeyql_FaMzmsBA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_RsU8YSUIEeyql_FaMzmsBA" name="" memberEnd="_RsU8YiUIEeyql_FaMzmsBA _RrJ3sSUIEeyql_FaMzmsBA">
+        <ownedEnd xmi:id="_RsU8YiUIEeyql_FaMzmsBA" name="" type="_RRvSICUIEeyql_FaMzmsBA" association="_RsU8YSUIEeyql_FaMzmsBA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_RsVjcSUIEeyql_FaMzmsBA" name="" memberEnd="_RsVjciUIEeyql_FaMzmsBA _RrKewSUIEeyql_FaMzmsBA">
+        <ownedEnd xmi:id="_RsVjciUIEeyql_FaMzmsBA" name="" type="_RRvSICUIEeyql_FaMzmsBA" association="_RsVjcSUIEeyql_FaMzmsBA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_RsWxkSUIEeyql_FaMzmsBA" name="" memberEnd="_RsWxkiUIEeyql_FaMzmsBA _RrM7ASUIEeyql_FaMzmsBA">
+        <ownedEnd xmi:id="_RsWxkiUIEeyql_FaMzmsBA" name="" type="_RRvSICUIEeyql_FaMzmsBA" association="_RsWxkSUIEeyql_FaMzmsBA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_RsXYoSUIEeyql_FaMzmsBA" name="" memberEnd="_RsXYoiUIEeyql_FaMzmsBA _RrOwMSUIEeyql_FaMzmsBA">
+        <ownedEnd xmi:id="_RsXYoiUIEeyql_FaMzmsBA" name="" type="_RR7fYCUIEeyql_FaMzmsBA" association="_RsXYoSUIEeyql_FaMzmsBA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_RsX_sSUIEeyql_FaMzmsBA" name="" memberEnd="_RsX_siUIEeyql_FaMzmsBA _RrOwMiUIEeyql_FaMzmsBA">
+        <ownedEnd xmi:id="_RsX_siUIEeyql_FaMzmsBA" name="" type="_RR7fYCUIEeyql_FaMzmsBA" association="_RsX_sSUIEeyql_FaMzmsBA"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_RO-SACUIEeyql_FaMzmsBA" name="controller">
+      <packagedElement xmi:type="uml:Class" xmi:id="_RQ_rQCUIEeyql_FaMzmsBA" name="Main">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rrq1ECUIEeyql_FaMzmsBA" name="main" specification="_RRASUCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rrq1ESUIEeyql_FaMzmsBA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Rrq1EiUIEeyql_FaMzmsBA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>(new Simulator()).run(); </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_RRASUCUIEeyql_FaMzmsBA" name="main" isStatic="true" method="_Rrq1ECUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_RRASUSUIEeyql_FaMzmsBA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RRA5YCUIEeyql_FaMzmsBA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_RRBgcCUIEeyql_FaMzmsBA" name="Simulator">
+        <ownedAttribute xmi:id="_Rq9DYCUIEeyql_FaMzmsBA" name="components" visibility="private" type="_RowrACUIEeyql_FaMzmsBA" association="_RsQq8SUIEeyql_FaMzmsBA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Rrq1EyUIEeyql_FaMzmsBA" name="Simulator" specification="_RRCHgCUIEeyql_FaMzmsBA">
+          <ownedParameter xmi:id="_Rrq1FCUIEeyql_FaMzmsBA" type="_RRBgcCUIEeyql_FaMzmsBA" direction="return"/>
+          <language>java</language>
+          <body>this.components = new ArrayList&lt;Block>();
+
+		Block G = new Generator(&quot;G&quot;, null, null, 2);
+		Block B = new Buffer(&quot;B&quot;, null, null, 0);
+		Block P = new Processor(&quot;P&quot;, null, null, 3);
+
+		G.setConnectedBlock(B);
+		B.setConnectedBlock(P);
+		P.setConnectedBlock(B);
+
+		this.components.add(G);
+		this.components.add(B);
+		this.components.add(P);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_RrrcICUIEeyql_FaMzmsBA" name="run" specification="_RRCukiUIEeyql_FaMzmsBA">
+          <language>java</language>
+          <body>double minTr;
+
+		double t = 0;
+		double tEnd = 20;
+
+		TreeMap&lt;Block, TreeMap&lt;String, Data>> ins = new TreeMap&lt;Block, TreeMap&lt;String, Data>>();
+		ArrayList&lt;Block> imms = new ArrayList&lt;Block>();
+		ArrayList&lt;Double> trList = new ArrayList&lt;Double>();
+
+		for (Block c : components) {
+			c.setCurrentState(1);
+			c.setTr(c.timeAdvancement());
+		}
+
+		ChartFrame cf = new ChartFrame(&quot;osef&quot;, &quot;yolo&quot;);
+		Chart cq = new Chart(&quot;q&quot;);
+
+		cf.addToLineChartPane(cq);
+
+		while (t &lt;= tEnd) {
+
+			// Get the minimum tr of each block
+			for (Block c : components)
+				trList.add(c.getTr());
+
+			// Display values
+//			System.out.println(&quot;\tt= &quot; + t);
+//			for (Block c : components) {
+//				if (c.getId() == &quot;G&quot;)
+//					System.out.println(&quot;\tjob|&quot; + c.getTr());
+//				if (c.getId() == &quot;P&quot; &amp;&amp; c.getCurrentState() == 2)
+//					System.out.println(&quot;\tdone|&quot; + c.getTr());
+//				if (c.getId() == &quot;B&quot; &amp;&amp; c.getCurrentState() == 2)
+//					System.out.println(&quot;\treq|&quot; + c.getTr());
+//				if (c.getId() == &quot;B&quot;)
+//					System.out.println(&quot;\tq= &quot; + ((Buffer) c).getQ());
+//			}
+//			System.out.println(&quot;\n=======================================\n&quot;);
+
+			cq.addDataToSeries(t, ((Buffer) components.get(1)).getQ());
+
+			minTr = Collections.min(trList);
+
+			// Construct the list of immediate components
+			for (Block c : components)
+				if (c.getTr() == minTr)
+					imms.add(c);
+
+			t = t + minTr;
+
+			// Update e and tr for each block
+			for (Block c : components) {
+				c.setE(t - c.getTl());
+				c.setTr(c.timeAdvancement() - c.getE());
+			}
+
+			// Produce all outputs of all imminent components
+			for (Block c : imms)
+				c.output();
+
+			// Build the input list ins affected by outputs, then transmit the output to the
+			// input of the connected component
+			for (Block c : components) {
+				if (imms.contains(c)) {
+					ins.put(c.getConnectedBlock(), c.getOutputEvents());
+					c.getConnectedBlock().addInputEvents(c.getOutputEvents());
+				}
+			}
+
+			// Execute all components
+			for (Block c : components) {
+
+				if (imms.contains(c) &amp;&amp; !ins.containsKey(c)) {
+					c.internal();
+					c.setE(0);
+					c.setTr(c.timeAdvancement() - c.getE());
+					c.setTl(t - c.getE());
+					c.setTn(t + c.getTr());
+				} else if (!imms.contains(c) &amp;&amp; ins.containsKey(c)) {
+					c.external();
+					c.setE(0);
+					c.setTr(c.timeAdvancement() - c.getE());
+					c.setTl(t - c.getE());
+					c.setTn(t + c.getTr());
+				} else if (imms.contains(c) &amp;&amp; ins.containsKey(c)) {
+					c.conflict();
+					c.setE(0);
+					c.setTr(c.timeAdvancement() - c.getE());
+					c.setTl(t - c.getE());
+					c.setTn(t + c.getTr());
+				}
+			}
+
+			// So they're reset every loop
+			ins.clear();
+			imms.clear();
+			trList.clear();
+		}
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_RRCHgCUIEeyql_FaMzmsBA" name="Simulator" method="_Rrq1EyUIEeyql_FaMzmsBA">
+          <eAnnotations xmi:id="_RRCHgSUIEeyql_FaMzmsBA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_RRCukCUIEeyql_FaMzmsBA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_RRCukSUIEeyql_FaMzmsBA" type="_RRBgcCUIEeyql_FaMzmsBA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RRCukiUIEeyql_FaMzmsBA" name="run" method="_RrrcICUIEeyql_FaMzmsBA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_RsQq8SUIEeyql_FaMzmsBA" name="" memberEnd="_RsQq8iUIEeyql_FaMzmsBA _Rq9DYCUIEeyql_FaMzmsBA">
+        <ownedEnd xmi:id="_RsQq8iUIEeyql_FaMzmsBA" name="" type="_RRBgcCUIEeyql_FaMzmsBA" association="_RsQq8SUIEeyql_FaMzmsBA"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_RPVeYCUIEeyql_FaMzmsBA" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_RPWFcCUIEeyql_FaMzmsBA" name="jfree">
+        <packagedElement xmi:type="uml:Package" xmi:id="_RPWFcSUIEeyql_FaMzmsBA" name="chart">
+          <packagedElement xmi:type="uml:Package" xmi:id="_RPWsgCUIEeyql_FaMzmsBA" name="plot">
+            <packagedElement xmi:type="uml:Class" xmi:id="_RpHQUSUIEeyql_FaMzmsBA" name="PlotOrientation"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_RpIecCUIEeyql_FaMzmsBA" name="XYPlot"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_RPXTkCUIEeyql_FaMzmsBA" name="renderer">
+            <packagedElement xmi:type="uml:Package" xmi:id="_RPXTkSUIEeyql_FaMzmsBA" name="xy">
+              <packagedElement xmi:type="uml:Class" xmi:id="_RpJFgSUIEeyql_FaMzmsBA" name="XYLineAndShapeRenderer"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_RpJskSUIEeyql_FaMzmsBA" name="XYSplineRenderer"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_RpK6sSUIEeyql_FaMzmsBA" name="XYStepRenderer"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_RpE0ECUIEeyql_FaMzmsBA" name="ChartFactory"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_RpFbISUIEeyql_FaMzmsBA" name="ChartPanel"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_RpGpQCUIEeyql_FaMzmsBA" name="JFreeChart"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_RPX6oCUIEeyql_FaMzmsBA" name="data">
+          <packagedElement xmi:type="uml:Package" xmi:id="_RPX6oSUIEeyql_FaMzmsBA" name="xy">
+            <packagedElement xmi:type="uml:Class" xmi:id="_RpLhwSUIEeyql_FaMzmsBA" name="XYSeries"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_RpMv4CUIEeyql_FaMzmsBA" name="XYSeriesCollection"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_Q1Z7cCUIEeyql_FaMzmsBA">
+      <eAnnotations xmi:id="_Q1mvwCUIEeyql_FaMzmsBA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_Q2C0oCUIEeyql_FaMzmsBA" base_Package="_OwWTcCUIEeyql_FaMzmsBA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RQYAMCUIEeyql_FaMzmsBA" base_Element="_RQWyECUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Annotations xmi:id="_RQZOUCUIEeyql_FaMzmsBA" base_Element="_RQWyECUIEeyql_FaMzmsBA">
+    <annotations xmi:id="_RQZOUSUIEeyql_FaMzmsBA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RQaccCUIEeyql_FaMzmsBA" base_Element="_RQZ1YCUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Annotations xmi:id="_RQaccSUIEeyql_FaMzmsBA" base_Element="_RQZ1YCUIEeyql_FaMzmsBA">
+    <annotations xmi:id="_RQacciUIEeyql_FaMzmsBA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RQbDgCUIEeyql_FaMzmsBA" base_Element="_RQaccyUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Annotations xmi:id="_RQbqkCUIEeyql_FaMzmsBA" base_Element="_RQaccyUIEeyql_FaMzmsBA">
+    <annotations xmi:id="_RQcRoCUIEeyql_FaMzmsBA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RQeG0CUIEeyql_FaMzmsBA" base_Element="_RQcRoSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Annotations xmi:id="_RQet4CUIEeyql_FaMzmsBA" base_Element="_RQcRoSUIEeyql_FaMzmsBA">
+    <annotations xmi:id="_RQet4SUIEeyql_FaMzmsBA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RQfU8CUIEeyql_FaMzmsBA" base_Element="_RQet4iUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Annotations xmi:id="_RQf8ACUIEeyql_FaMzmsBA" base_Element="_RQet4iUIEeyql_FaMzmsBA">
+    <annotations xmi:id="_RQf8ASUIEeyql_FaMzmsBA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RQhKICUIEeyql_FaMzmsBA" base_Element="_RQf8AiUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Annotations xmi:id="_RQhxMCUIEeyql_FaMzmsBA" base_Element="_RQf8AiUIEeyql_FaMzmsBA">
+    <annotations xmi:id="_RQhxMSUIEeyql_FaMzmsBA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RQwasCUIEeyql_FaMzmsBA" base_Element="_RQvzoCUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Annotations xmi:id="_RQxo0CUIEeyql_FaMzmsBA" base_Element="_RQvzoCUIEeyql_FaMzmsBA">
+    <annotations xmi:id="_RQxo0SUIEeyql_FaMzmsBA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RQyP4CUIEeyql_FaMzmsBA" base_Element="_RQxo0iUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Annotations xmi:id="_RQy28CUIEeyql_FaMzmsBA" base_Element="_RQxo0iUIEeyql_FaMzmsBA">
+    <annotations xmi:id="_RQy28SUIEeyql_FaMzmsBA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RQ0sICUIEeyql_FaMzmsBA" base_Element="_RQzeACUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Annotations xmi:id="_RQ0sISUIEeyql_FaMzmsBA" base_Element="_RQzeACUIEeyql_FaMzmsBA">
+    <annotations xmi:id="_RQ1TMCUIEeyql_FaMzmsBA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RQ16QCUIEeyql_FaMzmsBA" base_Element="_RQ1TMSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Annotations xmi:id="_RQ2hUCUIEeyql_FaMzmsBA" base_Element="_RQ1TMSUIEeyql_FaMzmsBA">
+    <annotations xmi:id="_RQ2hUSUIEeyql_FaMzmsBA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RQ3IYCUIEeyql_FaMzmsBA" base_Element="_RQ2hUiUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Annotations xmi:id="_RQ3vcCUIEeyql_FaMzmsBA" base_Element="_RQ2hUiUIEeyql_FaMzmsBA">
+    <annotations xmi:id="_RQ3vcSUIEeyql_FaMzmsBA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RQ4WgCUIEeyql_FaMzmsBA" base_Element="_RQ3vciUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Annotations xmi:id="_RQ49kCUIEeyql_FaMzmsBA" base_Element="_RQ3vciUIEeyql_FaMzmsBA">
+    <annotations xmi:id="_RQ49kSUIEeyql_FaMzmsBA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_RRL4gCUIEeyql_FaMzmsBA" genericsValue="String, Data" base_Element="_RRLRcCUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Generics xmi:id="_RRNtsCUIEeyql_FaMzmsBA" genericsValue="String, Data" base_Element="_RRMfkCUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RRfagCUIEeyql_FaMzmsBA" base_Element="_RRezcCUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Annotations xmi:id="_RRfagSUIEeyql_FaMzmsBA" base_Element="_RRezcCUIEeyql_FaMzmsBA">
+    <annotations xmi:id="_RRgBkCUIEeyql_FaMzmsBA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RRgBkiUIEeyql_FaMzmsBA" base_Element="_RRgBkSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Annotations xmi:id="_RRgooCUIEeyql_FaMzmsBA" base_Element="_RRgBkSUIEeyql_FaMzmsBA">
+    <annotations xmi:id="_RRgooSUIEeyql_FaMzmsBA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RRhPsCUIEeyql_FaMzmsBA" base_Element="_RRgooiUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Annotations xmi:id="_RRhPsSUIEeyql_FaMzmsBA" base_Element="_RRgooiUIEeyql_FaMzmsBA">
+    <annotations xmi:id="_RRh2wCUIEeyql_FaMzmsBA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RRid0CUIEeyql_FaMzmsBA" base_Element="_RRh2wSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Annotations xmi:id="_RRjE4CUIEeyql_FaMzmsBA" base_Element="_RRh2wSUIEeyql_FaMzmsBA">
+    <annotations xmi:id="_RRjE4SUIEeyql_FaMzmsBA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RRkTACUIEeyql_FaMzmsBA" base_Element="_RRjr8CUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Annotations xmi:id="_RRk6ECUIEeyql_FaMzmsBA" base_Element="_RRjr8CUIEeyql_FaMzmsBA">
+    <annotations xmi:id="_RRk6ESUIEeyql_FaMzmsBA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RRlhICUIEeyql_FaMzmsBA" base_Element="_RRk6EiUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Annotations xmi:id="_RRmIMCUIEeyql_FaMzmsBA" base_Element="_RRk6EiUIEeyql_FaMzmsBA">
+    <annotations xmi:id="_RRmIMSUIEeyql_FaMzmsBA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_RSHFkCUIEeyql_FaMzmsBA" genericsValue="?" base_Element="_RSF3cSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Generics xmi:id="_RSSEsCUIEeyql_FaMzmsBA" genericsValue="?" base_Element="_RSQ2kiUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Generics xmi:id="_RSUg8CUIEeyql_FaMzmsBA" genericsValue="TimeAndValue" base_Element="_RST54CUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RoaFsCUIEeyql_FaMzmsBA" base_Element="_RoYQgCUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RodwECUIEeyql_FaMzmsBA" base_Element="_Roch8CUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RoflQCUIEeyql_FaMzmsBA" base_Element="_RoeXICUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RogzYCUIEeyql_FaMzmsBA" base_Element="_RoflQSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RoiBgCUIEeyql_FaMzmsBA" base_Element="_RogzYSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RojPoCUIEeyql_FaMzmsBA" base_Element="_RoiBgSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RokdwCUIEeyql_FaMzmsBA" base_Element="_RojPoSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RomS8CUIEeyql_FaMzmsBA" base_Element="_RolE0CUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RonhECUIEeyql_FaMzmsBA" base_Element="_RomS8SUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RoovMCUIEeyql_FaMzmsBA" base_Element="_RonhESUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_Rop9UCUIEeyql_FaMzmsBA" base_Element="_RoovMSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_Rovc4CUIEeyql_FaMzmsBA" base_Element="_RouOwCUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RoxSECUIEeyql_FaMzmsBA" base_Element="_RowrACUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RoygMCUIEeyql_FaMzmsBA" base_Element="_Rox5ICUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Ro2KkSUIEeyql_FaMzmsBA" base_Element="_Ro1jgCUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Annotations xmi:id="_Ro2xoCUIEeyql_FaMzmsBA" base_Element="_Ro1jgCUIEeyql_FaMzmsBA">
+    <annotations xmi:id="_Ro2xoSUIEeyql_FaMzmsBA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_Ro-GYCUIEeyql_FaMzmsBA" base_Element="_Ro84QCUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_Ro_UgCUIEeyql_FaMzmsBA" base_Element="_Ro-GYSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_Ro_7kCUIEeyql_FaMzmsBA" base_Element="_Ro_UgSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RpBJsCUIEeyql_FaMzmsBA" base_Element="_Ro_7kSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RpBwwCUIEeyql_FaMzmsBA" base_Element="_RpBJsSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RpCX0CUIEeyql_FaMzmsBA" base_Element="_RpBwwSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RpDl8CUIEeyql_FaMzmsBA" base_Element="_RpC-4CUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RpENACUIEeyql_FaMzmsBA" base_Element="_RpDl8SUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RpFbICUIEeyql_FaMzmsBA" base_Element="_RpE0ECUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RpGCMCUIEeyql_FaMzmsBA" base_Element="_RpFbISUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RpHQUCUIEeyql_FaMzmsBA" base_Element="_RpGpQCUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RpH3YCUIEeyql_FaMzmsBA" base_Element="_RpHQUSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RpJFgCUIEeyql_FaMzmsBA" base_Element="_RpIecCUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RpJskCUIEeyql_FaMzmsBA" base_Element="_RpJFgSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RpK6sCUIEeyql_FaMzmsBA" base_Element="_RpJskSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RpLhwCUIEeyql_FaMzmsBA" base_Element="_RpK6sSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RpMI0CUIEeyql_FaMzmsBA" base_Element="_RpLhwSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RpNW8CUIEeyql_FaMzmsBA" base_Element="_RpMv4CUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RpVSwCUIEeyql_FaMzmsBA" base_Element="_RpUrsCUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RpV50CUIEeyql_FaMzmsBA" base_Element="_RpVSwSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Generics xmi:id="_RpiuICUIEeyql_FaMzmsBA" genericsValue="String, Data" base_Element="_RpiHECUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Generics xmi:id="_Rpj8QCUIEeyql_FaMzmsBA" genericsValue="String, Data" base_Element="_RpiHESUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Generics xmi:id="_RpnmoCUIEeyql_FaMzmsBA" genericsValue="String, Data" base_Element="_RpmYgiUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Generics xmi:id="_RpoNsCUIEeyql_FaMzmsBA" genericsValue="String, Data" base_Element="_RpmYgyUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RqSVACUIEeyql_FaMzmsBA" base_Element="_RqRG4SUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Generics xmi:id="_RqS8ECUIEeyql_FaMzmsBA" genericsValue="Block" base_Element="_RqSVASUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Generics xmi:id="_RqWmcCUIEeyql_FaMzmsBA" genericsValue="String, Data" base_Element="_RqVYUSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Generics xmi:id="_RqX0kCUIEeyql_FaMzmsBA" genericsValue="String, Data" base_Element="_RqV_YCUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Generics xmi:id="_RqZpwCUIEeyql_FaMzmsBA" genericsValue="String, Data" base_Element="_RqZCsCUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Generics xmi:id="_Rqa34CUIEeyql_FaMzmsBA" genericsValue="String, Data" base_Element="_RqaQ0SUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Generics xmi:id="_RqctECUIEeyql_FaMzmsBA" genericsValue="String, Data" base_Element="_Rqbe8SUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Generics xmi:id="_Rqg-gCUIEeyql_FaMzmsBA" genericsValue="String, Data" base_Element="_RqfwYSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Generics xmi:id="_RqhlkCUIEeyql_FaMzmsBA" genericsValue="String, Data" base_Element="_RqfwYiUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RqjawCUIEeyql_FaMzmsBA" base_Element="_RqizsCUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RqmeECUIEeyql_FaMzmsBA" base_Element="_Rql3ASUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Annotations xmi:id="_RqnFISUIEeyql_FaMzmsBA" base_Element="_Rql3ASUIEeyql_FaMzmsBA">
+    <annotations xmi:id="_RqnFIiUIEeyql_FaMzmsBA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_RqphYCUIEeyql_FaMzmsBA" base_Element="_RqoTQSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RqqIcCUIEeyql_FaMzmsBA" base_Element="_RqphYSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Annotations xmi:id="_RqqvgCUIEeyql_FaMzmsBA" base_Element="_RqphYSUIEeyql_FaMzmsBA">
+    <annotations xmi:id="_RqrWkCUIEeyql_FaMzmsBA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_RqwPECUIEeyql_FaMzmsBA" base_Element="_RqvA8CUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Rq4x8SUIEeyql_FaMzmsBA" base_Element="_Rq4x8CUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Rq5ZASUIEeyql_FaMzmsBA" base_Element="_Rq5ZACUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Rq6AESUIEeyql_FaMzmsBA" base_Element="_Rq6AECUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Rq7OMCUIEeyql_FaMzmsBA" base_Element="_Rq6nISUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Generics xmi:id="_Rq9qcCUIEeyql_FaMzmsBA" genericsValue="Block" base_Element="_Rq9DYCUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Rq-RgCUIEeyql_FaMzmsBA" base_Element="_Rq9DYCUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Rq-4kCUIEeyql_FaMzmsBA" base_Element="_Rq-RgSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_Rq_foCUIEeyql_FaMzmsBA" base_Property="_Rq-4kSUIEeyql_FaMzmsBA" siblings="_Rr--JCUIEeyql_FaMzmsBA _RsAMQCUIEeyql_FaMzmsBA _RsAzUCUIEeyql_FaMzmsBA _RsBaYCUIEeyql_FaMzmsBA" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Rq_foSUIEeyql_FaMzmsBA" base_Element="_Rq-4kSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RrAtwSUIEeyql_FaMzmsBA" base_Element="_RrAtwCUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Generics xmi:id="_RrB74CUIEeyql_FaMzmsBA" genericsValue="String, Data" base_Element="_RrBU0CUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RrCi8CUIEeyql_FaMzmsBA" base_Element="_RrBU0CUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Generics xmi:id="_RrDKACUIEeyql_FaMzmsBA" genericsValue="String, Data" base_Element="_RrCi8SUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RrDxECUIEeyql_FaMzmsBA" base_Element="_RrCi8SUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RrEYICUIEeyql_FaMzmsBA" base_Element="_RrDxESUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RrHbcCUIEeyql_FaMzmsBA" base_Element="_RrG0YCUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RrICgCUIEeyql_FaMzmsBA" base_Element="_RrHbcSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RrIpkCUIEeyql_FaMzmsBA" base_Element="_RrICgSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RrJ3sCUIEeyql_FaMzmsBA" base_Element="_RrJQoSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RrKewCUIEeyql_FaMzmsBA" base_Element="_RrJ3sSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RrKewiUIEeyql_FaMzmsBA" base_Element="_RrKewSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RrLF0iUIEeyql_FaMzmsBA" base_Element="_RrLF0CUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RrMT8CUIEeyql_FaMzmsBA" base_Element="_RrLs4CUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RrM7ACUIEeyql_FaMzmsBA" base_Element="_RrMT8SUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RrOwMCUIEeyql_FaMzmsBA" base_Element="_RrOJISUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Array xmi:id="_RrQlYiUIEeyql_FaMzmsBA" base_Element="_RrQlYCUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RrRMcCUIEeyql_FaMzmsBA" base_Element="_RrQlYCUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Generics xmi:id="_RrRzgCUIEeyql_FaMzmsBA" genericsValue="Chart" base_Element="_RrRMcSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RrSakCUIEeyql_FaMzmsBA" base_Element="_RrRMcSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Array xmi:id="_RrUPwiUIEeyql_FaMzmsBA" base_Element="_RrUPwCUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RrU20CUIEeyql_FaMzmsBA" base_Element="_RrUPwCUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Generics xmi:id="_RrWE8CUIEeyql_FaMzmsBA" genericsValue="TimeAndValue" base_Element="_RrU20SUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RrWE8SUIEeyql_FaMzmsBA" base_Element="_RrU20SUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_Rr_lMCUIEeyql_FaMzmsBA" base_Property="_Rr--JCUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Rr_lMSUIEeyql_FaMzmsBA" base_Element="_Rr--JCUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_RsAMQSUIEeyql_FaMzmsBA" base_Property="_RsAMQCUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RsAMQiUIEeyql_FaMzmsBA" base_Element="_RsAMQCUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_RsAzUSUIEeyql_FaMzmsBA" base_Property="_RsAzUCUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RsAzUiUIEeyql_FaMzmsBA" base_Element="_RsAzUCUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_RsBaYSUIEeyql_FaMzmsBA" base_Property="_RsBaYCUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_RsBaYiUIEeyql_FaMzmsBA" base_Element="_RsBaYCUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RsNnoCUIEeyql_FaMzmsBA" base_Element="_RsMZgCUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RsOOsCUIEeyql_FaMzmsBA" base_Element="_RsNnoSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RsO1wCUIEeyql_FaMzmsBA" base_Element="_RsOOsSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RsQD4CUIEeyql_FaMzmsBA" base_Element="_RsPc0CUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RsQq8CUIEeyql_FaMzmsBA" base_Element="_RsQD4SUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RsR5ECUIEeyql_FaMzmsBA" base_Element="_RsQq8SUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RsSgICUIEeyql_FaMzmsBA" base_Element="_RsR5ESUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RsTHMCUIEeyql_FaMzmsBA" base_Element="_RsSgISUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RsTuQCUIEeyql_FaMzmsBA" base_Element="_RsTHMSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RsU8YCUIEeyql_FaMzmsBA" base_Element="_RsUVUCUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RsVjcCUIEeyql_FaMzmsBA" base_Element="_RsU8YSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RsWxkCUIEeyql_FaMzmsBA" base_Element="_RsVjcSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RsXYoCUIEeyql_FaMzmsBA" base_Element="_RsWxkSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RsX_sCUIEeyql_FaMzmsBA" base_Element="_RsXYoSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RsZN0CUIEeyql_FaMzmsBA" base_Element="_RsX_sSUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_RsZ04CUIEeyql_FaMzmsBA" base_Element="_RsZN0SUIEeyql_FaMzmsBA"/>
+  <UMLLabProfile:Reference xmi:id="_Rsab8CUIEeyql_FaMzmsBA" base_Element="_RsZ04SUIEeyql_FaMzmsBA"/>
+</xmi:XMI>

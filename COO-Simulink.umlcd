@@ -1,0 +1,2393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_Qb5PQCUIEeyql_FaMzmsBA">
+  <modelElement href="COO-Simulink.uml#_OwWTcCUIEeyql_FaMzmsBA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SH3B0CUIEeyql_FaMzmsBA" targetItem="_SIMZACUIEeyql_FaMzmsBA" sourceItem="_SH1zsCUIEeyql_FaMzmsBA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SH9IcCUIEeyql_FaMzmsBA" targetItem="_SIMZHyUIEeyql_FaMzmsBA" sourceItem="_SH8hYCUIEeyql_FaMzmsBA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SH9vgCUIEeyql_FaMzmsBA" targetItem="_SIMZKyUIEeyql_FaMzmsBA" sourceItem="_SH9IcSUIEeyql_FaMzmsBA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SH9vgiUIEeyql_FaMzmsBA" targetItem="_SIMZMCUIEeyql_FaMzmsBA" sourceItem="_SH9vgSUIEeyql_FaMzmsBA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SH-WkSUIEeyql_FaMzmsBA" targetItem="_SIMZMyUIEeyql_FaMzmsBA" sourceItem="_SH-WkCUIEeyql_FaMzmsBA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SIG5cCUIEeyql_FaMzmsBA" sourceAnchor="218.0,0.0" targetAnchor="446.0,232.0" target="_SJrmwCUIEeyql_FaMzmsBA" source="_SIMZACUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RsMZgCUIEeyql_FaMzmsBA"/>
+    <bendpoints xmi:id="_Sca8kCUIEeyql_FaMzmsBA" sourceY="-227" targetX="301"/>
+    <stereotypes xmi:id="_SIG5cSUIEeyql_FaMzmsBA" name="Reference">
+      <modelElement href="COO-Simulink.uml#_RsNnoCUIEeyql_FaMzmsBA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SIG5ciUIEeyql_FaMzmsBA" text="">
+      <visualProperties xmi:id="_Scf1ECUIEeyql_FaMzmsBA" position="-28.255055426922837,145.4189220861885"/>
+    </nameVisual>
+    <sourceRole xmi:id="_SIG5cyUIEeyql_FaMzmsBA" aggregationKind="NONE" name="">
+      <modelElement href="COO-Simulink.uml#_RsMZgSUIEeyql_FaMzmsBA"/>
+      <visualProperties xmi:id="_ScfOACUIEeyql_FaMzmsBA" position="-18.51238601885524,-71.18610875457198"/>
+      <visibility xmi:id="_SIG5dCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SIHggCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SIHggSUIEeyql_FaMzmsBA" aggregationKind="NONE" name="chartPane" navigable="true">
+      <modelElement href="COO-Simulink.uml#_Rq4x8CUIEeyql_FaMzmsBA"/>
+      <visualProperties xmi:id="_ScgcICUIEeyql_FaMzmsBA" position="252.24156367273713,114.19435845667437"/>
+      <visibility xmi:id="_SIHggiUIEeyql_FaMzmsBA" label="~"/>
+      <cardinality xmi:id="_SIHggyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SIIHkCUIEeyql_FaMzmsBA" source="_SIMZACUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RsNnoSUIEeyql_FaMzmsBA"/>
+    <stereotypes xmi:id="_SIIHkSUIEeyql_FaMzmsBA" name="Reference">
+      <modelElement href="COO-Simulink.uml#_RsOOsCUIEeyql_FaMzmsBA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SIIHkiUIEeyql_FaMzmsBA" text=""/>
+    <sourceRole xmi:id="_SIIHkyUIEeyql_FaMzmsBA" aggregationKind="NONE" name="">
+      <modelElement href="COO-Simulink.uml#_RsNnoiUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SIIHlCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SIIHlSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SIIHliUIEeyql_FaMzmsBA" aggregationKind="NONE" name="jsplitpane" navigable="true">
+      <modelElement href="COO-Simulink.uml#_Rq5ZACUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SIIHlyUIEeyql_FaMzmsBA" label="~"/>
+      <cardinality xmi:id="_SIIHmCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SIJVsCUIEeyql_FaMzmsBA" source="_SIMZACUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RsOOsSUIEeyql_FaMzmsBA"/>
+    <stereotypes xmi:id="_SIJVsSUIEeyql_FaMzmsBA" name="Reference">
+      <modelElement href="COO-Simulink.uml#_RsO1wCUIEeyql_FaMzmsBA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SIJVsiUIEeyql_FaMzmsBA" text=""/>
+    <sourceRole xmi:id="_SIJVsyUIEeyql_FaMzmsBA" aggregationKind="NONE" name="">
+      <modelElement href="COO-Simulink.uml#_RsOOsiUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SIJVtCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SIJVtSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SIJVtiUIEeyql_FaMzmsBA" aggregationKind="NONE" name="choiceTable" navigable="true">
+      <modelElement href="COO-Simulink.uml#_Rq6AECUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SIJVtyUIEeyql_FaMzmsBA" label="-"/>
+      <cardinality xmi:id="_SIJVuCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SIKj0CUIEeyql_FaMzmsBA" sourceAnchor="437.0,88.0" targetAnchor="384.0,41.0" target="_SMhfYCUIEeyql_FaMzmsBA" source="_SIMZACUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RsPc0CUIEeyql_FaMzmsBA"/>
+    <bendpoints xmi:id="_ScbjoCUIEeyql_FaMzmsBA" sourceX="425" targetX="439" targetY="1008"/>
+    <bendpoints xmi:id="_SccKsCUIEeyql_FaMzmsBA" sourceX="425" sourceY="-1008" targetX="439"/>
+    <stereotypes xmi:id="_SIKj0SUIEeyql_FaMzmsBA" name="Reference">
+      <modelElement href="COO-Simulink.uml#_RsQD4CUIEeyql_FaMzmsBA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SIKj0iUIEeyql_FaMzmsBA" text="">
+      <visualProperties xmi:id="_SciRUCUIEeyql_FaMzmsBA" position="-411.9400074960281,503.521651210399"/>
+    </nameVisual>
+    <sourceRole xmi:id="_SIKj0yUIEeyql_FaMzmsBA" aggregationKind="NONE" name="">
+      <modelElement href="COO-Simulink.uml#_RsPc0SUIEeyql_FaMzmsBA"/>
+      <visualProperties xmi:id="_SchDMCUIEeyql_FaMzmsBA" position="40.85687394983438,-12.093302765487635"/>
+      <visibility xmi:id="_SIKj1CUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SIKj1SUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SIKj1iUIEeyql_FaMzmsBA" aggregationKind="NONE" name="choiceTableModel" navigable="true">
+      <modelElement href="COO-Simulink.uml#_Rq6nICUIEeyql_FaMzmsBA"/>
+      <visualProperties xmi:id="_Sci4YCUIEeyql_FaMzmsBA" position="-22.606343344282095,995.2711905096788"/>
+      <visibility xmi:id="_SIKj1yUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SIKj2CUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SILx8CUIEeyql_FaMzmsBA" source="_SIMZACUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RsQD4SUIEeyql_FaMzmsBA"/>
+    <stereotypes xmi:id="_SILx8SUIEeyql_FaMzmsBA" name="Reference">
+      <modelElement href="COO-Simulink.uml#_RsQq8CUIEeyql_FaMzmsBA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SILx8iUIEeyql_FaMzmsBA" text=""/>
+    <sourceRole xmi:id="_SILx8yUIEeyql_FaMzmsBA" aggregationKind="NONE" name="">
+      <modelElement href="COO-Simulink.uml#_RsQD4iUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SILx9CUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SILx9SUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SILx9iUIEeyql_FaMzmsBA" aggregationKind="NONE" name="tableScrollPane" navigable="true">
+      <modelElement href="COO-Simulink.uml#_Rq6nISUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SILx9yUIEeyql_FaMzmsBA" label="-"/>
+      <cardinality xmi:id="_SILx-CUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SJZS4SUIEeyql_FaMzmsBA" targetItem="_SJahACUIEeyql_FaMzmsBA" sourceItem="_SJZS4CUIEeyql_FaMzmsBA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SJgAkSUIEeyql_FaMzmsBA" targetItem="_SJrmwCUIEeyql_FaMzmsBA" sourceItem="_SJgAkCUIEeyql_FaMzmsBA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SJgnoCUIEeyql_FaMzmsBA" source="_SJrmwCUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RsU8YSUIEeyql_FaMzmsBA"/>
+    <stereotypes xmi:id="_SJlgIiUIEeyql_FaMzmsBA" name="Reference">
+      <modelElement href="COO-Simulink.uml#_RsVjcCUIEeyql_FaMzmsBA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SJk5ECUIEeyql_FaMzmsBA" text=""/>
+    <sourceRole xmi:id="_SJlgICUIEeyql_FaMzmsBA" aggregationKind="NONE" name="">
+      <modelElement href="COO-Simulink.uml#_RsU8YiUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SJmuQSUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SJmuQCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SJlgISUIEeyql_FaMzmsBA" aggregationKind="NONE" name="table" navigable="true">
+      <modelElement href="COO-Simulink.uml#_RrJ3sSUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SJmuQyUIEeyql_FaMzmsBA" label="-"/>
+      <cardinality xmi:id="_SJmuQiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_SJgnoSUIEeyql_FaMzmsBA" subClass="_SJrmwCUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RqrWkSUIEeyql_FaMzmsBA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SJhOsSUIEeyql_FaMzmsBA" targetItem="_SJrm6SUIEeyql_FaMzmsBA" sourceItem="_SJhOsCUIEeyql_FaMzmsBA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SJh1wSUIEeyql_FaMzmsBA" targetItem="_SJrm9SUIEeyql_FaMzmsBA" sourceItem="_SJh1wCUIEeyql_FaMzmsBA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SJh1wyUIEeyql_FaMzmsBA" targetItem="_SJrm-CUIEeyql_FaMzmsBA" sourceItem="_SJh1wiUIEeyql_FaMzmsBA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SJic0SUIEeyql_FaMzmsBA" targetItem="_SJrm_iUIEeyql_FaMzmsBA" sourceItem="_SJic0CUIEeyql_FaMzmsBA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SJic0yUIEeyql_FaMzmsBA" targetItem="_SJrnBiUIEeyql_FaMzmsBA" sourceItem="_SJic0iUIEeyql_FaMzmsBA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SJpxkCUIEeyql_FaMzmsBA" sourceAnchor="446.0,202.0" targetAnchor="171.0,309.0" target="_SMS14CUIEeyql_FaMzmsBA" source="_SJrmwCUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RsUVUCUIEeyql_FaMzmsBA"/>
+    <bendpoints xmi:id="_SccKsSUIEeyql_FaMzmsBA" sourceX="758" targetY="339"/>
+    <stereotypes xmi:id="_SJpxkSUIEeyql_FaMzmsBA" name="Reference">
+      <modelElement href="COO-Simulink.uml#_RsU8YCUIEeyql_FaMzmsBA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SJpxkiUIEeyql_FaMzmsBA" text="">
+      <visualProperties xmi:id="_SckGgCUIEeyql_FaMzmsBA" position="-615.6602772993333,-15.31205961301606"/>
+    </nameVisual>
+    <sourceRole xmi:id="_SJpxkyUIEeyql_FaMzmsBA" aggregationKind="NONE" name="">
+      <modelElement href="COO-Simulink.uml#_RsUVUSUIEeyql_FaMzmsBA"/>
+      <visualProperties xmi:id="_ScjfcCUIEeyql_FaMzmsBA" position="45.36921389937183,-34.23993583139435"/>
+      <visibility xmi:id="_SJpxlCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SJpxlSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SJpxliUIEeyql_FaMzmsBA" aggregationKind="NONE" name="tableModel" navigable="true">
+      <modelElement href="COO-Simulink.uml#_RrJQoSUIEeyql_FaMzmsBA"/>
+      <visualProperties xmi:id="_ScktkCUIEeyql_FaMzmsBA" position="-536.1763755101031,304.93962422430286"/>
+      <visibility xmi:id="_SJpxlyUIEeyql_FaMzmsBA" label="-"/>
+      <cardinality xmi:id="_SJpxmCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SJqYoCUIEeyql_FaMzmsBA" source="_SJrmwCUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RsVjcSUIEeyql_FaMzmsBA"/>
+    <stereotypes xmi:id="_SJqYoSUIEeyql_FaMzmsBA" name="Reference">
+      <modelElement href="COO-Simulink.uml#_RsWxkCUIEeyql_FaMzmsBA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SJqYoiUIEeyql_FaMzmsBA" text=""/>
+    <sourceRole xmi:id="_SJqYoyUIEeyql_FaMzmsBA" aggregationKind="NONE" name="">
+      <modelElement href="COO-Simulink.uml#_RsVjciUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SJqYpCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SJqYpSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SJqYpiUIEeyql_FaMzmsBA" aggregationKind="NONE" name="chart" navigable="true">
+      <modelElement href="COO-Simulink.uml#_RrKewSUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SJqYpyUIEeyql_FaMzmsBA" label="-"/>
+      <cardinality xmi:id="_SJqYqCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SJq_sCUIEeyql_FaMzmsBA" source="_SJrmwCUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RsWxkSUIEeyql_FaMzmsBA"/>
+    <stereotypes xmi:id="_SJq_sSUIEeyql_FaMzmsBA" name="Reference">
+      <modelElement href="COO-Simulink.uml#_RsXYoCUIEeyql_FaMzmsBA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SJq_siUIEeyql_FaMzmsBA" text=""/>
+    <sourceRole xmi:id="_SJq_syUIEeyql_FaMzmsBA" aggregationKind="NONE" name="">
+      <modelElement href="COO-Simulink.uml#_RsWxkiUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SJq_tCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SJq_tSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SJq_tiUIEeyql_FaMzmsBA" aggregationKind="NONE" name="dataset" navigable="true">
+      <modelElement href="COO-Simulink.uml#_RrM7ASUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SJq_tyUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SJq_uCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SKXjQCUIEeyql_FaMzmsBA" targetItem="_SKe4ACUIEeyql_FaMzmsBA" sourceItem="_SKW8MCUIEeyql_FaMzmsBA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SKXjQSUIEeyql_FaMzmsBA" source="_SKe4ACUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RsXYoSUIEeyql_FaMzmsBA"/>
+    <stereotypes xmi:id="_SKcbwyUIEeyql_FaMzmsBA" name="Reference">
+      <modelElement href="COO-Simulink.uml#_RsX_sCUIEeyql_FaMzmsBA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SKcbwCUIEeyql_FaMzmsBA" text=""/>
+    <sourceRole xmi:id="_SKcbwSUIEeyql_FaMzmsBA" aggregationKind="NONE" name="">
+      <modelElement href="COO-Simulink.uml#_RsXYoiUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SKdp4SUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SKdp4CUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SKcbwiUIEeyql_FaMzmsBA" aggregationKind="NONE" name="series" navigable="true">
+      <modelElement href="COO-Simulink.uml#_RrOwMSUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SKdp4yUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SKdp4iUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SKXjQiUIEeyql_FaMzmsBA" sourceAnchor="316.0,98.0" targetAnchor="141.0,309.0" target="_SMS14CUIEeyql_FaMzmsBA" source="_SKe4ACUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RsX_sSUIEeyql_FaMzmsBA"/>
+    <bendpoints xmi:id="_SccxwCUIEeyql_FaMzmsBA" sourceX="300" targetY="153"/>
+    <stereotypes xmi:id="_SKdC0SUIEeyql_FaMzmsBA" name="Reference">
+      <modelElement href="COO-Simulink.uml#_RsZN0CUIEeyql_FaMzmsBA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SKcbxCUIEeyql_FaMzmsBA" text="">
+      <visualProperties xmi:id="_ScmiwCUIEeyql_FaMzmsBA" position="-291.154462217218,-16.418253689708763"/>
+    </nameVisual>
+    <sourceRole xmi:id="_SKcbxSUIEeyql_FaMzmsBA" aggregationKind="NONE" name="">
+      <modelElement href="COO-Simulink.uml#_RsX_siUIEeyql_FaMzmsBA"/>
+      <visualProperties xmi:id="_Scl7sCUIEeyql_FaMzmsBA" position="45.36481839929314,-34.854076451258095"/>
+      <visibility xmi:id="_SKdp5SUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SKdp5CUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SKdC0CUIEeyql_FaMzmsBA" aggregationKind="NONE" name="tableModel" navigable="true">
+      <modelElement href="COO-Simulink.uml#_RrOwMiUIEeyql_FaMzmsBA"/>
+      <visualProperties xmi:id="_ScnJ0CUIEeyql_FaMzmsBA" position="-345.85773588060505,117.98974978685328"/>
+      <visibility xmi:id="_SKeQ8CUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SKdp5iUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_SKYKUCUIEeyql_FaMzmsBA" subClass="_SKe4ACUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_Rqty0CUIEeyql_FaMzmsBA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SKYxYSUIEeyql_FaMzmsBA" targetItem="_SKe4FCUIEeyql_FaMzmsBA" sourceItem="_SKYxYCUIEeyql_FaMzmsBA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SKZYcSUIEeyql_FaMzmsBA" targetItem="_SKe4HSUIEeyql_FaMzmsBA" sourceItem="_SKZYcCUIEeyql_FaMzmsBA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SKZ_gSUIEeyql_FaMzmsBA" targetItem="_SKe4IiUIEeyql_FaMzmsBA" sourceItem="_SKZ_gCUIEeyql_FaMzmsBA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SKamkSUIEeyql_FaMzmsBA" targetItem="_SKe4KCUIEeyql_FaMzmsBA" sourceItem="_SKamkCUIEeyql_FaMzmsBA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SKbNoSUIEeyql_FaMzmsBA" targetItem="_SKe4MSUIEeyql_FaMzmsBA" sourceItem="_SKbNoCUIEeyql_FaMzmsBA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SKs6cCUIEeyql_FaMzmsBA" source="_SKs6eSUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RsQq8SUIEeyql_FaMzmsBA"/>
+    <stereotypes xmi:id="_SKs6cSUIEeyql_FaMzmsBA" name="Reference">
+      <modelElement href="COO-Simulink.uml#_RsR5ECUIEeyql_FaMzmsBA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SKs6ciUIEeyql_FaMzmsBA" text=""/>
+    <sourceRole xmi:id="_SKs6cyUIEeyql_FaMzmsBA" aggregationKind="NONE" name="">
+      <modelElement href="COO-Simulink.uml#_RsQq8iUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SKs6dCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SKs6dSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SKs6diUIEeyql_FaMzmsBA" aggregationKind="NONE" name="components" navigable="true">
+      <modelElement href="COO-Simulink.uml#_Rq9DYCUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SKs6dyUIEeyql_FaMzmsBA" label="-"/>
+      <cardinality xmi:id="_SKs6eCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SLIYQCUIEeyql_FaMzmsBA" sourceAnchor="3.0,213.0" targetAnchor="0.0,353.0" target="_SLZeACUIEeyql_FaMzmsBA" source="_SLZeACUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RsTHMSUIEeyql_FaMzmsBA"/>
+    <bendpoints xmi:id="_tscYMSUIEeyql_FaMzmsBA" sourceX="-162" targetX="-159" targetY="-140"/>
+    <bendpoints xmi:id="_tscYMiUIEeyql_FaMzmsBA" sourceX="-377" sourceY="354" targetX="-157"/>
+    <stereotypes xmi:id="_SLPtAyUIEeyql_FaMzmsBA" name="Reference">
+      <modelElement href="COO-Simulink.uml#_RsTuQCUIEeyql_FaMzmsBA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SLPtACUIEeyql_FaMzmsBA" text="">
+      <visualProperties xmi:id="_ScoX8CUIEeyql_FaMzmsBA" position="316.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_SLPtASUIEeyql_FaMzmsBA" aggregationKind="NONE" name="">
+      <modelElement href="COO-Simulink.uml#_RsTHMiUIEeyql_FaMzmsBA"/>
+      <visualProperties xmi:id="_Scnw4CUIEeyql_FaMzmsBA" position="-21.0,-52.0"/>
+      <visibility xmi:id="_SLUlgSUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SLUlgCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SLPtAiUIEeyql_FaMzmsBA" aggregationKind="NONE" name="connectedBlock" navigable="true">
+      <modelElement href="COO-Simulink.uml#_RrDxESUIEeyql_FaMzmsBA"/>
+      <visualProperties xmi:id="_ScoX8SUIEeyql_FaMzmsBA" position="-117.0,2.0"/>
+      <visibility xmi:id="_SLUlgyUIEeyql_FaMzmsBA" label="#"/>
+      <cardinality xmi:id="_SLUlgiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_SLI_UCUIEeyql_FaMzmsBA" sourceAnchor="247.0,0.0" targetAnchor="220.0,708.0" superClass="_SLZeACUIEeyql_FaMzmsBA" subClass="_SKzoICUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RotAoCUIEeyql_FaMzmsBA"/>
+    <bendpoints xmi:id="_tsbxIiUIEeyql_FaMzmsBA" sourceY="-41" targetX="504" targetY="93"/>
+    <bendpoints xmi:id="_tsbxIyUIEeyql_FaMzmsBA" sourceX="-504" sourceY="-41" targetY="93"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_SLI_USUIEeyql_FaMzmsBA" sourceAnchor="225.0,0.0" targetAnchor="220.0,708.0" superClass="_SLZeACUIEeyql_FaMzmsBA" subClass="_SK-nQCUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_Ro7qICUIEeyql_FaMzmsBA"/>
+    <bendpoints xmi:id="_tsbxICUIEeyql_FaMzmsBA" sourceY="-30" targetX="-485" targetY="93"/>
+    <bendpoints xmi:id="_tsbxISUIEeyql_FaMzmsBA" sourceX="485" sourceY="-30" targetY="93"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SLJmYCUIEeyql_FaMzmsBA" source="_SLZeACUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RsR5ESUIEeyql_FaMzmsBA"/>
+    <stereotypes xmi:id="_SLSJQSUIEeyql_FaMzmsBA" name="Reference">
+      <modelElement href="COO-Simulink.uml#_RsSgICUIEeyql_FaMzmsBA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SLRiMCUIEeyql_FaMzmsBA" text=""/>
+    <sourceRole xmi:id="_SLRiMSUIEeyql_FaMzmsBA" aggregationKind="NONE" name="">
+      <modelElement href="COO-Simulink.uml#_RsR5EiUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SLVMkSUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SLVMkCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SLSJQCUIEeyql_FaMzmsBA" aggregationKind="NONE" name="inputEvents" navigable="true">
+      <modelElement href="COO-Simulink.uml#_RrBU0CUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SLVzoCUIEeyql_FaMzmsBA" label="#"/>
+      <cardinality xmi:id="_SLVMkiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SLJmYSUIEeyql_FaMzmsBA" source="_SLZeACUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RsSgISUIEeyql_FaMzmsBA"/>
+    <stereotypes xmi:id="_SLSwUCUIEeyql_FaMzmsBA" name="Reference">
+      <modelElement href="COO-Simulink.uml#_RsTHMCUIEeyql_FaMzmsBA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SLSJQiUIEeyql_FaMzmsBA" text=""/>
+    <sourceRole xmi:id="_SLSJQyUIEeyql_FaMzmsBA" aggregationKind="NONE" name="">
+      <modelElement href="COO-Simulink.uml#_RsSgIiUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SLVzpCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SLVzoyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SLSJRCUIEeyql_FaMzmsBA" aggregationKind="NONE" name="outputEvents" navigable="true">
+      <modelElement href="COO-Simulink.uml#_RrCi8SUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SLWasSUIEeyql_FaMzmsBA" label="#"/>
+      <cardinality xmi:id="_SLWasCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_SL_68CUIEeyql_FaMzmsBA" sourceAnchor="244.0,0.0" targetAnchor="220.0,708.0" superClass="_SLZeACUIEeyql_FaMzmsBA" subClass="_SMCXMCUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RobT0CUIEeyql_FaMzmsBA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SMN9YSUIEeyql_FaMzmsBA" targetItem="_SMS14CUIEeyql_FaMzmsBA" sourceItem="_SMN9YCUIEeyql_FaMzmsBA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SMOkcSUIEeyql_FaMzmsBA" targetItem="_SMS1-yUIEeyql_FaMzmsBA" sourceItem="_SMOkcCUIEeyql_FaMzmsBA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SMSO0CUIEeyql_FaMzmsBA" source="_SMS14CUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RsZ04SUIEeyql_FaMzmsBA"/>
+    <stereotypes xmi:id="_SMSO0SUIEeyql_FaMzmsBA" name="Reference">
+      <modelElement href="COO-Simulink.uml#_Rsab8CUIEeyql_FaMzmsBA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SMSO0iUIEeyql_FaMzmsBA" text=""/>
+    <sourceRole xmi:id="_SMSO0yUIEeyql_FaMzmsBA" aggregationKind="NONE" name="">
+      <modelElement href="COO-Simulink.uml#_RsZ04iUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SMSO1CUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMSO1SUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SMSO1iUIEeyql_FaMzmsBA" aggregationKind="NONE" name="dataVector" navigable="true">
+      <modelElement href="COO-Simulink.uml#_RrU20SUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SMSO1yUIEeyql_FaMzmsBA" label="#"/>
+      <cardinality xmi:id="_SMSO2CUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SMb_0CUIEeyql_FaMzmsBA" targetItem="_SMhfYCUIEeyql_FaMzmsBA" sourceItem="_SMbYwCUIEeyql_FaMzmsBA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SMb_0SUIEeyql_FaMzmsBA" source="_SMhfYCUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RsZN0SUIEeyql_FaMzmsBA"/>
+    <stereotypes xmi:id="_SMecEyUIEeyql_FaMzmsBA" name="Reference">
+      <modelElement href="COO-Simulink.uml#_RsZ04CUIEeyql_FaMzmsBA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SMecECUIEeyql_FaMzmsBA" text=""/>
+    <sourceRole xmi:id="_SMecESUIEeyql_FaMzmsBA" aggregationKind="NONE" name="">
+      <modelElement href="COO-Simulink.uml#_RsZN0iUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SMgRQSUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMgRQCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SMecEiUIEeyql_FaMzmsBA" aggregationKind="NONE" name="dataVector" navigable="true">
+      <modelElement href="COO-Simulink.uml#_RrRMcSUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SMgRQyUIEeyql_FaMzmsBA" label="#"/>
+      <cardinality xmi:id="_SMgRQiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SMcm4SUIEeyql_FaMzmsBA" targetItem="_SMhfeyUIEeyql_FaMzmsBA" sourceItem="_SMcm4CUIEeyql_FaMzmsBA"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SH1zsCUIEeyql_FaMzmsBA" sourceConnectionVisual="_SH3B0CUIEeyql_FaMzmsBA" text="*&#xD;&#xA;Classe ChartMain" item="_SIMZACUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_Rr-XECUIEeyql_FaMzmsBA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SH8hYCUIEeyql_FaMzmsBA" sourceConnectionVisual="_SH9IcCUIEeyql_FaMzmsBA" text="Constructeur de ChartMain&#xD;&#xA;&#x9; * @param projectName le nom du projet&#xD;&#xA;&#x9; * @param title le titre de la fenêtre d'affichage de courbes" item="_SIMZHyUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_Rr-XESUIEeyql_FaMzmsBA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SH9IcSUIEeyql_FaMzmsBA" sourceConnectionVisual="_SH9vgCUIEeyql_FaMzmsBA" text="Cette méthode permet de récupérer le panneau d'affichage des courbes de type LineChartPane&#xD;&#xA;&#x9; * @return le panneau d'affichage des courbes" item="_SIMZKyUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_Rr--ICUIEeyql_FaMzmsBA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SH9vgSUIEeyql_FaMzmsBA" sourceConnectionVisual="_SH9vgiUIEeyql_FaMzmsBA" text="Cette méthode permet de supprimer l'ensemble de donnés de la fenêtre d'affichage de courbes" item="_SIMZMCUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_Rr--IiUIEeyql_FaMzmsBA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SH-WkCUIEeyql_FaMzmsBA" sourceConnectionVisual="_SH-WkSUIEeyql_FaMzmsBA" text="Cette méthode permet d'ajouter une courbe au panneau d'affichage des courbes et au modèle de table de choix des courbes à afficher&#xD;&#xA;&#x9; * @param c la courbe de type Chart" item="_SIMZMyUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_Rr--ISUIEeyql_FaMzmsBA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SJZS4CUIEeyql_FaMzmsBA" sourceConnectionVisual="_SJZS4SUIEeyql_FaMzmsBA" text="Classe TimeAndValue définit une valeur associée à un temps t et son type de valeur" item="_SJahACUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_Rr--IyUIEeyql_FaMzmsBA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SJgAkCUIEeyql_FaMzmsBA" sourceConnectionVisual="_SJgAkSUIEeyql_FaMzmsBA" text="Classe LineChartPane&#xD;&#xA; *" item="_SJrmwCUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RsCogCUIEeyql_FaMzmsBA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SJhOsCUIEeyql_FaMzmsBA" sourceConnectionVisual="_SJhOsSUIEeyql_FaMzmsBA" text="Constructeur de LineChartPane&#xD;&#xA;&#x9; * @param titre le titre des courbes&#xD;&#xA;&#x9; * @param legende la légende des courbes" item="_SJrm6SUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RsCogSUIEeyql_FaMzmsBA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SJh1wCUIEeyql_FaMzmsBA" sourceConnectionVisual="_SJh1wSUIEeyql_FaMzmsBA" text="Cette méthode permet d'informer un changement de la donnée afin de procéder à une mise à jours" item="_SJrm9SUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RsCogiUIEeyql_FaMzmsBA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SJh1wiUIEeyql_FaMzmsBA" sourceConnectionVisual="_SJh1wyUIEeyql_FaMzmsBA" text="Mise à jour du titre de la courbe&#xD;&#xA;&#x9; * @param titre titre" item="_SJrm-CUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RsCogyUIEeyql_FaMzmsBA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SJic0CUIEeyql_FaMzmsBA" sourceConnectionVisual="_SJic0SUIEeyql_FaMzmsBA" text="Cette méthode permet de tester si un string est de type Double.&#xD;&#xA;&#x9; * @param string string à tester&#xD;&#xA;&#x9; * @return true si c'est un Double sinon false." item="_SJrm_iUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RsCohCUIEeyql_FaMzmsBA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SJic0iUIEeyql_FaMzmsBA" sourceConnectionVisual="_SJic0yUIEeyql_FaMzmsBA" text="Cette méthode permet de changer la forme de la courbe soit mode lisse, escalier ou Spline&#xD;&#xA;&#x9; * @param render &quot;Ligne&quot; , &quot;Echelon&quot; ou &quot;Spline&quot;" item="_SJrnBiUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RsDPkCUIEeyql_FaMzmsBA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SKW8MCUIEeyql_FaMzmsBA" sourceConnectionVisual="_SKXjQCUIEeyql_FaMzmsBA" text="Classe Chart&#xD;&#xA; *" item="_SKe4ACUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RsDPkSUIEeyql_FaMzmsBA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SKYxYCUIEeyql_FaMzmsBA" sourceConnectionVisual="_SKYxYSUIEeyql_FaMzmsBA" text="Constructeur Chart&#xD;&#xA;&#x9; * @param name nom de la courbe" item="_SKe4FCUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RsDPkiUIEeyql_FaMzmsBA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SKZYcCUIEeyql_FaMzmsBA" sourceConnectionVisual="_SKZYcSUIEeyql_FaMzmsBA" text="Récupérer le flag de visibilité de la courbe&#xD;&#xA;&#x9; * @return true si visible activé false sinon" item="_SKe4HSUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RsDPkyUIEeyql_FaMzmsBA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SKZ_gCUIEeyql_FaMzmsBA" sourceConnectionVisual="_SKZ_gSUIEeyql_FaMzmsBA" text="Modifier le flag de visibilité&#xD;&#xA;&#x9; * @param isVisible true si visible sinon false" item="_SKe4IiUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RsDPlCUIEeyql_FaMzmsBA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SKamkCUIEeyql_FaMzmsBA" sourceConnectionVisual="_SKamkSUIEeyql_FaMzmsBA" text="Ajouter nouveau point à la courbe&#xD;&#xA;&#x9; * @param x&#xD;&#xA;&#x9; * @param y" item="_SKe4KCUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RsDPlSUIEeyql_FaMzmsBA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SKbNoCUIEeyql_FaMzmsBA" sourceConnectionVisual="_SKbNoSUIEeyql_FaMzmsBA" text="Supprimer l'ensemble des points de la courbe" item="_SKe4MSUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RsDPliUIEeyql_FaMzmsBA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SMN9YCUIEeyql_FaMzmsBA" sourceConnectionVisual="_SMN9YSUIEeyql_FaMzmsBA" text="*&#xD;&#xA; *Modèle de table de valeur par rapport au temps t" item="_SMS14CUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RsD2oCUIEeyql_FaMzmsBA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SMOkcCUIEeyql_FaMzmsBA" sourceConnectionVisual="_SMOkcSUIEeyql_FaMzmsBA" text="Constructeur du modèle de table" item="_SMS1-yUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RsD2oSUIEeyql_FaMzmsBA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SMbYwCUIEeyql_FaMzmsBA" sourceConnectionVisual="_SMb_0CUIEeyql_FaMzmsBA" text="Modèle de table pour le choix de courbes à afficher" item="_SMhfYCUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RsDPlyUIEeyql_FaMzmsBA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SMcm4CUIEeyql_FaMzmsBA" sourceConnectionVisual="_SMcm4SUIEeyql_FaMzmsBA" text="Constructeur du modèle de table&#xD;&#xA;&#x9; *" item="_SMhfeyUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RsDPmCUIEeyql_FaMzmsBA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_SMhfYCUIEeyql_FaMzmsBA" comments="_SMbYwCUIEeyql_FaMzmsBA" targetConnectionVisual="_SMb_0CUIEeyql_FaMzmsBA" name="ChoiceChartTableModel" associationsIn="_SIKj0CUIEeyql_FaMzmsBA" associationsOut="_SMb_0SUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RSAX4CUIEeyql_FaMzmsBA"/>
+    <visualProperties xmi:id="_SMhfYSUIEeyql_FaMzmsBA" position="69.0,-931.0" size="-1.0,-1.0" visible="false"/>
+    <visibility xmi:id="_SMhfYiUIEeyql_FaMzmsBA" label="+"/>
+    <attributes xmi:id="_SMhfYyUIEeyql_FaMzmsBA" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="COO-Simulink.uml#_RrPXQCUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SMhfZCUIEeyql_FaMzmsBA" label="-"/>
+      <cardinality xmi:id="_SMhfZSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SMhfZiUIEeyql_FaMzmsBA" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SMhfZyUIEeyql_FaMzmsBA" defaultValue="0" name="Name" staticAttribute="true">
+      <modelElement href="COO-Simulink.uml#_RrP-UCUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SMhfaCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMhfaSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SMhfaiUIEeyql_FaMzmsBA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SMhfayUIEeyql_FaMzmsBA" defaultValue="1" name="Visible" staticAttribute="true">
+      <modelElement href="COO-Simulink.uml#_RrP-UiUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SMhfbCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMhfbSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SMhfbiUIEeyql_FaMzmsBA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SMhfbyUIEeyql_FaMzmsBA" name="columnNames">
+      <modelElement href="COO-Simulink.uml#_RrQlYCUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SMhfcCUIEeyql_FaMzmsBA" name="Array">
+        <modelElement href="COO-Simulink.uml#_RrQlYiUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SMhfcSUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RrRMcCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SMhfciUIEeyql_FaMzmsBA" label="#"/>
+      <cardinality xmi:id="_SMhfcyUIEeyql_FaMzmsBA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_SMhfdCUIEeyql_FaMzmsBA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SMhfdSUIEeyql_FaMzmsBA" name="dataVector">
+      <modelElement href="COO-Simulink.uml#_RrRMcSUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SMhfdiUIEeyql_FaMzmsBA" name="Generics">
+        <modelElement href="COO-Simulink.uml#_RrRzgCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SMhfdyUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RrSakCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SMhfeCUIEeyql_FaMzmsBA" label="#"/>
+      <cardinality xmi:id="_SMhfeSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SMhfeiUIEeyql_FaMzmsBA" name="Vector">
+        <modelElement href="COO-Simulink.uml#_RpUrsCUIEeyql_FaMzmsBA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_SMhfeyUIEeyql_FaMzmsBA" comments="_SMcm4CUIEeyql_FaMzmsBA" targetConnectionVisual="_SMcm4SUIEeyql_FaMzmsBA" name="ChoiceChartTableModel">
+      <modelElement href="COO-Simulink.uml#_RSDbMCUIEeyql_FaMzmsBA"/>
+      <keywords xmi:id="_SMhffCUIEeyql_FaMzmsBA" keyword="create"/>
+      <visibility xmi:id="_SMhffSUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMhffiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SMhffyUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RSECQCUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SMhfgCUIEeyql_FaMzmsBA" name="ChoiceChartTableModel">
+          <modelElement href="COO-Simulink.uml#_RSAX4CUIEeyql_FaMzmsBA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SMhfgSUIEeyql_FaMzmsBA" name="getColumnName">
+      <modelElement href="COO-Simulink.uml#_RSECQSUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SMhfgiUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMhfgyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SMhfhCUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RSEpUSUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SMhfhSUIEeyql_FaMzmsBA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SMhfhiUIEeyql_FaMzmsBA" name="column">
+        <modelElement href="COO-Simulink.uml#_RSEpUCUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SMhfhyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SMhfiCUIEeyql_FaMzmsBA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SMhfiSUIEeyql_FaMzmsBA" name="isCellEditable">
+      <modelElement href="COO-Simulink.uml#_RSFQYCUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SMhfiiUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMhfiyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SMhfjCUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RSF3cCUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SMhfjSUIEeyql_FaMzmsBA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SMiGcCUIEeyql_FaMzmsBA" name="row">
+        <modelElement href="COO-Simulink.uml#_RSFQYSUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SMiGcSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SMiGciUIEeyql_FaMzmsBA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SMiGcyUIEeyql_FaMzmsBA" name="column">
+        <modelElement href="COO-Simulink.uml#_RSFQYiUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SMiGdCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SMiGdSUIEeyql_FaMzmsBA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SMiGdiUIEeyql_FaMzmsBA" name="getColumnClass">
+      <modelElement href="COO-Simulink.uml#_RSF3cSUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SMiGdyUIEeyql_FaMzmsBA" name="Generics">
+        <modelElement href="COO-Simulink.uml#_RSHFkCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SMiGeCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMiGeSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SMiGeiUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RqwPESUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SMiGeyUIEeyql_FaMzmsBA" name="Class">
+          <modelElement href="COO-Simulink.uml#_RqvA8CUIEeyql_FaMzmsBA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SMiGfCUIEeyql_FaMzmsBA" name="column">
+        <modelElement href="COO-Simulink.uml#_RSF3ciUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SMiGfSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SMiGfiUIEeyql_FaMzmsBA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SMiGfyUIEeyql_FaMzmsBA" name="getValueAt">
+      <modelElement href="COO-Simulink.uml#_RSHsoCUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SMiGgCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMiGgSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SMiGgiUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RqwPEiUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SMiGgyUIEeyql_FaMzmsBA" name="Object">
+          <modelElement href="COO-Simulink.uml#_RqoTQSUIEeyql_FaMzmsBA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SMiGhCUIEeyql_FaMzmsBA" name="row">
+        <modelElement href="COO-Simulink.uml#_RSHsoSUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SMiGhSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SMiGhiUIEeyql_FaMzmsBA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SMiGhyUIEeyql_FaMzmsBA" name="column">
+        <modelElement href="COO-Simulink.uml#_RSHsoiUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SMiGiCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SMiGiSUIEeyql_FaMzmsBA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SMiGiiUIEeyql_FaMzmsBA" name="getRowCount">
+      <modelElement href="COO-Simulink.uml#_RSITsCUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SMiGiyUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMiGjCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SMiGjSUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RSITsSUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SMiGjiUIEeyql_FaMzmsBA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SMiGjyUIEeyql_FaMzmsBA" name="getColumnCount">
+      <modelElement href="COO-Simulink.uml#_RSI6wCUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SMiGkCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMiGkSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SMiGkiUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RSI6wSUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SMiGkyUIEeyql_FaMzmsBA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SMiGlCUIEeyql_FaMzmsBA" name="getChart">
+      <modelElement href="COO-Simulink.uml#_RSI6wiUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SMiGlSUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMiGliUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SMiGlyUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RpWg4CUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SMiGmCUIEeyql_FaMzmsBA" name="Chart">
+          <modelElement href="COO-Simulink.uml#_RR7fYCUIEeyql_FaMzmsBA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SMiGmSUIEeyql_FaMzmsBA" name="row">
+        <modelElement href="COO-Simulink.uml#_RSI6wyUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SMiGmiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SMiGmyUIEeyql_FaMzmsBA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SMiGnCUIEeyql_FaMzmsBA" name="clearAll">
+      <modelElement href="COO-Simulink.uml#_RSJh0CUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SMiGnSUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMiGniUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_SMiGnyUIEeyql_FaMzmsBA" name="addChart">
+      <modelElement href="COO-Simulink.uml#_RpXH8CUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SMiGoCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMiGoSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_SMiGoiUIEeyql_FaMzmsBA" name="c">
+        <modelElement href="COO-Simulink.uml#_RpXH8SUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SMiGoyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SMiGpCUIEeyql_FaMzmsBA" name="Chart">
+          <modelElement href="COO-Simulink.uml#_RR7fYCUIEeyql_FaMzmsBA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SMiGpSUIEeyql_FaMzmsBA" name="setValueAt">
+      <modelElement href="COO-Simulink.uml#_Rqw2ICUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SMiGpiUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMiGpyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_SMiGqCUIEeyql_FaMzmsBA" name="value">
+        <modelElement href="COO-Simulink.uml#_Rqw2ISUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SMiGqSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SMiGqiUIEeyql_FaMzmsBA" name="Object">
+          <modelElement href="COO-Simulink.uml#_RqoTQSUIEeyql_FaMzmsBA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SMiGqyUIEeyql_FaMzmsBA" name="row">
+        <modelElement href="COO-Simulink.uml#_Rqw2IiUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SMiGrCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SMiGrSUIEeyql_FaMzmsBA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SMiGriUIEeyql_FaMzmsBA" name="column">
+        <modelElement href="COO-Simulink.uml#_Rqw2IyUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SMiGryUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SMiGsCUIEeyql_FaMzmsBA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_SKe4ACUIEeyql_FaMzmsBA" comments="_SKW8MCUIEeyql_FaMzmsBA" targetConnectionVisual="_SKXjQCUIEeyql_FaMzmsBA" name="Chart" associationsOut="_SKXjQSUIEeyql_FaMzmsBA _SKXjQiUIEeyql_FaMzmsBA" generalizations="_SKYKUCUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RR7fYCUIEeyql_FaMzmsBA"/>
+    <visualProperties xmi:id="_SKe4ASUIEeyql_FaMzmsBA" position="59.0,-511.0" size="-1.0,-1.0" visible="false"/>
+    <visibility xmi:id="_SKe4AiUIEeyql_FaMzmsBA" label="+"/>
+    <attributes xmi:id="_SKe4AyUIEeyql_FaMzmsBA" name="name">
+      <modelElement href="COO-Simulink.uml#_RrOJICUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SKe4BCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SKe4BSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SKe4BiUIEeyql_FaMzmsBA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SKe4ByUIEeyql_FaMzmsBA" name="isVisible">
+      <modelElement href="COO-Simulink.uml#_RrOJISUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SKe4CCUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RrOwMCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SKe4CSUIEeyql_FaMzmsBA" label="-"/>
+      <cardinality xmi:id="_SKe4CiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SKe4CyUIEeyql_FaMzmsBA" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SKe4DCUIEeyql_FaMzmsBA" name="series">
+      <modelElement href="COO-Simulink.uml#_RrOwMSUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SKe4DSUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SKe4DiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SKe4DyUIEeyql_FaMzmsBA" name="XYSeries">
+        <modelElement href="COO-Simulink.uml#_RpLhwSUIEeyql_FaMzmsBA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SKe4ECUIEeyql_FaMzmsBA" name="tableModel">
+      <modelElement href="COO-Simulink.uml#_RrOwMiUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SKe4ESUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SKe4EiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SKe4EyUIEeyql_FaMzmsBA" name="TableModelChart">
+        <modelElement href="COO-Simulink.uml#_RSNzQCUIEeyql_FaMzmsBA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_SKe4FCUIEeyql_FaMzmsBA" comments="_SKYxYCUIEeyql_FaMzmsBA" targetConnectionVisual="_SKYxYSUIEeyql_FaMzmsBA" name="Chart">
+      <modelElement href="COO-Simulink.uml#_RR8tgCUIEeyql_FaMzmsBA"/>
+      <keywords xmi:id="_SKe4FSUIEeyql_FaMzmsBA" keyword="create"/>
+      <visibility xmi:id="_SKe4FiUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SKe4FyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SKe4GCUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RR8thCUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SKe4GSUIEeyql_FaMzmsBA" name="Chart">
+          <modelElement href="COO-Simulink.uml#_RR7fYCUIEeyql_FaMzmsBA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SKe4GiUIEeyql_FaMzmsBA" name="name">
+        <modelElement href="COO-Simulink.uml#_RR8tgSUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SKe4GyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SKe4HCUIEeyql_FaMzmsBA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SKe4HSUIEeyql_FaMzmsBA" comments="_SKZYcCUIEeyql_FaMzmsBA" targetConnectionVisual="_SKZYcSUIEeyql_FaMzmsBA" name="getIsVisible">
+      <modelElement href="COO-Simulink.uml#_RR9UkCUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SKe4HiUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SKe4HyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SKe4ICUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RR9UkSUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SKe4ISUIEeyql_FaMzmsBA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SKe4IiUIEeyql_FaMzmsBA" comments="_SKZ_gCUIEeyql_FaMzmsBA" targetConnectionVisual="_SKZ_gSUIEeyql_FaMzmsBA" name="setIsVisible">
+      <modelElement href="COO-Simulink.uml#_RR9UkiUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SKe4IyUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SKe4JCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_SKe4JSUIEeyql_FaMzmsBA" name="isVisible">
+        <modelElement href="COO-Simulink.uml#_RR97oCUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SKe4JiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SKe4JyUIEeyql_FaMzmsBA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SKe4KCUIEeyql_FaMzmsBA" comments="_SKamkCUIEeyql_FaMzmsBA" targetConnectionVisual="_SKamkSUIEeyql_FaMzmsBA" name="addDataToSeries">
+      <modelElement href="COO-Simulink.uml#_RR97oSUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SKe4KSUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SKe4KiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_SKe4KyUIEeyql_FaMzmsBA" name="x">
+        <modelElement href="COO-Simulink.uml#_RR97oiUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SKe4LCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SKe4LSUIEeyql_FaMzmsBA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SKe4LiUIEeyql_FaMzmsBA" name="y">
+        <modelElement href="COO-Simulink.uml#_RR97oyUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SKe4LyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SKe4MCUIEeyql_FaMzmsBA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SKe4MSUIEeyql_FaMzmsBA" comments="_SKbNoCUIEeyql_FaMzmsBA" targetConnectionVisual="_SKbNoSUIEeyql_FaMzmsBA" name="clearSeries">
+      <modelElement href="COO-Simulink.uml#_RR-isCUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SKe4MiUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SKe4MyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_SMS14CUIEeyql_FaMzmsBA" comments="_SMN9YCUIEeyql_FaMzmsBA" targetConnectionVisual="_SMN9YSUIEeyql_FaMzmsBA" name="TableModelChart" associationsIn="_SJpxkCUIEeyql_FaMzmsBA _SKXjQiUIEeyql_FaMzmsBA" associationsOut="_SMSO0CUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RSNzQCUIEeyql_FaMzmsBA"/>
+    <visualProperties xmi:id="_SMS14SUIEeyql_FaMzmsBA" position="534.0,-875.0" size="-1.0,-1.0" visible="false"/>
+    <visibility xmi:id="_SMS14iUIEeyql_FaMzmsBA" label="+"/>
+    <attributes xmi:id="_SMS14yUIEeyql_FaMzmsBA" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="COO-Simulink.uml#_RrTBoCUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SMS15CUIEeyql_FaMzmsBA" label="-"/>
+      <cardinality xmi:id="_SMS15SUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SMS15iUIEeyql_FaMzmsBA" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SMS15yUIEeyql_FaMzmsBA" defaultValue="0" name="Time" staticAttribute="true">
+      <modelElement href="COO-Simulink.uml#_RrTosCUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SMS16CUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMS16SUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SMS16iUIEeyql_FaMzmsBA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SMS16yUIEeyql_FaMzmsBA" defaultValue="1" name="Value" staticAttribute="true">
+      <modelElement href="COO-Simulink.uml#_RrTosiUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SMS17CUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMS17SUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SMS17iUIEeyql_FaMzmsBA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SMS17yUIEeyql_FaMzmsBA" name="columnNames">
+      <modelElement href="COO-Simulink.uml#_RrUPwCUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SMS18CUIEeyql_FaMzmsBA" name="Array">
+        <modelElement href="COO-Simulink.uml#_RrUPwiUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SMS18SUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RrU20CUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SMS18iUIEeyql_FaMzmsBA" label="#"/>
+      <cardinality xmi:id="_SMS18yUIEeyql_FaMzmsBA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_SMS19CUIEeyql_FaMzmsBA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SMS19SUIEeyql_FaMzmsBA" name="dataVector">
+      <modelElement href="COO-Simulink.uml#_RrU20SUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SMS19iUIEeyql_FaMzmsBA" name="Generics">
+        <modelElement href="COO-Simulink.uml#_RrWE8CUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SMS19yUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RrWE8SUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SMS1-CUIEeyql_FaMzmsBA" label="#"/>
+      <cardinality xmi:id="_SMS1-SUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SMS1-iUIEeyql_FaMzmsBA" name="Vector">
+        <modelElement href="COO-Simulink.uml#_RpUrsCUIEeyql_FaMzmsBA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_SMS1-yUIEeyql_FaMzmsBA" comments="_SMOkcCUIEeyql_FaMzmsBA" targetConnectionVisual="_SMOkcSUIEeyql_FaMzmsBA" name="TableModelChart">
+      <modelElement href="COO-Simulink.uml#_RSPBYCUIEeyql_FaMzmsBA"/>
+      <keywords xmi:id="_SMS1_CUIEeyql_FaMzmsBA" keyword="create"/>
+      <visibility xmi:id="_SMS1_SUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMS1_iUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SMS1_yUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RSPociUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SMS2ACUIEeyql_FaMzmsBA" name="TableModelChart">
+          <modelElement href="COO-Simulink.uml#_RSNzQCUIEeyql_FaMzmsBA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SMS2ASUIEeyql_FaMzmsBA" name="getColumnName">
+      <modelElement href="COO-Simulink.uml#_RSPocyUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SMS2AiUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMS2AyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SMS2BCUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RSQPgSUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SMS2BSUIEeyql_FaMzmsBA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SMS2BiUIEeyql_FaMzmsBA" name="column">
+        <modelElement href="COO-Simulink.uml#_RSQPgCUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SMS2ByUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SMS2CCUIEeyql_FaMzmsBA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SMS2CSUIEeyql_FaMzmsBA" name="isCellEditable">
+      <modelElement href="COO-Simulink.uml#_RSQPgiUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SMS2CiUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMS2CyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SMS2DCUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RSQ2kSUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SMS2DSUIEeyql_FaMzmsBA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SMS2DiUIEeyql_FaMzmsBA" name="row">
+        <modelElement href="COO-Simulink.uml#_RSQPgyUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SMS2DyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SMS2ECUIEeyql_FaMzmsBA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SMS2ESUIEeyql_FaMzmsBA" name="column">
+        <modelElement href="COO-Simulink.uml#_RSQ2kCUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SMS2EiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SMS2EyUIEeyql_FaMzmsBA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SMS2FCUIEeyql_FaMzmsBA" name="getColumnClass">
+      <modelElement href="COO-Simulink.uml#_RSQ2kiUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SMS2FSUIEeyql_FaMzmsBA" name="Generics">
+        <modelElement href="COO-Simulink.uml#_RSSEsCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SMS2FiUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMS2FyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SMS2GCUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RqzSYCUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SMS2GSUIEeyql_FaMzmsBA" name="Class">
+          <modelElement href="COO-Simulink.uml#_RqvA8CUIEeyql_FaMzmsBA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SMS2GiUIEeyql_FaMzmsBA" name="column">
+        <modelElement href="COO-Simulink.uml#_RSQ2kyUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SMS2GyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SMS2HCUIEeyql_FaMzmsBA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SMS2HSUIEeyql_FaMzmsBA" name="getValueAt">
+      <modelElement href="COO-Simulink.uml#_RSSrwCUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SMS2HiUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMS2HyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SMS2ICUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RqzSYSUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SMS2ISUIEeyql_FaMzmsBA" name="Object">
+          <modelElement href="COO-Simulink.uml#_RqoTQSUIEeyql_FaMzmsBA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SMS2IiUIEeyql_FaMzmsBA" name="row">
+        <modelElement href="COO-Simulink.uml#_RSSrwSUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SMS2IyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SMS2JCUIEeyql_FaMzmsBA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SMS2JSUIEeyql_FaMzmsBA" name="column">
+        <modelElement href="COO-Simulink.uml#_RSSrwiUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SMS2JiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SMS2JyUIEeyql_FaMzmsBA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SMS2KCUIEeyql_FaMzmsBA" name="getRowCount">
+      <modelElement href="COO-Simulink.uml#_RSTS0CUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SMS2KSUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMS2KiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SMS2KyUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RSTS0SUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SMS2LCUIEeyql_FaMzmsBA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SMS2LSUIEeyql_FaMzmsBA" name="getColumnCount">
+      <modelElement href="COO-Simulink.uml#_RSTS0iUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SMS2LiUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMS2LyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SMS2MCUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RSTS0yUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SMS2MSUIEeyql_FaMzmsBA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SMS2MiUIEeyql_FaMzmsBA" name="getDataVector">
+      <modelElement href="COO-Simulink.uml#_RST54CUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SMS2MyUIEeyql_FaMzmsBA" name="Generics">
+        <modelElement href="COO-Simulink.uml#_RSUg8CUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SMS2NCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMS2NSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SMS2NiUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RqzSYiUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SMS2NyUIEeyql_FaMzmsBA" name="Vector">
+          <modelElement href="COO-Simulink.uml#_RpUrsCUIEeyql_FaMzmsBA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SMS2OCUIEeyql_FaMzmsBA" name="addTimeAndValue">
+      <modelElement href="COO-Simulink.uml#_RpaLQCUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SMS2OSUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMS2OiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_SMS2OyUIEeyql_FaMzmsBA" name="tv">
+        <modelElement href="COO-Simulink.uml#_RpaLQSUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SMS2PCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SMS2PSUIEeyql_FaMzmsBA" name="TimeAndValue">
+          <modelElement href="COO-Simulink.uml#_RQ8A4CUIEeyql_FaMzmsBA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_SJrmwCUIEeyql_FaMzmsBA" comments="_SJgAkCUIEeyql_FaMzmsBA" targetConnectionVisual="_SJgAkSUIEeyql_FaMzmsBA" name="LineChartPane" associationsIn="_SIG5cCUIEeyql_FaMzmsBA" associationsOut="_SJgnoCUIEeyql_FaMzmsBA _SJpxkCUIEeyql_FaMzmsBA _SJqYoCUIEeyql_FaMzmsBA _SJq_sCUIEeyql_FaMzmsBA" generalizations="_SJgnoSUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RRvSICUIEeyql_FaMzmsBA"/>
+    <visualProperties xmi:id="_SJrmwSUIEeyql_FaMzmsBA" position="-499.0,-429.0" size="-1.0,-1.0" visible="false"/>
+    <visibility xmi:id="_SJrmwiUIEeyql_FaMzmsBA" label="+"/>
+    <attributes xmi:id="_SJrmwyUIEeyql_FaMzmsBA" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="COO-Simulink.uml#_RrIpkSUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SJrmxCUIEeyql_FaMzmsBA" label="-"/>
+      <cardinality xmi:id="_SJrmxSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SJrmxiUIEeyql_FaMzmsBA" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SJrmxyUIEeyql_FaMzmsBA" name="tableModel">
+      <modelElement href="COO-Simulink.uml#_RrJQoSUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SJrmyCUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RrJ3sCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SJrmySUIEeyql_FaMzmsBA" label="-"/>
+      <cardinality xmi:id="_SJrmyiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SJrmyyUIEeyql_FaMzmsBA" name="TableModelChart">
+        <modelElement href="COO-Simulink.uml#_RSNzQCUIEeyql_FaMzmsBA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SJrmzCUIEeyql_FaMzmsBA" name="table">
+      <modelElement href="COO-Simulink.uml#_RrJ3sSUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SJrmzSUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RrKewCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SJrmziUIEeyql_FaMzmsBA" label="-"/>
+      <cardinality xmi:id="_SJrmzyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SJrm0CUIEeyql_FaMzmsBA" name="JTable">
+        <modelElement href="COO-Simulink.uml#_RomS8SUIEeyql_FaMzmsBA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SJrm0SUIEeyql_FaMzmsBA" name="chart">
+      <modelElement href="COO-Simulink.uml#_RrKewSUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SJrm0iUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RrKewiUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SJrm0yUIEeyql_FaMzmsBA" label="-"/>
+      <cardinality xmi:id="_SJrm1CUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SJrm1SUIEeyql_FaMzmsBA" name="JFreeChart">
+        <modelElement href="COO-Simulink.uml#_RpGpQCUIEeyql_FaMzmsBA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SJrm1iUIEeyql_FaMzmsBA" defaultValue="&quot;Ligne&quot;" name="Line_Renderer_KEY">
+      <modelElement href="COO-Simulink.uml#_RrLF0CUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SJrm1yUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RrLF0iUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SJrm2CUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SJrm2SUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SJrm2iUIEeyql_FaMzmsBA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SJrm2yUIEeyql_FaMzmsBA" defaultValue="&quot;Echelon&quot;" name="Step_Rendeerer_KEY">
+      <modelElement href="COO-Simulink.uml#_RrLs4CUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SJrm3CUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RrMT8CUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SJrm3SUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SJrm3iUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SJrm3yUIEeyql_FaMzmsBA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SJrm4CUIEeyql_FaMzmsBA" defaultValue="&quot;Spline&quot;" name="Spline_Renderer_KEY">
+      <modelElement href="COO-Simulink.uml#_RrMT8SUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SJrm4SUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RrM7ACUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SJrm4iUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SJrm4yUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SJrm5CUIEeyql_FaMzmsBA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SJrm5SUIEeyql_FaMzmsBA" name="dataset">
+      <modelElement href="COO-Simulink.uml#_RrM7ASUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SJrm5iUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SJrm5yUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SJrm6CUIEeyql_FaMzmsBA" name="XYSeriesCollection">
+        <modelElement href="COO-Simulink.uml#_RpMv4CUIEeyql_FaMzmsBA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_SJrm6SUIEeyql_FaMzmsBA" comments="_SJhOsCUIEeyql_FaMzmsBA" targetConnectionVisual="_SJhOsSUIEeyql_FaMzmsBA" name="LineChartPane">
+      <modelElement href="COO-Simulink.uml#_RRxHUCUIEeyql_FaMzmsBA"/>
+      <keywords xmi:id="_SJrm6iUIEeyql_FaMzmsBA" keyword="create"/>
+      <visibility xmi:id="_SJrm6yUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SJrm7CUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SJrm7SUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RRxuZCUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SJrm7iUIEeyql_FaMzmsBA" name="LineChartPane">
+          <modelElement href="COO-Simulink.uml#_RRvSICUIEeyql_FaMzmsBA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SJrm7yUIEeyql_FaMzmsBA" name="titre">
+        <modelElement href="COO-Simulink.uml#_RRxuYCUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SJrm8CUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SJrm8SUIEeyql_FaMzmsBA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SJrm8iUIEeyql_FaMzmsBA" name="legende">
+        <modelElement href="COO-Simulink.uml#_RRxuYSUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SJrm8yUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SJrm9CUIEeyql_FaMzmsBA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SJrm9SUIEeyql_FaMzmsBA" comments="_SJh1wCUIEeyql_FaMzmsBA" targetConnectionVisual="_SJh1wSUIEeyql_FaMzmsBA" name="fireDataChanged">
+      <modelElement href="COO-Simulink.uml#_RRxuZSUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SJrm9iUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SJrm9yUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_SJrm-CUIEeyql_FaMzmsBA" comments="_SJh1wiUIEeyql_FaMzmsBA" targetConnectionVisual="_SJh1wyUIEeyql_FaMzmsBA" name="updateTitre">
+      <modelElement href="COO-Simulink.uml#_RRyVcCUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SJrm-SUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SJrm-iUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_SJrm-yUIEeyql_FaMzmsBA" name="titre">
+        <modelElement href="COO-Simulink.uml#_RRyVcSUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SJrm_CUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SJrm_SUIEeyql_FaMzmsBA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SJrm_iUIEeyql_FaMzmsBA" comments="_SJic0CUIEeyql_FaMzmsBA" targetConnectionVisual="_SJic0SUIEeyql_FaMzmsBA" name="isDouble">
+      <modelElement href="COO-Simulink.uml#_RRy8gCUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SJrm_yUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SJrnACUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SJrnASUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RRy8giUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SJrnAiUIEeyql_FaMzmsBA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SJrnAyUIEeyql_FaMzmsBA" name="string">
+        <modelElement href="COO-Simulink.uml#_RRy8gSUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SJrnBCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SJrnBSUIEeyql_FaMzmsBA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SJrnBiUIEeyql_FaMzmsBA" comments="_SJic0iUIEeyql_FaMzmsBA" targetConnectionVisual="_SJic0yUIEeyql_FaMzmsBA" name="changeRenderer">
+      <modelElement href="COO-Simulink.uml#_RRzjkCUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SJrnByUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SJrnCCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_SJrnCSUIEeyql_FaMzmsBA" name="render">
+        <modelElement href="COO-Simulink.uml#_RRzjkSUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SJrnCiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SJrnCyUIEeyql_FaMzmsBA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SJrnDCUIEeyql_FaMzmsBA" name="clearDataset">
+      <modelElement href="COO-Simulink.uml#_RR0KoCUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SJrnDSUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SJrnDiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_SJrnDyUIEeyql_FaMzmsBA" name="resetTableModel">
+      <modelElement href="COO-Simulink.uml#_RR0KoSUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SJrnECUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SJrnESUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_SJrnEiUIEeyql_FaMzmsBA" name="setTableModel">
+      <modelElement href="COO-Simulink.uml#_RpOlECUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SJrnEyUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SJrnFCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_SJrnFSUIEeyql_FaMzmsBA" name="tModel">
+        <modelElement href="COO-Simulink.uml#_RpOlESUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SJrnFiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SJrnFyUIEeyql_FaMzmsBA" name="TableModelChart">
+          <modelElement href="COO-Simulink.uml#_RSNzQCUIEeyql_FaMzmsBA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SJrnGCUIEeyql_FaMzmsBA" name="actionPerformed">
+      <modelElement href="COO-Simulink.uml#_Rql3ASUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SJrnGSUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RqmeECUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SJrnGiUIEeyql_FaMzmsBA" name="Annotations">
+        <modelElement href="COO-Simulink.uml#_RqnFISUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SJrnGyUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SJrnHCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_SJrnHSUIEeyql_FaMzmsBA" name="event">
+        <modelElement href="COO-Simulink.uml#_Rql3AiUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SJrnHiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SJrnHyUIEeyql_FaMzmsBA" name="ActionEvent">
+          <modelElement href="COO-Simulink.uml#_Ro-GYSUIEeyql_FaMzmsBA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SJrnICUIEeyql_FaMzmsBA" name="addDataset">
+      <modelElement href="COO-Simulink.uml#_RqnFIyUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SJrnISUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SJrnIiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_SJrnIyUIEeyql_FaMzmsBA" name="s">
+        <modelElement href="COO-Simulink.uml#_RqnsMCUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SJrnJCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SJrnJSUIEeyql_FaMzmsBA" name="XYSeries">
+          <modelElement href="COO-Simulink.uml#_RpLhwSUIEeyql_FaMzmsBA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SJrnJiUIEeyql_FaMzmsBA" name="removeDataset">
+      <modelElement href="COO-Simulink.uml#_RqnsMSUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SJrnJyUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SJrnKCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_SJrnKSUIEeyql_FaMzmsBA" name="s">
+        <modelElement href="COO-Simulink.uml#_RqoTQCUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SJrnKiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SJrnKyUIEeyql_FaMzmsBA" name="XYSeries">
+          <modelElement href="COO-Simulink.uml#_RpLhwSUIEeyql_FaMzmsBA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SJrnLCUIEeyql_FaMzmsBA" name="update">
+      <modelElement href="COO-Simulink.uml#_RqphYSUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SJrnLSUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RqqIcCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SJrnLiUIEeyql_FaMzmsBA" name="Annotations">
+        <modelElement href="COO-Simulink.uml#_RqqvgCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SJrnLyUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SJrnMCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_SJrnMSUIEeyql_FaMzmsBA" name="obs">
+        <modelElement href="COO-Simulink.uml#_RqphYiUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SJrnMiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SJrnMyUIEeyql_FaMzmsBA" name="Observable">
+          <modelElement href="COO-Simulink.uml#_Ro_7kSUIEeyql_FaMzmsBA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SJrnNCUIEeyql_FaMzmsBA" name="obj">
+        <modelElement href="COO-Simulink.uml#_RqphYyUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SJrnNSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SJrnNiUIEeyql_FaMzmsBA" name="Object">
+          <modelElement href="COO-Simulink.uml#_RqoTQSUIEeyql_FaMzmsBA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_SIMZACUIEeyql_FaMzmsBA" comments="_SH1zsCUIEeyql_FaMzmsBA" targetConnectionVisual="_SH3B0CUIEeyql_FaMzmsBA" name="ChartFrame" associationsOut="_SIG5cCUIEeyql_FaMzmsBA _SIIHkCUIEeyql_FaMzmsBA _SIJVsCUIEeyql_FaMzmsBA _SIKj0CUIEeyql_FaMzmsBA _SILx8CUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RQjmYCUIEeyql_FaMzmsBA"/>
+    <visualProperties xmi:id="_SIMZASUIEeyql_FaMzmsBA" position="30.0,30.0" size="-1.0,-1.0" visible="false"/>
+    <visibility xmi:id="_SIMZAiUIEeyql_FaMzmsBA" label="+"/>
+    <attributes xmi:id="_SIMZAyUIEeyql_FaMzmsBA" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="COO-Simulink.uml#_Rq4K4CUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SIMZBCUIEeyql_FaMzmsBA" label="-"/>
+      <cardinality xmi:id="_SIMZBSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SIMZBiUIEeyql_FaMzmsBA" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SIMZByUIEeyql_FaMzmsBA" name="chartPane">
+      <modelElement href="COO-Simulink.uml#_Rq4x8CUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SIMZCCUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_Rq4x8SUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SIMZCSUIEeyql_FaMzmsBA" label="~"/>
+      <cardinality xmi:id="_SIMZCiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SIMZCyUIEeyql_FaMzmsBA" name="LineChartPane">
+        <modelElement href="COO-Simulink.uml#_RRvSICUIEeyql_FaMzmsBA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SIMZDCUIEeyql_FaMzmsBA" name="jsplitpane">
+      <modelElement href="COO-Simulink.uml#_Rq5ZACUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SIMZDSUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_Rq5ZASUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SIMZDiUIEeyql_FaMzmsBA" label="~"/>
+      <cardinality xmi:id="_SIMZDyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SIMZECUIEeyql_FaMzmsBA" name="JSplitPane">
+        <modelElement href="COO-Simulink.uml#_RolE0CUIEeyql_FaMzmsBA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SIMZESUIEeyql_FaMzmsBA" name="choiceTable">
+      <modelElement href="COO-Simulink.uml#_Rq6AECUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SIMZEiUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_Rq6AESUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SIMZEyUIEeyql_FaMzmsBA" label="-"/>
+      <cardinality xmi:id="_SIMZFCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SIMZFSUIEeyql_FaMzmsBA" name="JTable">
+        <modelElement href="COO-Simulink.uml#_RomS8SUIEeyql_FaMzmsBA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SIMZFiUIEeyql_FaMzmsBA" name="choiceTableModel">
+      <modelElement href="COO-Simulink.uml#_Rq6nICUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SIMZFyUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SIMZGCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SIMZGSUIEeyql_FaMzmsBA" name="ChoiceChartTableModel">
+        <modelElement href="COO-Simulink.uml#_RSAX4CUIEeyql_FaMzmsBA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SIMZGiUIEeyql_FaMzmsBA" name="tableScrollPane">
+      <modelElement href="COO-Simulink.uml#_Rq6nISUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SIMZGyUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_Rq7OMCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SIMZHCUIEeyql_FaMzmsBA" label="-"/>
+      <cardinality xmi:id="_SIMZHSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SIMZHiUIEeyql_FaMzmsBA" name="JScrollPane">
+        <modelElement href="COO-Simulink.uml#_RojPoSUIEeyql_FaMzmsBA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_SIMZHyUIEeyql_FaMzmsBA" comments="_SH8hYCUIEeyql_FaMzmsBA" targetConnectionVisual="_SH9IcCUIEeyql_FaMzmsBA" name="ChartFrame">
+      <modelElement href="COO-Simulink.uml#_RQlbkCUIEeyql_FaMzmsBA"/>
+      <keywords xmi:id="_SIMZICUIEeyql_FaMzmsBA" keyword="create"/>
+      <visibility xmi:id="_SIMZISUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SIMZIiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SIMZIyUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RQmpsiUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SIMZJCUIEeyql_FaMzmsBA" name="ChartFrame">
+          <modelElement href="COO-Simulink.uml#_RQjmYCUIEeyql_FaMzmsBA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SIMZJSUIEeyql_FaMzmsBA" name="projectName">
+        <modelElement href="COO-Simulink.uml#_RQmCoCUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SIMZJiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SIMZJyUIEeyql_FaMzmsBA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SIMZKCUIEeyql_FaMzmsBA" name="title">
+        <modelElement href="COO-Simulink.uml#_RQmCoSUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SIMZKSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SIMZKiUIEeyql_FaMzmsBA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SIMZKyUIEeyql_FaMzmsBA" comments="_SH9IcSUIEeyql_FaMzmsBA" targetConnectionVisual="_SH9vgCUIEeyql_FaMzmsBA" name="getLineChartPane">
+      <modelElement href="COO-Simulink.uml#_RQn30CUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SIMZLCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SIMZLSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SIMZLiUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RoqkYCUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SIMZLyUIEeyql_FaMzmsBA" name="LineChartPane">
+          <modelElement href="COO-Simulink.uml#_RRvSICUIEeyql_FaMzmsBA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SIMZMCUIEeyql_FaMzmsBA" comments="_SH9vgSUIEeyql_FaMzmsBA" targetConnectionVisual="_SH9vgiUIEeyql_FaMzmsBA" name="reset">
+      <modelElement href="COO-Simulink.uml#_RQpF8CUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SIMZMSUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SIMZMiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_SIMZMyUIEeyql_FaMzmsBA" comments="_SH-WkCUIEeyql_FaMzmsBA" targetConnectionVisual="_SH-WkSUIEeyql_FaMzmsBA" name="addToLineChartPane">
+      <modelElement href="COO-Simulink.uml#_RorLcCUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SIMZNCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SIMZNSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_SIMZNiUIEeyql_FaMzmsBA" name="c">
+        <modelElement href="COO-Simulink.uml#_RorLcSUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SIMZNyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SIMZOCUIEeyql_FaMzmsBA" name="Chart">
+          <modelElement href="COO-Simulink.uml#_RR7fYCUIEeyql_FaMzmsBA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_SJahACUIEeyql_FaMzmsBA" comments="_SJZS4CUIEeyql_FaMzmsBA" targetConnectionVisual="_SJZS4SUIEeyql_FaMzmsBA" name="TimeAndValue">
+    <modelElement href="COO-Simulink.uml#_RQ8A4CUIEeyql_FaMzmsBA"/>
+    <visualProperties xmi:id="_SJahASUIEeyql_FaMzmsBA" position="-399.0,160.0" size="-1.0,-1.0" visible="false"/>
+    <visibility xmi:id="_SJahAiUIEeyql_FaMzmsBA" label="+"/>
+    <attributes xmi:id="_SJahAyUIEeyql_FaMzmsBA" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="COO-Simulink.uml#_Rq71QCUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SJahBCUIEeyql_FaMzmsBA" label="-"/>
+      <cardinality xmi:id="_SJahBSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SJahBiUIEeyql_FaMzmsBA" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SJahByUIEeyql_FaMzmsBA" name="t">
+      <modelElement href="COO-Simulink.uml#_Rq71QiUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SJahCCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SJahCSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SJahCiUIEeyql_FaMzmsBA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SJahCyUIEeyql_FaMzmsBA" name="value">
+      <modelElement href="COO-Simulink.uml#_Rq8cUCUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SJahDCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SJahDSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SJahDiUIEeyql_FaMzmsBA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SJahDyUIEeyql_FaMzmsBA" name="type">
+      <modelElement href="COO-Simulink.uml#_Rq8cUSUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SJahECUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SJahESUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SJahEiUIEeyql_FaMzmsBA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_SJahEyUIEeyql_FaMzmsBA" name="TimeAndValue">
+      <modelElement href="COO-Simulink.uml#_RQ92ECUIEeyql_FaMzmsBA"/>
+      <keywords xmi:id="_SJahFCUIEeyql_FaMzmsBA" keyword="create"/>
+      <visibility xmi:id="_SJahFSUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SJahFiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SJahFyUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RQ-dICUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SJahGCUIEeyql_FaMzmsBA" name="TimeAndValue">
+          <modelElement href="COO-Simulink.uml#_RQ8A4CUIEeyql_FaMzmsBA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SJahGSUIEeyql_FaMzmsBA" name="type">
+        <modelElement href="COO-Simulink.uml#_RQ92ESUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SJahGiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SJahGyUIEeyql_FaMzmsBA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_SKopACUIEeyql_FaMzmsBA" name="Main">
+    <modelElement href="COO-Simulink.uml#_RQ_rQCUIEeyql_FaMzmsBA"/>
+    <visualProperties xmi:id="_SKopASUIEeyql_FaMzmsBA" position="-353.0,360.0" size="-1.0,-1.0" visible="false"/>
+    <visibility xmi:id="_SKopAiUIEeyql_FaMzmsBA" label="+"/>
+    <operations xmi:id="_SKopAyUIEeyql_FaMzmsBA" name="main" staticOperation="true">
+      <modelElement href="COO-Simulink.uml#_RRASUCUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SKopBCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SKopBSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_SKopBiUIEeyql_FaMzmsBA" name="args">
+        <modelElement href="COO-Simulink.uml#_RRASUSUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SKopByUIEeyql_FaMzmsBA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_SKopCCUIEeyql_FaMzmsBA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_SK-nQCUIEeyql_FaMzmsBA" name="Buffer" generalizations="_SLI_USUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RRc-QCUIEeyql_FaMzmsBA"/>
+    <visualProperties xmi:id="_SK-nQSUIEeyql_FaMzmsBA" position="-1240.0,100.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_SK-nQiUIEeyql_FaMzmsBA" label="+"/>
+    <attributes xmi:id="_SK-nQyUIEeyql_FaMzmsBA" name="q">
+      <modelElement href="COO-Simulink.uml#_RrGNUCUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SK-nRCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SK-nRSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SK-nRiUIEeyql_FaMzmsBA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_SK-nRyUIEeyql_FaMzmsBA" name="external">
+      <modelElement href="COO-Simulink.uml#_RRezcCUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SK-nSCUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RRfagCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SK-nSSUIEeyql_FaMzmsBA" name="Annotations">
+        <modelElement href="COO-Simulink.uml#_RRfagSUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SK-nSiUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SK-nSyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_SK-nTCUIEeyql_FaMzmsBA" name="internal">
+      <modelElement href="COO-Simulink.uml#_RRgBkSUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SK-nTSUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RRgBkiUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SK-nTiUIEeyql_FaMzmsBA" name="Annotations">
+        <modelElement href="COO-Simulink.uml#_RRgooCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SK-nTyUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SK-nUCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_SK-nUSUIEeyql_FaMzmsBA" name="output">
+      <modelElement href="COO-Simulink.uml#_RRgooiUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SK-nUiUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RRhPsCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SK-nUyUIEeyql_FaMzmsBA" name="Annotations">
+        <modelElement href="COO-Simulink.uml#_RRhPsSUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SK-nVCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SK-nVSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_SK-nViUIEeyql_FaMzmsBA" name="timeAdvancement">
+      <modelElement href="COO-Simulink.uml#_RRh2wSUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SK-nVyUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RRid0CUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SK-nWCUIEeyql_FaMzmsBA" name="Annotations">
+        <modelElement href="COO-Simulink.uml#_RRjE4CUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SK-nWSUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SK-nWiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SK-nWyUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RRh2wiUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SK-nXCUIEeyql_FaMzmsBA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SK-nXSUIEeyql_FaMzmsBA" name="conflict">
+      <modelElement href="COO-Simulink.uml#_RRjr8CUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SK-nXiUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RRkTACUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SK-nXyUIEeyql_FaMzmsBA" name="Annotations">
+        <modelElement href="COO-Simulink.uml#_RRk6ECUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SK-nYCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SK-nYSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_SK-nYiUIEeyql_FaMzmsBA" name="init">
+      <modelElement href="COO-Simulink.uml#_RRk6EiUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SK-nYyUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RRlhICUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SK-nZCUIEeyql_FaMzmsBA" name="Annotations">
+        <modelElement href="COO-Simulink.uml#_RRmIMCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SK-nZSUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SK-nZiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_SK-nZyUIEeyql_FaMzmsBA" name="Buffer">
+      <modelElement href="COO-Simulink.uml#_RqfJUCUIEeyql_FaMzmsBA"/>
+      <keywords xmi:id="_SK-naCUIEeyql_FaMzmsBA" keyword="create"/>
+      <visibility xmi:id="_SK-naSUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SK-naiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SK-nayUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RqfwZiUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SK-nbCUIEeyql_FaMzmsBA" name="Buffer">
+          <modelElement href="COO-Simulink.uml#_RRc-QCUIEeyql_FaMzmsBA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SK-nbSUIEeyql_FaMzmsBA" name="id">
+        <modelElement href="COO-Simulink.uml#_RqfwYCUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SK-nbiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SK-nbyUIEeyql_FaMzmsBA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SK-ncCUIEeyql_FaMzmsBA" name="X">
+        <modelElement href="COO-Simulink.uml#_RqfwYSUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SK-ncSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SK-nciUIEeyql_FaMzmsBA" name="TreeMap">
+          <modelElement href="COO-Simulink.uml#_RoYQgCUIEeyql_FaMzmsBA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SK-ncyUIEeyql_FaMzmsBA" name="Y">
+        <modelElement href="COO-Simulink.uml#_RqfwYiUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SK-ndCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SK-ndSUIEeyql_FaMzmsBA" name="TreeMap">
+          <modelElement href="COO-Simulink.uml#_RoYQgCUIEeyql_FaMzmsBA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SK-ndiUIEeyql_FaMzmsBA" name="ta">
+        <modelElement href="COO-Simulink.uml#_RqfwYyUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SK-ndyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SK-neCUIEeyql_FaMzmsBA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_SKzoICUIEeyql_FaMzmsBA" name="Generator" generalizations="_SLI_UCUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RQt-cCUIEeyql_FaMzmsBA"/>
+    <visualProperties xmi:id="_SKzoISUIEeyql_FaMzmsBA" position="-273.0,111.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_SKzoIiUIEeyql_FaMzmsBA" label="+"/>
+    <operations xmi:id="_SKzoIyUIEeyql_FaMzmsBA" name="internal">
+      <modelElement href="COO-Simulink.uml#_RQvzoCUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SKzoJCUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RQwasCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SKzoJSUIEeyql_FaMzmsBA" name="Annotations">
+        <modelElement href="COO-Simulink.uml#_RQxo0CUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SKzoJiUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SKzoJyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_SKzoKCUIEeyql_FaMzmsBA" name="output">
+      <modelElement href="COO-Simulink.uml#_RQxo0iUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SKzoKSUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RQyP4CUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SKzoKiUIEeyql_FaMzmsBA" name="Annotations">
+        <modelElement href="COO-Simulink.uml#_RQy28CUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SKzoKyUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SKzoLCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_SKzoLSUIEeyql_FaMzmsBA" name="timeAdvancement">
+      <modelElement href="COO-Simulink.uml#_RQzeACUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SKzoLiUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RQ0sICUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SKzoLyUIEeyql_FaMzmsBA" name="Annotations">
+        <modelElement href="COO-Simulink.uml#_RQ0sISUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SKzoMCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SKzoMSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SKzoMiUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RQ0FECUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SKzoMyUIEeyql_FaMzmsBA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SKzoNCUIEeyql_FaMzmsBA" name="external">
+      <modelElement href="COO-Simulink.uml#_RQ1TMSUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SKzoNSUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RQ16QCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SKzoNiUIEeyql_FaMzmsBA" name="Annotations">
+        <modelElement href="COO-Simulink.uml#_RQ2hUCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SKzoNyUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SKzoOCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_SKzoOSUIEeyql_FaMzmsBA" name="conflict">
+      <modelElement href="COO-Simulink.uml#_RQ2hUiUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SKzoOiUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RQ3IYCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SKzoOyUIEeyql_FaMzmsBA" name="Annotations">
+        <modelElement href="COO-Simulink.uml#_RQ3vcCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SKzoPCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SKzoPSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_SKzoPiUIEeyql_FaMzmsBA" name="init">
+      <modelElement href="COO-Simulink.uml#_RQ3vciUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SKzoPyUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RQ4WgCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SKzoQCUIEeyql_FaMzmsBA" name="Annotations">
+        <modelElement href="COO-Simulink.uml#_RQ49kCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SKzoQSUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SKzoQiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_SKzoQyUIEeyql_FaMzmsBA" name="Generator">
+      <modelElement href="COO-Simulink.uml#_RpmYgCUIEeyql_FaMzmsBA"/>
+      <keywords xmi:id="_SKzoRCUIEeyql_FaMzmsBA" keyword="create"/>
+      <visibility xmi:id="_SKzoRSUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SKzoRiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SKzoRyUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_Rpm_kCUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SKzoSCUIEeyql_FaMzmsBA" name="Generator">
+          <modelElement href="COO-Simulink.uml#_RQt-cCUIEeyql_FaMzmsBA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SKzoSSUIEeyql_FaMzmsBA" name="id">
+        <modelElement href="COO-Simulink.uml#_RpmYgSUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SKzoSiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SKzoSyUIEeyql_FaMzmsBA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SKzoTCUIEeyql_FaMzmsBA" name="X">
+        <modelElement href="COO-Simulink.uml#_RpmYgiUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SKzoTSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SKzoTiUIEeyql_FaMzmsBA" name="TreeMap">
+          <modelElement href="COO-Simulink.uml#_RoYQgCUIEeyql_FaMzmsBA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SKzoTyUIEeyql_FaMzmsBA" name="Y">
+        <modelElement href="COO-Simulink.uml#_RpmYgyUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SKzoUCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SKzoUSUIEeyql_FaMzmsBA" name="TreeMap">
+          <modelElement href="COO-Simulink.uml#_RoYQgCUIEeyql_FaMzmsBA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SKzoUiUIEeyql_FaMzmsBA" name="ta">
+        <modelElement href="COO-Simulink.uml#_RpmYhCUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SKzoUyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SKzoVCUIEeyql_FaMzmsBA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_SMCXMCUIEeyql_FaMzmsBA" name="Processor" generalizations="_SL_68CUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RQQEYCUIEeyql_FaMzmsBA"/>
+    <visualProperties xmi:id="_SMCXMSUIEeyql_FaMzmsBA" position="-774.0,104.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_SMCXMiUIEeyql_FaMzmsBA" label="+"/>
+    <operations xmi:id="_SMCXMyUIEeyql_FaMzmsBA" name="external">
+      <modelElement href="COO-Simulink.uml#_RQWyECUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SMCXNCUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RQYAMCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SMCXNSUIEeyql_FaMzmsBA" name="Annotations">
+        <modelElement href="COO-Simulink.uml#_RQZOUCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SMCXNiUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMCXNyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_SMCXOCUIEeyql_FaMzmsBA" name="internal">
+      <modelElement href="COO-Simulink.uml#_RQZ1YCUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SMCXOSUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RQaccCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SMCXOiUIEeyql_FaMzmsBA" name="Annotations">
+        <modelElement href="COO-Simulink.uml#_RQaccSUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SMCXOyUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMCXPCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_SMCXPSUIEeyql_FaMzmsBA" name="output">
+      <modelElement href="COO-Simulink.uml#_RQaccyUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SMCXPiUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RQbDgCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SMCXPyUIEeyql_FaMzmsBA" name="Annotations">
+        <modelElement href="COO-Simulink.uml#_RQbqkCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SMCXQCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMCXQSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_SMCXQiUIEeyql_FaMzmsBA" name="timeAdvancement">
+      <modelElement href="COO-Simulink.uml#_RQcRoSUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SMCXQyUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RQeG0CUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SMCXRCUIEeyql_FaMzmsBA" name="Annotations">
+        <modelElement href="COO-Simulink.uml#_RQet4CUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SMCXRSUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMCXRiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SMCXRyUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RQdfwCUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SMCXSCUIEeyql_FaMzmsBA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SMCXSSUIEeyql_FaMzmsBA" name="conflict">
+      <modelElement href="COO-Simulink.uml#_RQet4iUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SMCXSiUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RQfU8CUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SMCXSyUIEeyql_FaMzmsBA" name="Annotations">
+        <modelElement href="COO-Simulink.uml#_RQf8ACUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SMCXTCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMCXTSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_SMCXTiUIEeyql_FaMzmsBA" name="init">
+      <modelElement href="COO-Simulink.uml#_RQf8AiUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SMCXTyUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RQhKICUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SMCXUCUIEeyql_FaMzmsBA" name="Annotations">
+        <modelElement href="COO-Simulink.uml#_RQhxMCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SMCXUSUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMCXUiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_SMCXUyUIEeyql_FaMzmsBA" name="Processor">
+      <modelElement href="COO-Simulink.uml#_RphgACUIEeyql_FaMzmsBA"/>
+      <keywords xmi:id="_SMCXVCUIEeyql_FaMzmsBA" keyword="create"/>
+      <visibility xmi:id="_SMCXVSUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMCXViUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SMCXVyUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RpiHFSUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SMCXWCUIEeyql_FaMzmsBA" name="Processor">
+          <modelElement href="COO-Simulink.uml#_RQQEYCUIEeyql_FaMzmsBA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SMCXWSUIEeyql_FaMzmsBA" name="id">
+        <modelElement href="COO-Simulink.uml#_RphgASUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SMCXWiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SMCXWyUIEeyql_FaMzmsBA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SMCXXCUIEeyql_FaMzmsBA" name="X">
+        <modelElement href="COO-Simulink.uml#_RpiHECUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SMCXXSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SMCXXiUIEeyql_FaMzmsBA" name="TreeMap">
+          <modelElement href="COO-Simulink.uml#_RoYQgCUIEeyql_FaMzmsBA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SMCXXyUIEeyql_FaMzmsBA" name="Y">
+        <modelElement href="COO-Simulink.uml#_RpiHESUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SMCXYCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SMCXYSUIEeyql_FaMzmsBA" name="TreeMap">
+          <modelElement href="COO-Simulink.uml#_RoYQgCUIEeyql_FaMzmsBA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SMCXYiUIEeyql_FaMzmsBA" name="ta">
+        <modelElement href="COO-Simulink.uml#_RpiHEiUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SMCXYyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SMCXZCUIEeyql_FaMzmsBA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_SKs6eSUIEeyql_FaMzmsBA" name="Simulator" associationsOut="_SKs6cCUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RRBgcCUIEeyql_FaMzmsBA"/>
+    <visualProperties xmi:id="_SKs6eiUIEeyql_FaMzmsBA" position="-1081.0,-255.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_SKs6eyUIEeyql_FaMzmsBA" label="+"/>
+    <attributes xmi:id="_SKs6fCUIEeyql_FaMzmsBA" name="components">
+      <modelElement href="COO-Simulink.uml#_Rq9DYCUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SKs6fSUIEeyql_FaMzmsBA" name="Generics">
+        <modelElement href="COO-Simulink.uml#_Rq9qcCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SKs6fiUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_Rq-RgCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SKs6fyUIEeyql_FaMzmsBA" label="-"/>
+      <cardinality xmi:id="_SKs6gCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SKs6gSUIEeyql_FaMzmsBA" name="ArrayList">
+        <modelElement href="COO-Simulink.uml#_RowrACUIEeyql_FaMzmsBA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_SKs6giUIEeyql_FaMzmsBA" name="Simulator">
+      <modelElement href="COO-Simulink.uml#_RRCHgCUIEeyql_FaMzmsBA"/>
+      <keywords xmi:id="_SKs6gyUIEeyql_FaMzmsBA" keyword="create"/>
+      <visibility xmi:id="_SKs6hCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SKs6hSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SKs6hiUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RRCukSUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SKs6hyUIEeyql_FaMzmsBA" name="Simulator">
+          <modelElement href="COO-Simulink.uml#_RRBgcCUIEeyql_FaMzmsBA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SKs6iCUIEeyql_FaMzmsBA" name="run">
+      <modelElement href="COO-Simulink.uml#_RRCukiUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SKs6iSUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SKs6iiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_SMJE4CUIEeyql_FaMzmsBA" name="Data">
+    <modelElement href="COO-Simulink.uml#_RRn9YCUIEeyql_FaMzmsBA"/>
+    <visualProperties xmi:id="_SMJE4SUIEeyql_FaMzmsBA" position="-213.0,-272.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_SMJE4iUIEeyql_FaMzmsBA" label="+"/>
+    <attributes xmi:id="_SMJE4yUIEeyql_FaMzmsBA" name="i">
+      <modelElement href="COO-Simulink.uml#_RrG0YCUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SMJE5CUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RrHbcCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SMJE5SUIEeyql_FaMzmsBA" label="-"/>
+      <cardinality xmi:id="_SMJE5iUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SMJE5yUIEeyql_FaMzmsBA" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SMJE6CUIEeyql_FaMzmsBA" name="d">
+      <modelElement href="COO-Simulink.uml#_RrHbcSUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SMJE6SUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RrICgCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SMJE6iUIEeyql_FaMzmsBA" label="-"/>
+      <cardinality xmi:id="_SMJE6yUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SMJE7CUIEeyql_FaMzmsBA" name="Double">
+        <modelElement href="COO-Simulink.uml#_RqizsCUIEeyql_FaMzmsBA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SMJE7SUIEeyql_FaMzmsBA" name="b">
+      <modelElement href="COO-Simulink.uml#_RrICgSUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SMJE7iUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RrIpkCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SMJE7yUIEeyql_FaMzmsBA" label="-"/>
+      <cardinality xmi:id="_SMJE8CUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SMJE8SUIEeyql_FaMzmsBA" name="Boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_SMJE8iUIEeyql_FaMzmsBA" name="Data">
+      <modelElement href="COO-Simulink.uml#_RRpLgCUIEeyql_FaMzmsBA"/>
+      <keywords xmi:id="_SMJE8yUIEeyql_FaMzmsBA" keyword="create"/>
+      <visibility xmi:id="_SMJE9CUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMJE9SUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SMJE9iUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RRpykSUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SMJE9yUIEeyql_FaMzmsBA" name="Data">
+          <modelElement href="COO-Simulink.uml#_RRn9YCUIEeyql_FaMzmsBA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SMJE-CUIEeyql_FaMzmsBA" name="i">
+        <modelElement href="COO-Simulink.uml#_RRpLgSUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SMJE-SUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SMJE-iUIEeyql_FaMzmsBA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SMJE-yUIEeyql_FaMzmsBA" name="Data">
+      <modelElement href="COO-Simulink.uml#_RRqZoCUIEeyql_FaMzmsBA"/>
+      <keywords xmi:id="_SMJE_CUIEeyql_FaMzmsBA" keyword="create"/>
+      <visibility xmi:id="_SMJE_SUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMJE_iUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SMJE_yUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RRqZpCUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SMJFACUIEeyql_FaMzmsBA" name="Data">
+          <modelElement href="COO-Simulink.uml#_RRn9YCUIEeyql_FaMzmsBA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SMJFASUIEeyql_FaMzmsBA" name="d">
+        <modelElement href="COO-Simulink.uml#_RRqZoSUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SMJFAiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SMJFAyUIEeyql_FaMzmsBA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SMJFBCUIEeyql_FaMzmsBA" name="Data">
+      <modelElement href="COO-Simulink.uml#_RRrAsCUIEeyql_FaMzmsBA"/>
+      <keywords xmi:id="_SMJFBSUIEeyql_FaMzmsBA" keyword="create"/>
+      <visibility xmi:id="_SMJFBiUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMJFByUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SMJFCCUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RRrnwyUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SMJFCSUIEeyql_FaMzmsBA" name="Data">
+          <modelElement href="COO-Simulink.uml#_RRn9YCUIEeyql_FaMzmsBA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SMJFCiUIEeyql_FaMzmsBA" name="b">
+        <modelElement href="COO-Simulink.uml#_RRrnwCUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SMJFCyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SMJFDCUIEeyql_FaMzmsBA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SMJFDSUIEeyql_FaMzmsBA" name="intValue">
+      <modelElement href="COO-Simulink.uml#_RRrnxCUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SMJFDiUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMJFDyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SMJFECUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RRsO0CUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SMJFESUIEeyql_FaMzmsBA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SMJFEiUIEeyql_FaMzmsBA" name="doubleValue">
+      <modelElement href="COO-Simulink.uml#_RRsO0SUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SMJFEyUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMJFFCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SMJFFSUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RRs14CUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SMJFFiUIEeyql_FaMzmsBA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SMJFFyUIEeyql_FaMzmsBA" name="boolValue">
+      <modelElement href="COO-Simulink.uml#_RRs14SUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SMJFGCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SMJFGSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SMJFGiUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RRtc8CUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SMJFGyUIEeyql_FaMzmsBA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_SLZeACUIEeyql_FaMzmsBA" name="Block" abstractClass="true" associationsIn="_SLIYQCUIEeyql_FaMzmsBA" associationsOut="_SLIYQCUIEeyql_FaMzmsBA _SLJmYCUIEeyql_FaMzmsBA _SLJmYSUIEeyql_FaMzmsBA" subclassedBy="_SLI_UCUIEeyql_FaMzmsBA _SLI_USUIEeyql_FaMzmsBA _SL_68CUIEeyql_FaMzmsBA">
+    <modelElement href="COO-Simulink.uml#_RRD8sCUIEeyql_FaMzmsBA"/>
+    <visualProperties xmi:id="_SLZeASUIEeyql_FaMzmsBA" position="-750.0,-731.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_SLZeAiUIEeyql_FaMzmsBA" label="+"/>
+    <attributes xmi:id="_SLZeAyUIEeyql_FaMzmsBA" name="id">
+      <modelElement href="COO-Simulink.uml#_Rq-RgSUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SLZeBCUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_Rq-4kCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SLZeBSUIEeyql_FaMzmsBA" label="#"/>
+      <cardinality xmi:id="_SLZeBiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SLZeByUIEeyql_FaMzmsBA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SLZeCCUIEeyql_FaMzmsBA" name="e">
+      <modelElement href="COO-Simulink.uml#_Rq-4kSUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SLZeCSUIEeyql_FaMzmsBA" name="MultiDeclaration">
+        <modelElement href="COO-Simulink.uml#_Rq_foCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLZeCiUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_Rq_foSUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SLZeCyUIEeyql_FaMzmsBA" label="#"/>
+      <cardinality xmi:id="_SLZeDCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SLZeDSUIEeyql_FaMzmsBA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SLZeDiUIEeyql_FaMzmsBA" name="currentState">
+      <modelElement href="COO-Simulink.uml#_RrAtwCUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SLZeDyUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RrAtwSUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SLZeECUIEeyql_FaMzmsBA" label="#"/>
+      <cardinality xmi:id="_SLZeESUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SLZeEiUIEeyql_FaMzmsBA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SLZeEyUIEeyql_FaMzmsBA" name="inputEvents">
+      <modelElement href="COO-Simulink.uml#_RrBU0CUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SLZeFCUIEeyql_FaMzmsBA" name="Generics">
+        <modelElement href="COO-Simulink.uml#_RrB74CUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLZeFSUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RrCi8CUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SLZeFiUIEeyql_FaMzmsBA" label="#"/>
+      <cardinality xmi:id="_SLZeFyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SLZeGCUIEeyql_FaMzmsBA" name="TreeMap">
+        <modelElement href="COO-Simulink.uml#_RoYQgCUIEeyql_FaMzmsBA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SLZeGSUIEeyql_FaMzmsBA" name="outputEvents">
+      <modelElement href="COO-Simulink.uml#_RrCi8SUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SLZeGiUIEeyql_FaMzmsBA" name="Generics">
+        <modelElement href="COO-Simulink.uml#_RrDKACUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLZeGyUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RrDxECUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SLZeHCUIEeyql_FaMzmsBA" label="#"/>
+      <cardinality xmi:id="_SLZeHSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SLZeHiUIEeyql_FaMzmsBA" name="TreeMap">
+        <modelElement href="COO-Simulink.uml#_RoYQgCUIEeyql_FaMzmsBA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SLZeHyUIEeyql_FaMzmsBA" name="connectedBlock">
+      <modelElement href="COO-Simulink.uml#_RrDxESUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SLZeICUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RrEYICUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SLZeISUIEeyql_FaMzmsBA" label="#"/>
+      <cardinality xmi:id="_SLZeIiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SLZeIyUIEeyql_FaMzmsBA" name="Block">
+        <modelElement href="COO-Simulink.uml#_RRD8sCUIEeyql_FaMzmsBA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SLZeJCUIEeyql_FaMzmsBA" name="tl">
+      <modelElement href="COO-Simulink.uml#_Rr--JCUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SLZeJSUIEeyql_FaMzmsBA" name="MultiDeclaration">
+        <modelElement href="COO-Simulink.uml#_Rr_lMCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLZeJiUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_Rr_lMSUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SLZeJyUIEeyql_FaMzmsBA" label="#"/>
+      <cardinality xmi:id="_SLZeKCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SLZeKSUIEeyql_FaMzmsBA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SLZeKiUIEeyql_FaMzmsBA" name="tn">
+      <modelElement href="COO-Simulink.uml#_RsAMQCUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SLZeKyUIEeyql_FaMzmsBA" name="MultiDeclaration">
+        <modelElement href="COO-Simulink.uml#_RsAMQSUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLZeLCUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RsAMQiUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SLZeLSUIEeyql_FaMzmsBA" label="#"/>
+      <cardinality xmi:id="_SLZeLiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SLZeLyUIEeyql_FaMzmsBA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SLZeMCUIEeyql_FaMzmsBA" name="tr">
+      <modelElement href="COO-Simulink.uml#_RsAzUCUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SLZeMSUIEeyql_FaMzmsBA" name="MultiDeclaration">
+        <modelElement href="COO-Simulink.uml#_RsAzUSUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLZeMiUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RsAzUiUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SLZeMyUIEeyql_FaMzmsBA" label="#"/>
+      <cardinality xmi:id="_SLZeNCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SLZeNSUIEeyql_FaMzmsBA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SLZeNiUIEeyql_FaMzmsBA" name="ta">
+      <modelElement href="COO-Simulink.uml#_RsBaYCUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SLZeNyUIEeyql_FaMzmsBA" name="MultiDeclaration">
+        <modelElement href="COO-Simulink.uml#_RsBaYSUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLZeOCUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_RsBaYiUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SLZeOSUIEeyql_FaMzmsBA" label="#"/>
+      <cardinality xmi:id="_SLZeOiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <type xmi:id="_SLZeOyUIEeyql_FaMzmsBA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_SLZePCUIEeyql_FaMzmsBA" name="getE">
+      <modelElement href="COO-Simulink.uml#_RRHnECUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SLZePSUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SLZePiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SLZePyUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RRIOICUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SLZeQCUIEeyql_FaMzmsBA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SLZeQSUIEeyql_FaMzmsBA" name="getId">
+      <modelElement href="COO-Simulink.uml#_RRIOISUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SLZeQiUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SLZeQyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SLZeRCUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RRIOIiUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SLZeRSUIEeyql_FaMzmsBA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SLZeRiUIEeyql_FaMzmsBA" name="getTl">
+      <modelElement href="COO-Simulink.uml#_RRI1MCUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SLZeRyUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SLZeSCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SLZeSSUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RRI1MSUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SLZeSiUIEeyql_FaMzmsBA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SLZeSyUIEeyql_FaMzmsBA" name="getTn">
+      <modelElement href="COO-Simulink.uml#_RRI1MiUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SLZeTCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SLZeTSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SLZeTiUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RRJcQCUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SLZeTyUIEeyql_FaMzmsBA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SLZeUCUIEeyql_FaMzmsBA" name="getTr">
+      <modelElement href="COO-Simulink.uml#_RRJcQSUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SLZeUSUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SLZeUiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SLZeUyUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RRKDUCUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SLZeVCUIEeyql_FaMzmsBA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SLZeVSUIEeyql_FaMzmsBA" name="getCurrentState">
+      <modelElement href="COO-Simulink.uml#_RRKDUSUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SLZeViUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SLZeVyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SLZeWCUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RRKDUiUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SLZeWSUIEeyql_FaMzmsBA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SLZeWiUIEeyql_FaMzmsBA" name="getConnectedBlock">
+      <modelElement href="COO-Simulink.uml#_RRKqYCUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SLZeWyUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SLZeXCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SLZeXSUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_Ro0VYCUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SLZeXiUIEeyql_FaMzmsBA" name="Block">
+          <modelElement href="COO-Simulink.uml#_RRD8sCUIEeyql_FaMzmsBA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SLZeXyUIEeyql_FaMzmsBA" name="getInputEvents">
+      <modelElement href="COO-Simulink.uml#_RRLRcCUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SLZeYCUIEeyql_FaMzmsBA" name="Generics">
+        <modelElement href="COO-Simulink.uml#_RRL4gCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SLZeYSUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SLZeYiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SLZeYyUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RqYboCUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SLZeZCUIEeyql_FaMzmsBA" name="TreeMap">
+          <modelElement href="COO-Simulink.uml#_RoYQgCUIEeyql_FaMzmsBA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SLZeZSUIEeyql_FaMzmsBA" name="getOutputEvents">
+      <modelElement href="COO-Simulink.uml#_RRMfkCUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SLZeZiUIEeyql_FaMzmsBA" name="Generics">
+        <modelElement href="COO-Simulink.uml#_RRNtsCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SLZeZyUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SLZeaCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SLZeaSUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RqYboSUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SLZeaiUIEeyql_FaMzmsBA" name="TreeMap">
+          <modelElement href="COO-Simulink.uml#_RoYQgCUIEeyql_FaMzmsBA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SLZeayUIEeyql_FaMzmsBA" name="setE">
+      <modelElement href="COO-Simulink.uml#_RROUwCUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SLZebCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SLZebSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_SLZebiUIEeyql_FaMzmsBA" name="e">
+        <modelElement href="COO-Simulink.uml#_RROUwSUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SLZebyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SLZecCUIEeyql_FaMzmsBA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SLZecSUIEeyql_FaMzmsBA" name="setTl">
+      <modelElement href="COO-Simulink.uml#_RRPi4CUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SLZeciUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SLZecyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_SLZedCUIEeyql_FaMzmsBA" name="tl">
+        <modelElement href="COO-Simulink.uml#_RRPi4SUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SLZedSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SLZediUIEeyql_FaMzmsBA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SLZedyUIEeyql_FaMzmsBA" name="setTn">
+      <modelElement href="COO-Simulink.uml#_RRQJ8CUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SLZeeCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SLZeeSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_SLZeeiUIEeyql_FaMzmsBA" name="tn">
+        <modelElement href="COO-Simulink.uml#_RRQxACUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SLZeeyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SLZefCUIEeyql_FaMzmsBA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SLZefSUIEeyql_FaMzmsBA" name="setTr">
+      <modelElement href="COO-Simulink.uml#_RRQxASUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SLZefiUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SLZefyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_SLZegCUIEeyql_FaMzmsBA" name="t">
+        <modelElement href="COO-Simulink.uml#_RRRYECUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SLZegSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SLZegiUIEeyql_FaMzmsBA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SLZegyUIEeyql_FaMzmsBA" name="setCurrentState">
+      <modelElement href="COO-Simulink.uml#_RRR_ICUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SLZehCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SLZehSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_SLZehiUIEeyql_FaMzmsBA" name="currentState">
+        <modelElement href="COO-Simulink.uml#_RRR_ISUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SLZehyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SLZeiCUIEeyql_FaMzmsBA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SLZeiSUIEeyql_FaMzmsBA" abstractOperation="true" name="external">
+      <modelElement href="COO-Simulink.uml#_RRSmMCUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SLZeiiUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SLZeiyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_SLZejCUIEeyql_FaMzmsBA" abstractOperation="true" name="internal">
+      <modelElement href="COO-Simulink.uml#_RRTNQCUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SLZejSUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SLZejiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_SLZejyUIEeyql_FaMzmsBA" abstractOperation="true" name="output">
+      <modelElement href="COO-Simulink.uml#_RRTNQSUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SLZekCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SLZekSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_SLZekiUIEeyql_FaMzmsBA" abstractOperation="true" name="timeAdvancement">
+      <modelElement href="COO-Simulink.uml#_RRT0UCUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SLZekyUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SLZelCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SLZelSUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RRT0USUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SLZeliUIEeyql_FaMzmsBA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SLZelyUIEeyql_FaMzmsBA" abstractOperation="true" name="conflict">
+      <modelElement href="COO-Simulink.uml#_RRUbYCUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SLZemCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SLZemSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_SLZemiUIEeyql_FaMzmsBA" abstractOperation="true" name="init">
+      <modelElement href="COO-Simulink.uml#_RRUbYSUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SLZemyUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SLZenCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_SLZenSUIEeyql_FaMzmsBA" name="setConnectedBlock">
+      <modelElement href="COO-Simulink.uml#_Ro08cCUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SLZeniUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SLZenyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_SLZeoCUIEeyql_FaMzmsBA" name="connectedBlock">
+        <modelElement href="COO-Simulink.uml#_Ro08cSUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SLZeoSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SLZeoiUIEeyql_FaMzmsBA" name="Block">
+          <modelElement href="COO-Simulink.uml#_RRD8sCUIEeyql_FaMzmsBA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SLZeoyUIEeyql_FaMzmsBA" name="compareTo">
+      <modelElement href="COO-Simulink.uml#_Ro1jgCUIEeyql_FaMzmsBA"/>
+      <stereotypes xmi:id="_SLZepCUIEeyql_FaMzmsBA" name="LegacyStyledElement">
+        <modelElement href="COO-Simulink.uml#_Ro2KkSUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SLZepSUIEeyql_FaMzmsBA" name="Annotations">
+        <modelElement href="COO-Simulink.uml#_Ro2xoCUIEeyql_FaMzmsBA"/>
+      </stereotypes>
+      <visibility xmi:id="_SLZepiUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SLZepyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SLZeqCUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_Ro2KkCUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SLZeqSUIEeyql_FaMzmsBA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SLZeqiUIEeyql_FaMzmsBA" name="b">
+        <modelElement href="COO-Simulink.uml#_Ro1jgSUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SLZeqyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SLZerCUIEeyql_FaMzmsBA" name="Block">
+          <modelElement href="COO-Simulink.uml#_RRD8sCUIEeyql_FaMzmsBA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SLZerSUIEeyql_FaMzmsBA" name="Block">
+      <modelElement href="COO-Simulink.uml#_RqUKMCUIEeyql_FaMzmsBA"/>
+      <keywords xmi:id="_SLZeriUIEeyql_FaMzmsBA" keyword="create"/>
+      <visibility xmi:id="_SLZeryUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SLZesCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SLZesSUIEeyql_FaMzmsBA">
+        <modelElement href="COO-Simulink.uml#_RqV_ZCUIEeyql_FaMzmsBA"/>
+        <type xmi:id="_SLZesiUIEeyql_FaMzmsBA" name="Block">
+          <modelElement href="COO-Simulink.uml#_RRD8sCUIEeyql_FaMzmsBA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SLZesyUIEeyql_FaMzmsBA" name="id">
+        <modelElement href="COO-Simulink.uml#_RqVYUCUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SLZetCUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SLZetSUIEeyql_FaMzmsBA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SLZetiUIEeyql_FaMzmsBA" name="X">
+        <modelElement href="COO-Simulink.uml#_RqVYUSUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SLZetyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SLZeuCUIEeyql_FaMzmsBA" name="TreeMap">
+          <modelElement href="COO-Simulink.uml#_RoYQgCUIEeyql_FaMzmsBA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SLZeuSUIEeyql_FaMzmsBA" name="Y">
+        <modelElement href="COO-Simulink.uml#_RqV_YCUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SLZeuiUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SLZeuyUIEeyql_FaMzmsBA" name="TreeMap">
+          <modelElement href="COO-Simulink.uml#_RoYQgCUIEeyql_FaMzmsBA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SLZevCUIEeyql_FaMzmsBA" name="ta">
+        <modelElement href="COO-Simulink.uml#_RqV_YSUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SLZevSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SLZeviUIEeyql_FaMzmsBA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SLZevyUIEeyql_FaMzmsBA" name="setInputEvents">
+      <modelElement href="COO-Simulink.uml#_RqYboiUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SLZewCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SLZewSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_SLZewiUIEeyql_FaMzmsBA" name="inputEvents">
+        <modelElement href="COO-Simulink.uml#_RqZCsCUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SLZewyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SLZexCUIEeyql_FaMzmsBA" name="TreeMap">
+          <modelElement href="COO-Simulink.uml#_RoYQgCUIEeyql_FaMzmsBA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SLZexSUIEeyql_FaMzmsBA" name="setOutputEvents">
+      <modelElement href="COO-Simulink.uml#_RqaQ0CUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SLZexiUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SLZexyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_SLaFECUIEeyql_FaMzmsBA" name="outputEvents">
+        <modelElement href="COO-Simulink.uml#_RqaQ0SUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SLaFESUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SLaFEiUIEeyql_FaMzmsBA" name="TreeMap">
+          <modelElement href="COO-Simulink.uml#_RoYQgCUIEeyql_FaMzmsBA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SLaFEyUIEeyql_FaMzmsBA" name="addInputEvents">
+      <modelElement href="COO-Simulink.uml#_Rqbe8CUIEeyql_FaMzmsBA"/>
+      <visibility xmi:id="_SLaFFCUIEeyql_FaMzmsBA" label="+"/>
+      <cardinality xmi:id="_SLaFFSUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_SLaFFiUIEeyql_FaMzmsBA" name="inputEvents">
+        <modelElement href="COO-Simulink.uml#_Rqbe8SUIEeyql_FaMzmsBA"/>
+        <cardinality xmi:id="_SLaFFyUIEeyql_FaMzmsBA" label="1" max="1" min="1"/>
+        <type xmi:id="_SLaFGCUIEeyql_FaMzmsBA" name="TreeMap">
+          <modelElement href="COO-Simulink.uml#_RoYQgCUIEeyql_FaMzmsBA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
