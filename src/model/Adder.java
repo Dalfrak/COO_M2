@@ -10,10 +10,12 @@ public class Adder extends Block {
 		super(id, X, Y, ta);
 		this.total = 0;
 		this.tr    = 0;
+//		this.outputEvents.put("addedVal", new Data());
 	}
 
 	@Override
 	public void external() {
+		System.out.println("adder.external()");
 		if (this.currentState == 1) {
 			while (!this.inputEvents.isEmpty()) {
 				if (this.inputEvents.containsKey("step1")) {
@@ -32,7 +34,8 @@ public class Adder extends Block {
 					this.inputEvents.remove("step3");
 				}
 				if (this.inputEvents.containsKey("step4")) {
-					this.total += this.inputEvents.get("step4").doubleValue();
+					this.total        += this.inputEvents.get("step4").doubleValue();
+					this.currentState  = 2;
 					this.inputEvents.remove("step4");
 				}
 			}
@@ -49,15 +52,20 @@ public class Adder extends Block {
 
 	@Override
 	public void output() {
+		System.out.println("adder.output()");
 		if (this.currentState == 2)
-			this.outputEvents.put("total", new Data(this.total));
+			this.outputEvents.put("addedVal", new Data(this.total));
 	}
 
 	@Override
 	public double timeAdvancement() {
-		if (this.currentState == 1)
-			return Double.POSITIVE_INFINITY;
-		return 0;
+//		if (this.currentState == 1)
+//			return Double.POSITIVE_INFINITY;
+//		return 0;
+
+		if (this.currentState == 2)
+			return 0;
+		return Double.POSITIVE_INFINITY;
 	}
 
 	@Override
