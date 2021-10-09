@@ -4,35 +4,29 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.TreeMap;
 
-import model.Adder;
 import model.Block;
+import model.DEI;
 import model.Data;
 import model.Step;
 import view.chart.Chart;
 import view.chart.ChartFrame;
 
-public class ODE_1er_ordre {
+public class ODE_2nd_ordre {
 	private ArrayList<Block> components; // List of components
 
-	public ODE_1er_ordre() {
+	public ODE_2nd_ordre() {
 		this.components = new ArrayList<Block>();
 
-		Block step1 = new Step("step1", null, null, 0.65, 1, -3);
-		Block step2 = new Step("step2", null, null, 0.35, 0, 1);
-		Block step3 = new Step("step3", null, null, 1, 0, 1);
-		Block step4 = new Step("step4", null, null, 1.5, 0, 4);
-		Block adder = new Adder("adder", null, null, 0);
+		Block constant = new Step("constant", null, null, 0, 0, -9.81);
+		Block dei1     = new DEI("dei1", null, null, 0.01, 0.01);
+		Block dei2     = new DEI("dei2", null, null, 0.01, 0.001, 10);
 
-		step1.setConnectedBlock(adder);
-		step2.setConnectedBlock(adder);
-		step3.setConnectedBlock(adder);
-		step4.setConnectedBlock(adder);
+		constant.setConnectedBlock(dei1);
+		dei1.setConnectedBlock(dei2);
 
-		this.components.add(step1);
-		this.components.add(step2);
-		this.components.add(step3);
-		this.components.add(step4);
-		this.components.add(adder);
+		this.components.add(constant);
+		this.components.add(dei1);
+		this.components.add(dei2);
 	}
 
 	public void run() {
@@ -40,7 +34,7 @@ public class ODE_1er_ordre {
 		double minTr;
 
 		double t    = 0;
-		double tEnd = 1.5;
+		double tEnd = 5;
 
 		TreeMap<Block, TreeMap<String, Data>> ins    = new TreeMap<Block, TreeMap<String, Data>>();
 		ArrayList<Block>                      imms   = new ArrayList<Block>();
@@ -51,7 +45,7 @@ public class ODE_1er_ordre {
 			c.setTr(c.timeAdvancement());
 
 			// The goal of this code is to permit the Adder to get all xi
-			if (c.getConnectedBlock() != null) {
+			if (c.getId() != "adder" && c.getConnectedBlock() != null) {
 				ins.put(c.getConnectedBlock(), c.getOutputEvents());
 				c.getConnectedBlock().addInputEvents(c.getOutputEvents());
 				c.setOutputEvents(new TreeMap<String, Data>());
@@ -62,11 +56,15 @@ public class ODE_1er_ordre {
 
 		}
 
-		ChartFrame cf = new ChartFrame("Adder", "Adder");
-		Chart      cq = new Chart("Total");
+		ChartFrame cf = new ChartFrame("ODE 2nd ordre", "ODE 2nd ordre");
+		Chart      cq = new Chart("dei1");
+		Chart      ci = new Chart("dei2");
 
 		cf.addToLineChartPane(cq);
-		cq.setIsVisible(true);
+//		cq.setIsVisible(true);
+
+		cf.addToLineChartPane(ci);
+//		ci.setIsVisible(true);
 
 		while (t <= tEnd) {
 			// Get the minimum tr of each block
@@ -74,7 +72,8 @@ public class ODE_1er_ordre {
 				trList.add(c.getTr());
 
 			// Update Graph
-			cq.addDataToSeries(t, ((Adder) components.get(4)).getTotal());
+			cq.addDataToSeries(t, ((DEI) components.get(1)).getX());
+			ci.addDataToSeries(t, ((DEI) components.get(2)).getX());
 
 			minTr = Collections.min(trList);
 
@@ -115,7 +114,7 @@ public class ODE_1er_ordre {
 					c.setTl(t - c.getE());
 					c.setTn(t + c.getTr());
 				} else if (!imms.contains(c) && ins.containsKey(c)) {
-					c.external();
+					c.external(); // IVI
 					c.setE(0);
 					c.setTr(c.timeAdvancement() - c.getE());
 					c.setTl(t - c.getE());

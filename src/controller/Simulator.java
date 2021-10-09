@@ -36,20 +36,20 @@ public class Simulator {
 
 		double minTr;
 
-		double t = 0;
+		double t    = 0;
 		double tEnd = 20;
 
-		TreeMap<Block, TreeMap<String, Data>> ins = new TreeMap<Block, TreeMap<String, Data>>();
-		ArrayList<Block> imms = new ArrayList<Block>();
-		ArrayList<Double> trList = new ArrayList<Double>();
+		TreeMap<Block, TreeMap<String, Data>> ins    = new TreeMap<Block, TreeMap<String, Data>>();
+		ArrayList<Block>                      imms   = new ArrayList<Block>();
+		ArrayList<Double>                     trList = new ArrayList<Double>();
 
 		for (Block c : components) {
 			c.setCurrentState(1);
 			c.setTr(c.timeAdvancement());
 		}
 
-		ChartFrame cf = new ChartFrame("osef", "yolo");
-		Chart cq = new Chart("q");
+		ChartFrame cf = new ChartFrame("Gen-Buff-Proc", "Gen-Buff-Proc");
+		Chart      cq = new Chart("q");
 
 		cf.addToLineChartPane(cq);
 

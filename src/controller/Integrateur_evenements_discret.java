@@ -6,6 +6,7 @@ import java.util.TreeMap;
 
 import model.Adder;
 import model.Block;
+import model.DEI;
 import model.Data;
 import model.Step;
 import view.chart.Chart;
@@ -65,7 +66,7 @@ public class Integrateur_evenements_discret {
 
 		}
 
-		ChartFrame cf = new ChartFrame("osef", "yolo");
+		ChartFrame cf = new ChartFrame("Intégrateur évènement discret", "Intégrateur évènement discret");
 		Chart      cq = new Chart("Total");
 		Chart      ci = new Chart("Integrale");
 

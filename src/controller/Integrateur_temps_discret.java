@@ -66,7 +66,7 @@ public class Integrateur_temps_discret {
 
 		}
 
-		ChartFrame cf = new ChartFrame("osef", "yolo");
+		ChartFrame cf = new ChartFrame("Intégrateur temps discret", "Intégrateur temps discret");
 		Chart      cq = new Chart("Total");
 		Chart      ci = new Chart("Integrale");
 

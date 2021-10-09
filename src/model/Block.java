@@ -56,7 +56,7 @@ public abstract class Block implements Comparable<Block> {
 
 	public void setTr(double tr) { this.tr = tr; }
 
-	public void setConnectedBlock(Block connectedBlock) { this.connectedBlock = connectedBlock; }
+	public void setConnectedBlock(Block connectedBlocks) { this.connectedBlock = connectedBlocks; }
 
 	public void setCurrentState(int currentState) { this.currentState = currentState; }
 
